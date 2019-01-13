@@ -1,0 +1,130 @@
+
+//  Table
+table{
+  border-collapse: separate;
+  table-layout: fixed;
+   width: 100%;
+   font-size: 14px;
+   cursor: default;
+}
+th{
+  text-align: left;
+  padding: 16px 8px;
+  border-bottom: 3px solid #000;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+td{
+  padding: 16px 8px;
+  vertical-align: top;
+  border-bottom: 1px solid #000;
+}
+td:nth-child(1){
+  font-family: euclid-m;
+}
+td:nth-child(4){
+  width: 136px;
+}
+tr{
+  border-bottom: 1px solid black;
+}
+tr:nth-child(even){
+  background-color: #E7E6E3;
+}
+
+// tr:hover{
+//   background-color: gray;
+//
+// }
+// tr:nth-child(even):hover{
+//   background-color: red;
+// }
+
+
+.markdown h1{
+  font-size: 25.629px;
+ text-transform: uppercase;
+ letter-spacing: 0.06em;
+ margin-bottom: 2rem;
+}
+.markdown h2{
+color: #000;
+letter-spacing: 0.06em;
+margin: 2rem 0;
+
+}
+
+.markdown h3{
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.markdown h4{
+  font-size: 18px;
+  font-family: euclid-m;
+  margin-top: 2em;
+}
+
+.markdown p{
+  fontfamily: euclid-m;
+  font-size: 18px;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+  margin-bottom: 2em;
+  text-align: left;
+  padding: 0 2em;
+}
+
+.markdown blockquote{
+   margin-left: 3rem;
+   border-left: 1px solid #000;
+}
+
+.markdown blockquote p em{
+ text-transform: uppercase;
+ font-size: 14px;
+ font-weight: 600;
+ letter-spacing: 0.1em;
+}
+.markdown p:last-child{
+  margin-bottom: 1em;
+}
+.markdown ul{
+  // list-style: none;
+  text-align: left;
+  font-size: 18px;
+}
+.markdown ul li{
+  margin-bottom: 1em;
+  line-height: 1.5;
+}
+
+.markdown ol{
+  list-style-type: decimal;
+  margin-bottom: 3rem;
+}
+.markdown ol li{
+  line-height: 1.5;
+  margin-bottom: 1em;
+  padding-left: 2em;
+  line-height: 1.5;
+  max-width: 80%;
+  font-size: 18px;
+  }
+ol li::before{
+    color: red;
+}
+.markdown img{
+  width: 100%;
+}
+.choregrafenLinks {
+  padding :2em 1em 2em 1em;
+  color: #fff;
+}
+.choregrafenLinks li {
+  margin-bottom: 1em;
+}
+.choregrafenLinks li a{
+  text-decoration: none;
+  color: #fff;
+}

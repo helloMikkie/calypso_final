@@ -1,0 +1,52 @@
+---
+layout: page_chapter2
+title: "Choreograf*innenbuch"
+ziel-nr: 2
+ziel-title: interessieren
+color: "#4CC8B2"
+person: Isodora Duncan
+dates: "*27. Mai 1877 – 14. September 1927"
+thumbnail: ../images/thumbnails/choreografen/duncan.jpg
+---
+
+<!-- Header bar -->
+<header class="headerBar subpage">
+  <span style="color: {{ page.color}}">{{ page.ziel-title }}</span> {{ page.title }}
+</header>
+
+<!-- Ziel-Nummer  -->
+<div class="page-number euclid-m" style="color: {{ page.color}}">{{ page.ziel-nr }}</div>
+
+<!-- Content -->
+<article class="relative center tc">
+
+    <h4 class="f-md tracked " style="color: {{ page.color }}">{{ page.category }}</h4>
+
+    <div class="card-text pa4" style="border: 4px solid {{page.color}}">
+      <img src="{{ page.thumbnail }}" alt="klauen" class="thumbnail">
+      <h1 class="mv0 ttu f-xl tracked euclid-m">{{ page.person }}</h1>
+      <h2 class="mt2 mb5 f-s euclid-m lh-copy" >{{ page.dates }}</h2>
+
+      <div class="markdown">
+         {{ site.choreografen | where:"title" , "duncan-bio" }}
+      </div>
+
+  <div class="choregrafenLinks" style="background-color: {{page.color}}">
+    <ul>
+      <li class="white euclid-m list f-md link no-underline tl"><a href="https://de.wikipedia.org/wiki/Isadora_Duncan">Wikipedia Eintrag</a></li>
+      <li class="white euclid-m list f-md link no-underline tl"><a href="http://www.isadoraduncanarchive.org/about/">Website zu Isodora Duncan</a></li>
+      <li class="white euclid-m list f-md link no-underline tl"><a href="http://archives.nypl.org/dan/19640">Archiv zu ISodora Duncan</a></li>
+      <li class="white euclid-m list f-md link no-underline tl"><a href="http://guides.lib.uw.edu/c.php?g=341803&p=2304382">Chamber Dance Company Archive</a></li>
+    </ul>
+
+   </div>
+      <button class="pv3 euclid-m f-md tracked black  ">
+        <a href="2-2-sub-waltz.html" class="white link ph3">Biografie drucken</a>
+      </button>
+    </div>
+
+ </article>
+
+<div class="scrolltoTop" style="background-color:{{page.color}};">
+  <a href="#scrollTo-eins" class="topScroll no-underline"></a>
+</div>

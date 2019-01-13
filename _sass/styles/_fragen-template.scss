@@ -1,0 +1,82 @@
+
+
+.textPanel{
+    height: 0;
+    overflow: hidden;
+    transition: height 0.2s;
+    margin-bottom: 1em;
+}
+.textPanel.open{
+    height: 140px;
+    border-top: 1px solid black;
+  }
+
+  textarea{
+    width: 100%;
+    height: 4em;
+    border: none;
+    resize: none;
+    outline: none;
+  }
+
+  .openButton{
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    bottom: -18px;
+    background-color: #000;
+    border-radius: 100%;
+    display: inline-block;
+    transform: translate(-50%, 0);
+    cursor: pointer;
+    background-image: url(images/icons/arrow_down.svg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+    transition: background-color 0.2s;
+
+  }
+
+  .openButton:hover{
+    background-color: #616161;
+  }
+
+.openButton.close{
+  background-image: url(images/icons/close-white.svg);
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: center;
+}
+
+
+
+  .toggleVisible{
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top:0;
+    right:0;
+  }
+
+  .textFrage{
+    text-align: left;
+    width: 90%;
+
+  }
+  .module{
+    border-width: 3px;
+    background-color: #fff;
+    border-radius: 4px;
+    position: relative;
+    text-align:center;
+  }
+  .module:hover{
+        cursor: move;
+    // background-color: #E7E6E3;
+  }
+
+  .module:active{
+    box-shadow: 8px 8px 20px 0 rgba(169,169,169,0.80);
+  }
+
+// Fragen Modale

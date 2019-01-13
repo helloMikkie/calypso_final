@@ -1,0 +1,134 @@
+---
+layout: page_chapter2
+title: Zugangskonzepte
+ziel-nr: 2
+ziel-title: interessieren
+color: "#4CC8B2"
+intro: "Nicht alle Schüler*innen sind sofort vom Tanzen begeistert. Wie können wir ihnen den zeitgenössischen Tanz nahebringen und
+sie an das Thema heranführen? In den Zugangskonzepten haben wir unterschiedliche Ansätze für verschiedene Altersstufen entwickelt
+und geben Tipps für Filme und Videos, die Brücken schlagen und das Eis brechen helfen."
+hinweis: "Die Zugangskonzepte haben wir in unseren Tanzprojekten entwickelt und erprobt. Es sind Beispiele, die du für die Vorbereitung der ersten Tanzstunde nutzen und variieren kannst. "
+hero: images/hero/2-hero-zugangskonzepte.png
+---
+
+<!-- Header bar -->
+<header class="headerBar">
+  <span style="color: {{ page.color}}">{{ page.ziel-title }}</span> {{ page.title }}
+</header>
+
+<!-- Ziel-Nummer  -->
+<div class="page-number euclid-m" style="color: {{ page.color}}">{{ page.ziel-nr }}</div>
+
+<!-- Hinweis -->
+<article class="hinweis">
+  <div class="hinweisContent">
+    <p>{{page.hinweis}}</p>
+    <ul>
+      <li>Dauer:</li>
+      <li>Material:</li>
+    </ul>
+  </div>
+  <div class="hinweisButton" style="background-color: {{page.color}}"></div>
+</article>
+
+<!-- subnavigation footer -->
+
+<article class="subnavigation">
+  <ul>
+    <li><a href="#scrollTo-eins" class="subnavTab  pb3 color-2 no-underline f-s">Intro</a></li>
+    <li><a href="#scrollTo-zwei" class="subnavTab  pb3 color-2 no-underline f-s">4.–6. Klasse</a></li>
+    <li><a href="#scrollTo-drei" class="subnavTab  pb3  color-2 no-underline f-s">7.–9.Klasse</a></li>
+    <li><a href="#scrollTo-vier" class="subnavTab  pb3 color-2 no-underline f-s">Oberstufe</a></li>
+    <li><a href="#scrollTo-fuenf" class="subnavTab  pb3 color-2 no-underline f-s">klassenstufenübergreifend</a></li>
+  </ul>
+</article>
+
+<!-- hero Material -->
+
+<div class="hero-material">
+  <div class="hero-image" style="background-image: url({{page.hero}});"></div>
+
+  <div class="hero-material-title">
+    <h1 class=" euclid-m ml4 mv0">{{ page.title }}</h1>
+  </div>
+</div>
+
+<!-- Intro -->
+<section>
+<div class="wrapper" id="scrollTo-eins">
+  <article class="intro color-gray pa2  mv6 f-lg lh-md euclid-m">
+    {{ page.intro }}
+  </article>
+</div>
+</section>
+<!-- Content  -->
+
+<section class="mv5 " id="scrollTo-zwei">
+  <article class=" sectionTitle odd">
+    <h1 class="mv0 pt3 euclid-m f-xl tracked">4.–6. Klasse</h1>
+  </article>
+  <article class="sectionBack pa3">
+
+    <div class="wrapper">
+      {{ site.zugangskonzepte | where:"thema" , "comic"  }}
+
+      {{ site.zugangskonzepte | where:"thema" , "sport"  }}
+    </div>
+
+  </article>
+</section>
+
+<section class="mv5" id="scrollTo-drei">
+  <article class=" pa3 mw7 center">
+    <h1 class="mv0 pt2 tc ttu euclid-m f-xl tracked">7.–9. Klasse</h1>
+  </article>
+  <article class=" w-100  pb5 pt3 mb3  ">
+
+    <div class="wrapper">
+      {{ site.zugangskonzepte | where:"thema" , "safet"  }}
+
+      {{ site.zugangskonzepte | where:"thema" , "abschreiben"  }}
+
+      {{ site.zugangskonzepte | where:"thema" , "gaming"  }}
+
+  </article>
+</section>
+
+<section class="mv5 " id="scrollTo-vier">
+  <article class=" pa3 mw7 center bg-white ">
+    <h1 class="mv0 pt2 tc ttu euclid-m f-xl tracked">Oberstufe</h1>
+  </article>
+
+  <article class="bg-white w-100  pb5 pt3 mb3  ">
+
+    <div class="wrapper">
+      {{ site.zugangskonzepte | where:"thema" , "typen"  }}
+    </div>
+
+  </article>
+</section>
+
+<section class="mv5" id="scrollTo-fuenf">
+  <article class=" pa3 mw7 center">
+    <h1 class="mv0 pt2 tc ttu euclid-m f-xl tracked">klassenstufenübergreifend</h1>
+  </article>
+  <article class=" w-100  pb5 pt3 mb3  ">
+
+    <div class="wrapper">
+      {{ site.zugangskonzepte | where:"thema" , "beruf"  }}
+    </div>
+
+
+  </article>
+</section>
+
+<!-- scrollTop Button -->
+<div class="scrolltoTop" style="background-color:{{page.color}};">
+  <a href="#scrollTo-eins" class="topScroll no-underline"></a>
+</div>
+
+<!--  js -->
+<script src="js/subnav.js"></script>
+<script src="js/subnav_taglist.js"></script>
+<!-- <script src="js/avatar.js"></script> -->
+<script src="js/header-scroll.js"></script>

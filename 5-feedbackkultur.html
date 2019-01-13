@@ -1,0 +1,161 @@
+---
+layout: page_chapter5
+title: Feedbackkultur
+ziel-nr: 5
+ziel-title: reflektieren
+color: "#FC754B"
+intro: "Feedback geben und Feedback bekommen: Wir versuchen Feedback als Kultur unter allen Beteiligten, aber auch für die eigene Wahrnehmung zu etablieren.
+Diese Feedback-Kultur verstehen wir als zirkuläres System, denn das Verhalten jedes einzelnen wirkt sich immer auch auf den gesamten Prozess aus.
+Feedback benötigt einen geschützten und definierten Rahmen sowie sinnvolle Kriterien. Längst nicht immer geht es darum zu bewerten. Gerade wertfreie Impulse
+können dabei helfen, Wahrnehmungen zu vertiefen. In diesem Sinne ist Feedback ein Rückfütterungsprozess, der Wahrnehmungen auslöst und Erfahrungen ermöglicht."
+hinweis: "Vieles beginnt bei dir selbst. Halte deswegen auch selbst immer wieder inne und nimm deine eigenen Bedürfnisse wahr.
+Nimm dir Zeit, um Gelassenheit entstehen zu lassen. Denn diese überträgt sich auf die Schüler*innen."
+hero: images/hero/5-hero-feedbackkultur.png
+---
+
+<!-- Header bar -->
+<header class="headerBar">
+  <span style="color: {{ page.color}}" >{{ page.ziel-title }}</span> {{ page.title }}
+</header>
+
+
+<!-- Ziel-Nummer  -->
+  <div class="page-number euclid-m" style="color: {{ page.color}}">{{ page.ziel-nr }}</div>
+
+<!-- Hinweis -->
+  <article class="hinweis">
+    <div class="hinweisContent">
+      <p>{{page.hinweis}}</p>
+      <ul>
+        <li>Dauer:</li>
+        <li>Material:</li>
+      </ul>
+    </div>
+    <div class="hinweisButton" style="background-color: {{page.color}}"></div>
+  </article>
+
+<!-- subnavigation footer -->
+
+<article class="subnavigation">
+  <ul>
+      <li><a href="#scrollTo-eins"  class="subnavTab pb3 color-5 no-underline f-s">Intro</a></li>
+    <li><a href="#scrollTo-zwei"  class="subnavTab pb3 color-5 no-underline f-s">Aktive Feedbackkultur</a></li>
+    <li><a href="#scrollTo-drei"  class="subnavTab pb3 color-5 no-underline f-s">Feedback-Spiele</a></li>
+
+
+
+
+  </ul>
+</article>
+
+
+<!-- hero Material -->
+
+<div class="hero-material" >
+    <div class="hero-image" style="background-image: url({{page.hero}});"></div>
+
+      <div class="hero-material-title">
+        <h1 class=" euclid-m ml4 mv0">{{ page.title }}</h1>
+      </div>
+</div>
+
+
+<!-- Intro -->
+<div class="wrapper" id="scrollTo-eins">
+  <article class="intro color-gray pa2  mv6 f-lg lh-md euclid-m">
+  {{ page.intro }}
+  </article>
+
+
+
+<!-- Content -->
+
+
+  <img src="images/diagrams/feedback.png" alt="feedback" class="w-100">
+
+
+<article class="intro color-gray pa2  mv6 f-lg lh-md euclid-m">
+  <p>Für ein gemeinschaftliches Lernen auf Augenhöhe ist es wichtig, dass ein geschützter
+    Erfahrungsraum geschaffen wird. Feedback ist also im weitesten Sinne zu verstehen als ein Prozess, der Erfahrung ermöglicht.</p>
+</article>
+
+</div>
+<!--  Feedback Diagramm-->
+
+
+<section class="mv5 relative" id="scrollTo-zwei">
+    <article class=" pa2  center">
+      <h1 class="mv0 pt2 tc ttu euclid-m f-xl tracked">Feedbackkultur aktiv gestalten</h1>
+    </article>
+
+  <article class="feedback-diagram mw8 mv5 center">
+    <div class="circle-diagram">
+        <button class="circle outer animCircles" onclick="openTab(event,'eins')" name="innehalten" style="background-color: {{page.color}};"></button>
+        <button class="circle centered animCircles" onclick="openTab(event,'zwei')" name="wertfrei Impulse geben"></button>
+        <button class="circle inner animCircles" onclick="openTab(event,'drei')" name="Feedback moderieren"></button>
+    </div>
+
+  </article>
+
+  <div id="title" class="feedback-title tc f-xxl mb5 ">
+    <h3 class="euclid-m ttu" style="color: {{page.color}}; ">wertfrei  </h3>
+
+  </div>
+
+  <div id="eins" class=" info eins ph4"  style="display: none;  ">
+    <h1 class="euclid-m ttu " style="color: {{ page.color}}">Innehalten</h1>
+    <ul class="list pl0 pv4 euclid-m lh-copy">
+      <li class="pv2">Wie atme ich? Wie spreche ich?</li>
+      <li class="pv2">Welche Körperhaltung habe ich?</li>
+      <li class="pv2"> Wie bewege ich mich?</li>
+      <li class="pv2">Was nehme ich wahr?</li>
+      <li class="pv2">Wie und wann nehme ich mir Zeit? </li>
+      <li class="pv2">Wie erlaube und erlebe ich Stille?</li>
+    </ul>
+  <div class="modal-close"></div>
+  </div>
+  <div id="zwei" class="info zwei ph4"  style="display: none; ">
+    <h1 class="euclid-m ttu " style="color: {{ page.color}}">wertfreie Impulse geben</h1>
+    <ul class="list pl0 pv4 euclid-m lh-copy">
+      <li class="pv2">Du kannst durch Berührung Impulse geben um die Erfahrung/Wahrnehmung für die Schüler*innen zu vertiefen</li>
+      <li class="pv2">Du kannst durch Sprache Impulse geben, um die Erfahrung/Wahrnehmung der Schüler*in zu vertiefen <br>(z.B.: spüre Deine Füße am Boden)</li>
+      <li class="pv2">Du kannst Vormachen und Mitmachen.</li>
+      <li class="pv2">Du kannst Fragen zur Selbstwahrnehmung stellen (z.B. Wie war Dein Tanz für Dich?)</li>
+      <li class="pv2">Du kannst Aufgabenstellung und Ausführung abgleichen (z.B. Die Aufgabe war die Standbilder zu einer
+        Bewegungssequenz zu verbinden. Ich habe viele Pausen gesehen) und deine Wahrnehmung rückmelden. </li>
+        <li class="pv2">Du kannst den Schüler*innen Zeit geben um zu antworten.</li>
+    </ul>
+      <div class="modal-close"></div>
+      </div>
+  <div id="drei" class="info drei ph4"  style="display: none; ">
+    <h1 class="euclid-m ttu " style="color: {{ page.color}}">Feedback moderieren</h1>
+      <ul class="list pl0 pv4 euclid-m lh-copy">
+        <li class="pv2">Du kannst einen klaren Rahmen vorgeben, in dem die Schüler*innen sich gegenseitig Feedback geben können <br>(z.B. im Zweiergespräch)</li>
+        <li class="pv2">Du kannst Beobachtungskriterien vorgeben oder mit den Schüler*innen gemeinsam erarbeiten <br>(z.B. Wo liegt der Fokus für das Feedback?)</li>
+        <li class="pv2">Du kannst Feedbackregeln festlegen (z.B. in Form von „Ich Botschaften“ sprechen; <br> Worte wie „gut“ und „schlecht“ vermeiden)</li>
+      </ul>
+
+      <div class="modal-close"></div>
+  </div>
+
+</section>
+
+
+  <!-- Spieloptionen  -->
+    <section class="mv5" id="scrollTo-drei">
+
+      <article class=" pa3 mw7 center bg-white ">
+      <h1 class="mv0 pt2 tc ttu euclid-m f-xl tracked">Feedbackspiele</h1>
+    </article>
+
+    <article class="center bg-white pv4 ">
+      {{ site.spieloptionen | where:"title", "feedbackspiele"}}
+    </article>
+  </section>
+
+  <!--  javascript -->
+  <script src="js/subnav.js"></script>
+  <script src="js/subnav_taglist.js"></script>
+<script src="js/header-scroll.js"></script>
+<script src="js/diagram.js"></script>
+<script src="js/tabbar.js"></script>

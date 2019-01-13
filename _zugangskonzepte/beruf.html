@@ -1,0 +1,25 @@
+---
+title: Beruf
+thema: beruf
+category:
+color: "#4CC8B2"
+headline: Vorbild Tänzer*in
+description: "Eine besondere Schrittfolge, die ersten Tanzschuhe oder ein Erinnerungsstück aus der professionellen Zeit. Für Schüler*innen, die über persönliche Geschichten einen Zugang zum Tanz finden."
+thumbnail: images/thumbnails/superhero.jpg
+
+---
+<article class="relative center tc">
+
+    <h4 class="f-md tracked " style="color: {{ page.color }}">{{ page.category }}</h4>
+
+    <div class="card pa4" style="border: 4px solid {{page.color}}">
+      <img src="{{ page.thumbnail }}" alt="klauen" class="thumbnail">
+      <h1 class="mv0 ttu f-xl tracked euclid-m" style="color: {{page.color}};">{{ page.headline }}</h1>
+      <h2 class="mt2 mb4 f-md euclid-m">{{ page.subheadline }}</h2>
+      <p class=" tc ls-small lh-copy"> {{ page.description }}</p>
+      <button class="pv3 euclid-m f-md tracked  ">
+        <a href="2-1-sub-beruf.html" class="white link ph3">zum Material</a>
+        </button>
+    </div>
+
+  </article>

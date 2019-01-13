@@ -1,0 +1,159 @@
+@keyframes fade {
+  0% { opacity: 0; }
+  100% { opacity:  1; }
+}
+
+// Abdecker Body
+.modal-background{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255,255, 0.75);
+}
+
+// Modal Karte
+
+.modal-window{
+  position: fixed;
+  top: 50%;
+  left:50%;
+  width: 60vw;
+  height: 432px;
+  transform: translate(-50%, -50%);
+  border-radius: 4px;
+  box-shadow: 60px 80px 120px rgba(0,0,0,0.2);
+
+}
+
+
+// modal bei "neue Frage erstellen"
+
+.modal-frage{
+  height: 300px;
+}
+
+.neueFrage{
+  position: relative;
+  top: 48px;
+}
+.neueFrage textarea{
+  width: 100%;
+  background-color: #fff;
+  height: 140px;
+  border-top: 1px solid black;
+  padding-top: 16px;
+}
+
+.button-container{
+  position: absolute;
+  left: 16px;
+  bottom:16px;
+}
+//
+
+.modal-header{
+  position: fixed;
+  top: 0;
+  left:8px;
+  height: 48px;
+  padding: 16px 8px;
+  // display: flex;
+  // justify-content: space-between;
+  // align-items: baseline;
+}
+.modal-header h1{
+  line-height: 0.8;
+}
+.sozialform{
+  width: 100%;
+}
+.modal-close{
+  width: 24px;
+  height:24px;
+  position: absolute;
+  right:16px;
+  top:16px;
+  cursor: pointer;
+  background-image: url(images/icons/close.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.modal-close-white{
+  width: 24px;
+  height:24px;
+  position: absolute;
+  right:16px;
+  top:16px;
+  cursor: pointer;
+  background-image: url(images/icons/close-white.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.modal-container{
+  position: relative;
+  top: 80px;
+  left: 0;
+  height: 332px;
+  display: block;
+  margin-bottom: 32px;
+  padding: 0 16px;
+  overflow: scroll;
+  border-top: 1px solid #000;
+}
+
+
+.intro-container{
+  padding-left: 176px;
+  margin-bottom: 24px;
+}
+
+.keyword-container{
+  padding-left: 0;
+  display: flex;
+
+  margin-bottom: 48px;
+}
+
+.keyword{
+  flex: 0 0 160px;
+  margin-right: 16px;
+}
+.keyword .filter{
+  background-color: #fff;
+  text-align: center;
+  padding: 8px 16px;
+  display: inline;
+}
+
+.normal{
+    background-color: #fff;
+}
+
+.modal{
+  display: none;
+}
+.modal.show{
+  display: block;
+}
+
+.modal-window-video {
+  position: fixed;
+  width: 750px;
+  height: 480px;
+  top: 50%;
+  left: 50%;
+  border: 1px solid green;
+  transform: translate(-50%, -50%);
+  box-shadow: 60px 80px 120px rgba(0,0,0,0.2);
+  border-radius: 4px;
+}
+.modal-window-video video{
+  position: absolute;
+  top:0;
+  object-fit: contain;
+  mix-blend-mode: normal;
+  transform: scale(1);
+}

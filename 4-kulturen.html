@@ -1,0 +1,205 @@
+---
+layout: page_chapter4
+title: Tanzkulturen
+ziel-nr: 4
+color: "#f89700"
+text-color: "#ee8f01"
+ziel-title: thematisieren
+intro: "Im Fokusfeld Körper und Bewegung achten die Schüler*innen besonders auf ihren <span class='ch-4'>Körper</span>  und darauf, was beim zeitgenössischen Tanzen mit ihm passiert. <br /> Hierbei stehen Wahrnehmen, Explorieren, Empfinden, Erleben und Üben im Mittelpunkt: Die Schüler*innen erfahren durch die bewusste Wahrnehmung des eigenen und auch der anderen Körper die Beziehung zwischen sich selbst und der Welt. Deshalb wird großer Wert auf die Durchlässigkeit von Empfindungen der Tanzenden gelegt. Durch Improvisation entwickeln die jungen Menschen eine persönliche Bewegungssprache. <br /> Angelehnt an die Bewegungsanalyse von Rudolf von Laban lassen sich die unterschiedlichen Aspekte (z.B. Körper, <span class='ch-4'>Form,</span> <span class='ch-4'>Raum,</span> <span class='ch-4'>Phrasierung,</span> <span class='ch-4'>Beziehung,</span>) einzeln anwenden oder miteinander kombinieren, um den eigenen Körper und unterschiedliche <span class='ch-4'>Bewegungs-</span>qualitäten besser kennenzulernen und um sich ausdrücken zu können. Durch die Einbeziehung verschiedener Techniken (z.B. Kontaktimprovisation), Martial Arts und somatischer Praktiken (z.B. Feldenkrais) fördert zeitgenössischer Tanz nicht nur das Körpergefühl junger Menschen, sondern unterstützt sie in ihrer gesamten Selbstwahrnehmung und ihrem Selbstausdruck - ganz ohne den sonst im Sport üblichen Wettbewerbsgedanken."
+hero: images/hero/4-hero-tanzkulturen.png
+tipp-eins: Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
+tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
+---
+
+<!-- Header bar -->
+  <header class="headerBar">
+    <span style="color: {{ page.color}}" >{{ page.ziel-title }}</span> {{ page.title }}
+  </header>
+
+<!-- Ziel-Nummer  -->
+  <div class="page-number euclid-m" style="color: {{page.color}}">{{ page.ziel-nr }}</div>
+
+<!-- Hinweis -->
+  <article class="hinweis">
+    <div class="hinweisContent">
+      <p>Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+      <ul>
+        <li>Dauer:</li>
+        <li>Material:</li>
+      </ul>
+    </div>
+    <div class="hinweisButton" style="background-color: {{page.color}}"></div>
+  </article>
+
+<!-- subNav footer -->
+
+
+<article class="subnavigation">
+  <ul>
+    <li><a href="#scrollTo-eins"  class="subnavTab pb3 color-4 no-underline f-s">Intro</a></li>
+    <li><a href="#scrollTo-zwei"  class="subnavTab pb3 color-4 no-underline f-s">Traditionell</a></li>
+    <li><a href="#scrollTo-drei"  class="subnavTab pb3 color-4 no-underline f-s">Gesellschaft</a></li>
+    <li><a href="#scrollTo-vier"  class="subnavTab pb3 color-4 no-underline f-s">Urban</a></li>
+    <li><a href="#scrollTo-fuenf"  class="subnavTab pb3 color-4 no-underline f-s">Bühne</a></li>
+    <li><a href="#scrollTo-sechs" class="subnavTab pb3 color-4 no-underline f-s">Rituell</a></li>
+    <li><a href="#scrollTo-sieben" class="subnavTab pb3 color-4 no-underline f-s">Andere</a></li>
+  </ul>
+</article>
+
+<!-- hero Material -->
+
+<div class="hero-material" >
+    <div class="hero-image" style="background-image: url({{page.hero}});"></div>
+
+      <div class="hero-material-title">
+        <h1 class=" euclid-m ml4 mv0">{{ page.title }}</h1>
+      </div>
+</div>
+
+<!-- Introtext -->
+
+<div class="wrapper" id="scrollTo-eins">
+  <article class="intro color-gray pa2  mv6 f-lg lh-md euclid-m">
+  {{ page.intro }}
+  </article>
+</div>
+
+
+
+<!-- Körper -->
+  <section class="mv5" id="scrollTo-zwei">
+
+      <article class=" sectionTitle odd pa3">
+        <h1 class="mv0 pt2 euclid-m f-xl tracked">Traditionelle Tänze</h1>
+      </article>
+
+      <article class="sectionBack pa3 mb3">
+        <div class="  pa3 flex items-center justify-center">
+          <button class="open-modal ml3 flipcardButton" onclick="openModal(event,'traditionell')"></button>
+      </div>
+
+        <div class="content center" >
+          {{ site.themenfelder | where:"thema" , "traditionell" }}
+        </div>
+      </article>
+
+  </section>
+
+<!-- Form -->
+  <section class="mv5" id="scrollTo-drei">
+
+    <article class=" sectionTitle pa3">
+      <h1 class="mv0 pt2 euclid-m f-xl tracked">Gesellschaftstänze</h1>
+    </article>
+
+    <article class="w-100 pa3">
+      <div class="pa3 flex items-center justify-center">
+        <button class="open-modal ml3 flipcardButton" onclick="openModal(event,'gesellschaftstaenze')"></button>
+    </div>
+      <div class="content center ">
+        {{ site.themenfelder | where:"thema" , "gesellschaftstaenze" }}
+      </div>
+    </article>
+
+  </section>
+
+
+<!-- Persönlicher Raum -->
+
+  <section class="mv5" id="scrollTo-vier">
+
+    <article class=" sectionTitle odd pa3 ">
+      <h1 class="mv0 pt2 tc ttu euclid-m f-xl tracked">Urbane Tänze</h1>
+    </article>
+
+    <article class="sectionBack pa3 mb3">
+      <div class="pa3 flex items-center justify-center">
+        <button class="open-modal  ml3 flipcardButton" onclick="openModal(event,'urban')"></button>
+      </div>
+      <div class="content center ">
+        {{ site.themenfelder | where:"thema" , "urban" }}
+      </div>
+    </article>
+
+  </section>
+
+<!-- Phrasierung -->
+
+  <section class="mv5" id="scrollTo-fuenf">
+
+    <article class="sectionTitle pa3">
+      <h1 class="mv0 pt2 tc ttu euclid-m f-xl tracked">Bühnentänze</h1>
+    </article>
+
+    <article class=" w-100 pa3 ">
+      <div class="pa3 flex items-center justify-center">
+        <button class="open-modal  ml3 flipcardButton" onclick="openModal(event,'buehnentaenze')"></button>
+      </div>
+      <div class="content center ">
+        {{ site.themenfelder | where:"thema" , "buehnentaenze" }}
+      </div>
+    </article>
+
+  </section>
+
+<!-- Beziehung -->
+
+  <section class="mv5" id="scrollTo-sechs">
+
+    <article class="sectionTitle odd pa3 ">
+      <h1 class="mv0 pt2 tc ttu euclid-m f-xl tracked">Rituelle Tänze</h1>
+    </article>
+
+
+    <article class="sectionBack pa3 mb3">
+      <div class="pa3 flex items-center justify-center">
+        <button class="open-modal  ml3 flipcardButton" onclick="openModal(event,'rituell')"></button>
+      </div>
+
+      <div class="content center ">
+        {{ site.themenfelder | where:"thema" , "rituell" }}
+      </div>
+    </article>
+
+  </section>
+
+
+<!-- Bewegungsqualitäten -->
+
+  <section class="mv5" id="scrollTo-sieben">
+
+    <article class="sectionTitle pa3">
+      <h1 class="mv0 pt2 tc ttu euclid-m f-xl tracked">Andere Bewegungskulturen</h1>
+    </article>
+
+    <article class="w-100 pa3 ">
+          <div class="pa3 flex items-center justify-center">
+            <button class="open-modal  ml3 flipcardButton" onclick="openModal(event,'bewegungskulturen')"></button>
+          </div>
+      <div class="content center ">
+        {{ site.themenfelder | where:"thema" , "bewegungskulturen" }}
+      </div>
+    </article>
+
+  </section>
+  <!-- scrollTop Button -->
+              <div class="scrolltoTop" style="background-color:{{page.color}};" >
+                    <a href="#scrollTo-eins" class="topScroll no-underline" ></a>
+                </div>
+
+  <!-- Modal "Aufgabe" -->
+
+  {{ site.modals | where:"thema" , "Traditionell" }}
+  {{ site.modals | where:"thema" , "Gesellschaftstänze" }}
+  {{ site.modals | where:"thema" , "Urban" }}
+  {{ site.modals | where:"thema" , "Bühnentänze" }}
+  {{ site.modals | where:"thema" , "Rituell" }}
+  {{ site.modals | where:"thema" , "Bewegungskulturen" }}
+
+
+
+    <script src="js/modal.js"></script>
+    <script src="js/subnav.js"></script>
+    <script src="js/subnav_taglist.js"></script>
+    <!-- <script src="js/avatar.js"></script> -->
+    <script src="js/header-scroll.js"></script>

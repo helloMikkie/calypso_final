@@ -1,0 +1,136 @@
+---
+title: alles-spiel-optionen
+color: "#A0B354"
+---
+
+<section class="tabContainer-2 mw8 center euclid-m">
+<!-- Tab links -->
+  <div class="tabbar ">
+    <button class="tablinks white active euclid-m" onclick="showBar(event,'themenfindung')" style="background-color: {{page.color}}">Themenfindung</button>
+    <button class="tablinks white euclid-m" onclick="showBar(event,'bewegungsspiele')" style="background-color: {{page.color}}">Bewegungsspiele</button>
+  </div>
+
+<div class="subTab " id="themenfindung" style="background-color: {{page.color}}">
+  <button class="tablinks euclid-m pa3 white" onclick="openTab(event,'plaedoyer')" style="background-color: {{page.color}}">Plädoyer</button>
+  <button class="tablinks euclid-m pa3 white" onclick="openTab(event,'interview')" style="background-color: {{page.color}}">Interview</button>
+  <button class="tablinks euclid-m pa3 white " onclick="openTab(event,'themenlandkarte')" style="background-color: {{page.color}}">Themenlandkarte</button>
+  <button class="tablinks euclid-m pa3 white " onclick="openTab(event,'dufaengstan')" style="background-color: {{page.color}}">Du fängst an</button>
+</div>
+<div class="subTab" id="bewegungsspiele" style="display: none;background-color: {{page.color}} ">
+  <button class="tablinks white euclid-m" onclick="openTab(event,'themenkarussel')" style="background-color: {{page.color}}">Themenkarussel</button>
+  <button class="tablinks white euclid-m" onclick="openTab(event,'duett')" style="background-color: {{page.color}}">Duett</button>
+  <button class="tablinks white euclid-m" onclick="openTab(event,'stopptanz')" style="background-color: {{page.color}}">Stopptanz</button>
+</div>
+
+<!-- Tab content -->
+
+<!-- Themenfindung -->
+
+
+<div id="plaedoyer" class="tabcontent pa4">
+  <div class=" w-100 mr4 db h-100">
+    <h3 class="euclid-m f-xxl mt0 mb4">Plädoyer</h3>
+    <p class="lh-copy euclid-m">paarweise/Gruppe</p>
+      <img src="images/spieloptionen/plaedoyer.png" alt="talkshow">
+    <ul class="list pl0">
+
+      <li class="mv3 lh-copy euclid-r">Alle Karten werden an eine Tafel geheftet oder auf den Boden gelegt.</li>
+      <li class="mv3 lh-copy euclid-r">Jeder entscheidet sich für einen Begriff und überlegt sich dazu ein Thema. </li>
+      <li class="mv3 lh-copy euclid-r">Paarweise oder in kleinen Gruppen versucht jede*r den*die andere*n in einem kurzen Plädoyer von seinem Thema zu überzeugen.</li>
+      <li class="mv3 lh-copy euclid-r">Endabstimmung: welches Plädoyer hat euch am meisten gefallen und Warum? </li>
+    </ul>
+  </div>
+</div>
+
+
+
+<div id="interview" class="tabcontent pa4" style="display: none; ">
+  <div class=" w-100 mr4 db h-100">
+    <h3 class="euclid-m f-xxl mt0 mb4">Interview</h3>
+    <p class="lh-copy euclid-m">paarweise</p>
+      <img src="images/spieloptionen/interview.png">
+    <ul class="list pl0">
+
+      <li class="mv3 lh-copy euclid-r">Ein*e Schüler*in ist Reporter*in, wählt eine beliebige Karte aus dem Kartenset und befragt die*den Partner*in zu einem der Begriffe.</li>
+      <li class="mv3 lh-copy euclid-r">Die Rollen werden getauscht und die Interviewer*innen beantworten jetzt die Fragen der Partner*innen.</li>
+      <li class="mv3 lh-copy euclid-r">Am Ende präsentiert das Paar die besprochenen Themen und Ergebnisse.</li>
+
+    </ul>
+  </div>
+</div>
+
+<div id="themenlandkarte" class="tabcontent pa4" style="display: none; ">
+  <div class=" w-100 mr4 db h-100">
+    <h3 class="euclid-m f-xxl mt0 mb4">Themenlandkarte</h3>
+    <p class="lh-copy euclid-m">Gruppe</p>
+      <img src="images/spieloptionen/themenlandkarte.png">
+    <ul class="list pl0">
+
+      <li class="mv3 lh-copy euclid-r">Die Schüler*innen bilden Gruppen zu den drei Hauptkategorien (Ich/Sie*er/Die ganze Welt) und erhalten die entsprechenden Karten dazu, außerdem leere Karten und Stifte. Fehlende Kartensets können zusätzlich ausgedruckt werden. </li>
+      <li class="mv3 lh-copy euclid-r">Jede*r wählt aus seiner Hauptkategorie nun einen Begriff und findet dazu eine persönliche Assoziation, die sie*er auf eine leere Karte schreibt. Diese Karten werden am Ende gesammelt und, nach den Hauptkategorien sortiert, auf ein großes Blatt Papier an die Wand geklebt.</li>
+      <li class="mv3 lh-copy euclid-r">Hier können die Spieler*innen nun Themengruppen zusammenfassen und sich darüber austauschen. </li>
+      <li class="mv3 lh-copy euclid-r">Ziel ist es, im gemeinsamen Gespräch Themen für den Unterricht oder für ein Stück festzulegen.</li>
+    </ul>
+  </div>
+</div>
+
+<div id="dufaengstan" class="tabcontent pa4" style="display: none; ">
+  <div class=" w-100 mr4 db h-100">
+    <h3 class="euclid-m f-xxl mt0 mb4">Du fängst an</h3>
+    <p class="lh-copy euclid-m">paarweise / kleine Gruppe</p>
+      <img src="images/spieloptionen/dufaengstan.png">
+    <ul class="list pl0">
+
+      <li class="mv3 lh-copy euclid-r">Alle Paare oder kleine Gruppe erhalten die vier Karten einer Hauptkategorie.  </li>
+      <li class="mv3 lh-copy euclid-r">Es wird entschieden oder gelöst wer als erstes anfängt. </li>
+      <li class="mv3 lh-copy euclid-r">Der erste schlägt ein Thema vor und löst damit eine Assoziationskette aus, indem reihum alle sagen, was ihnen zu dem Thema einfällt </li>
+      <li class="mv3 lh-copy euclid-r">Die Kette ist beendet, sobald die Spieler*innen sich auf ein Thema geeinigt haben.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Bewegungsspiele -->
+
+<div id="themenkarussel" class="tabcontent pa4" style="display: none; ">
+  <div class=" w-100 mr4 db h-100">
+    <h3 class="euclid-m f-xxl mt0 mb4">Themenkarussel</h3>
+    <p class="lh-copy euclid-m">paarweise</p>
+      <img src="images/spieloptionen/themenkarussel.png">
+    <ul class="list pl0">
+
+      <li class="mv3 lh-copy euclid-r">Alle Paare erhalten die vier Karten einer Hauptkategorie und haben fünf Minuten Zeit, sich miteinander auf einen gemeinsamen Begriff zu einigen und dazu ein Thema zu formulieren.</li>
+      <li class="mv3 lh-copy euclid-r">In den nächsten fünf Minuten erfinden sie Bewegungen, die zu ihrem Thema passen.  </li>
+      <li class="mv3 lh-copy euclid-r">Es gibt drei Runden, in denen immer wieder die Partner*innen getauscht werden. Auch hier können zusätzlich benötigte Kartensets ausgedruckt werden</li>
+    </ul>
+  </div>
+</div>
+
+<div id="duett" class="tabcontent pa4" style="display: none; ">
+  <div class=" w-100 mr4 db h-100">
+    <h3 class="euclid-m f-xxl mt0 mb4">Duett</h3>
+    <p class="lh-copy euclid-m">paarweise</p>
+      <img src="images/spieloptionen/duett.png">
+    <ul class="list pl0">
+
+      <li class="mv3 lh-copy euclid-r">Jede*r zieht eine beliebige Karte aus dem Kartenset und wählt einen Begriff. Anschließend entscheidet sich jede*r für ein Thema. </li>
+      <li class="mv3 lh-copy euclid-r">Für die Gestaltung ihres Duetts einigen sich die Paare entweder auf eines ihrer beiden Themen oder sie verbinden sie miteinander.</li>
+    </ul>
+  </div>
+</div>
+
+<div id="stopptanz" class="tabcontent pa4" style="display: none; ">
+  <div class=" w-100 mr4 db h-100">
+    <h3 class="euclid-m f-xxl mt0 mb4">Stopptanz</h3>
+    <p class="lh-copy euclid-m">paarweise/Gruppe</p>
+      <img src="images/spieloptionen/stopptanz.png">
+    <ul class="list pl0">
+
+      <li class="mv3 lh-copy euclid-r">Aus den vier Karten einer Hauptkategorie wählt jede*r einen Begriff aus – nur für sich und ohne ihn zu verraten. </li>
+      <li class="mv3 lh-copy euclid-r">Danach laufen alle zu Musik durch den Raum. </li>
+      <li class="mv3 lh-copy euclid-r">Sobald sie aufhört, suchen sich die Spieler*innen, wo sie geradestehen, eine*n Partner*in.  </li>
+      <li class="mv3 lh-copy euclid-r">Gegenseitig tanzen sie sich ihre Begriffe vor und versuchen zu erraten, was es ist.  </li>
+    </ul>
+  </div>
+</div>
+
+</section>

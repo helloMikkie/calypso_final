@@ -1,0 +1,16 @@
+---
+title: selbstevaluation
+thema: 5_2_kooperation
+color: "#FC754B"
+---
+
+{% for frage in site.data.frage %}
+  {% if frage.sub == "5_2_kooperation" %}
+
+  <article class="module mv4 ph4 pv2" style="border: 3px solid {{page.color}}">
+    <button class="toggleVisible pa2 f-xs euclid-r">verbergen</button>
+    <p class="textFrage euclid-m ls-small f-md w-90 lh-copy" style="color: {{page.color}}">{{ frage.text}}</p>
+</article>
+
+{% endif %}
+{% endfor %}

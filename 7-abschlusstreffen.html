@@ -1,0 +1,159 @@
+---
+layout: page_chapter7
+title: Abschlusstreffen
+ziel-nr: 7
+color: "#8B71D6"
+text-color: ""
+ziel-title: abschließen
+intro: "Vom Planungs- über das Reflexionstreffen schließt das Abschlusstreffen den Bogen der Gespräche zwischen Tanzvermittler*in und Lehrer*in.
+Am Ende des Projekts geht es nun darum, dass ihr auf den gesamten Projektverlauf zurückschaut und ein Fazit zieht. Stimmen eure Erfahrungen
+mit den anfänglichen Erwartungen überein? Würdet ihr etwas anders machen? Und habt ihr vielleicht etwas Überraschendes entdeckt? Nutzt das Abschlusstreffen
+neben der Retrospektive auch dazu, gemeinsame Perspektiven für die Zukunft zu besprechen."
+hinweis: "Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Morbi leo risus, porta ac consectetur ac, vestibulum at eros."
+hero: images/hero/7-hero-abschlusstreffen.png
+tipp-eins: Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
+tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
+---
+<!-- Header bar -->
+  <header class="headerBar">
+    <span style="color: {{ page.color}}" >{{ page.ziel-title }}</span> {{ page.title }}
+  </header>
+
+<!-- Ziel-Nummer  -->
+  <div class="page-number euclid-m" style="color: {{page.color}}">{{ page.ziel-nr }}</div>
+
+<!-- Hinweis -->
+  <article class="hinweis">
+    <div class="hinweisContent">
+      <p>{{page.hinweis}}</p>
+      <ul>
+        <li>Dauer:</li>
+        <li>Material:</li>
+      </ul>
+    </div>
+    <div class="hinweisButton" style="background-color: {{page.color}}"></div>
+  </article>
+
+<!-- subNav footer -->
+
+<article class="subnavigation short">
+    <ul class=" ">
+      <li><a href="#scrollTo-eins" class="subnavTab pb3 color-7 no-underline f-s">Intro</a></li>
+      <li><a href="#scrollTo-zwei" class="subnavTab pb3 color-7 no-underline f-s">Starten</a></li>
+    </ul>
+
+    <ul class="rightSubNav">
+      <li><a href="#scrollTo-acht" class="subnavTab pb3 color-7 no-underline f-s">neue Frage</a></li>
+      <li><a href="#scrollTo-neun" class="subnavTab pb3 color-7 no-underline f-s">Drucken</a></li>
+    </ul>
+</article>
+
+<!-- hero-Material -->
+
+<div class="hero-material" >
+    <div class="hero-image" style="background-image: url({{page.hero}});"></div>
+
+      <div class="hero-material-title">
+        <h1 class="euclid-m mv0">{{ page.title }}</h1>
+      </div>
+</div>
+
+
+<!-- Introtext -->
+  <div class="wrapper" id="scrollTo-eins">
+    <article class="intro color-gray pa2  mv6 f-lg lh-md euclid-m">
+    {{ page.intro }}
+    </article>
+  </div>
+
+<!-- Content -->
+
+<section class="mv5" id="scrollTo-zwei">
+    <article class="sectionTitle odd">
+      <h1 class="mv0 pt3 euclid-m f-xl tracked">Prozessverlauf</h1>
+    </article>
+    <article class="sectionBack pa3">
+        <div class="description ph3 lh-copy ls-small euclid-r">
+          <p>	Wähle zunächst eine der drei Hauptkategorien
+              Entscheide dich für eine der vier Unterkategorien
+              Wähle einen Begriff
+              Formuliere Fragen zu dem ausgewählten Begriff.
+              Was genau interessiert dich daran? Warum?</p>
+        </div>
+          <div class="wrapper">
+            {{ site.fragen | where:"thema" , "7_1_prozess"  }}
+          </div>
+    </article>
+  </section>
+
+
+  <section class=" mv5">
+      <article class="sectionTitle">
+        <h1 class="mv0 pt2 euclid-m f-xl tracked">Fazit</h1>
+      </article>
+      <article class="w-100 pa3">
+          <div class="wrapper">
+            {{ site.fragen | where:"thema" , "7_1_fazit"  }}
+          </div>
+      </article>
+    </section>
+
+<!-- Diese Section ist mit Avatar-Tipp -->
+
+    <section class=" mv5"  data-tipp="{{ page.tipp-eins }}">
+        <article class="sectionTitle odd">
+          <h1 class="mv0 pt2  euclid-m f-xl tracked">Perspektiven</h1>
+        </article>
+
+        <article class="sectionBack pa3">
+              <div class="wrapper">
+                {{ site.fragen | where:"thema" , "7_1_perspektiven"  }}
+              </div>
+        </article>
+      </section>
+
+<!-- neue Frage -->
+      <section class="mv5" id="scrollTo-acht">
+          <button class="open-modal db center white f-md  pv4 ph5 bn br1 euclid-m" style="background-color:{{page.color}};" onclick="openModal(event,'planungstreffen-modal')">neue Frage hinzufügen</button>
+      </section>
+
+
+<!-- Drucken -->
+
+          <section class=" mv5" id="scrollTo-neun">
+            <div class="wrapper">
+              {{ site.drucken | where:"thema" , "abschlusstreffen"  }}
+            </div>
+          </section>
+
+<!-- scrollTop Button -->
+            <div class="scrolltoTop" style="background-color:{{page.color}};" >
+                  <a href="#scrollTo-eins" class="topScroll no-underline" ></a>
+              </div>
+<!-- ************** -->
+
+    <!-- Modal "Frage erstellen" -->
+    {{ site.modals | where:"thema" , "chapter_7" }}
+
+
+    <!-- Avatar-tipp -->
+
+    <div class="avatar" style="background-color: {{page.color}}">
+      <div class="face">
+      <!-- <img src="images/icons/avatar_2.png" alt="avatar"> -->
+        </div>
+      <div class="avatar-tipp" style="background-color: {{ page.color}}">
+
+      </div>
+    </div>
+
+
+    <!--  javascript -->
+
+    <script src="js/subnav.js"></script>
+    <script src="js/subnav_taglist.js"></script>
+
+    <script src="js/modal.js"></script>
+    <script src="js/fragenOpen.js"></script>
+    <script src="js/avatar.js"></script>
+    <script src="js/header-scroll.js"></script>

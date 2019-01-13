@@ -1,0 +1,73 @@
+---
+sitemap: false
+---
+
+// Complete list of Tachyons partials in _sass folder
+// Order is important
+// First 5 should be normalize, media-queries, variables, colors, spacing
+// Because the other files refer to variables declared in these files
+// Comment out the modules you don't need (ex. the first 5)
+
+@import
+    "normalize",
+    "media-queries",
+    "customs/variables",
+    "colors",
+    "spacing",
+
+    "borders/border-colors",
+    "borders/border-radius",
+    "borders/border-style",
+    "borders/border-widths",
+    "borders/borders",
+
+    "typography/font-family",
+    "typography/font-style",
+    "typography/font-weight",
+    "typography/letter-spacing",
+    "typography/line-height",
+    "typography/text-align",
+    "typography/text-decoration",
+    "typography/text-transform",
+    "typography/type-scale",
+    "typography/typography",
+
+
+    "background-size",
+    "box-shadow",
+    "box-sizing",
+    "coordinates",
+    "display",
+    "flexbox",
+    "floats",
+    "heights",
+    "links",
+    "lists",
+    "max-widths",
+    "overflow",
+    "position",
+    "skins",
+    "customs/styles",
+    "utilities",
+    "vertical-align",
+    "widths",
+
+    "z-index",
+
+    "customs/c",
+    "customs/custom-type-scale",
+    "customs/font",
+    //
+    "styles/menu",
+    "styles/header-hinweis",
+    "styles/fragen-template",
+    "styles/flip-card",
+    "styles/modal",
+    "styles/tabbar",
+    "styles/chapter",
+    "styles/feedback",
+    "styles/subpage",
+    "styles/markdown",
+    "styles/start",
+    "styles/landkarte"
+;

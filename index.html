@@ -1,0 +1,340 @@
+---
+layout: page_home
+title: Calypso
+subtitle: "lässt die Schule tanzen!"
+color: "#fff"
+---
+
+<!-- ____________________ Hero-Animation start ________________________________________
+
+-->
+
+  <div class="circle-container">
+    <!-- audio autoplay -->
+    <audio autoplay controls>
+    <source src="audio/start-test.mp3">
+  </audio>
+    <!--  -->
+
+    <div class="start-title">
+       <h1 class=" euclid-m mv0" style="color: #000 ">{{ page.title}}</h1>
+       <h2 class="start-subtitle f-xl euclid-m mv0" style="color: #000 ">{{ page.subtitle}}</h2>
+    </div>
+
+    <svg class="hero-animation" width="100%" height="100%" viewBox="0 0 800 800">
+
+    					 <g id="diagram" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    							 <g transform="translate(72.000000, 90.000000)" fill-rule="nonzero">
+    								 <path d="M327.5,1.7289095 L326.5,1.7289095" id="path-0" stroke="none" opacity="0"></path>
+    									 <path d="M328.044192,1.7289095 C431.125378,1.7289095 519.480681,46.451964 582.747441,123.353802" id="path-1" stroke="#000" stroke-width="0.3" ></path>
+    									 <path d="M583.292844,124.990011 C655.286054,213.890717 666.194116,318.608113 643.832589,414.599059" id="path-2" stroke="#000" stroke-width="0.5" ></path>
+    									 <path d="M643.945312,415.197266 C642.997095,418.239465 642.834353,420.426693 641.836914,423.40918 C608.411476,523.356025 547.668514,589.500705 468.758193,625.513469" id="path-3" stroke="#000" stroke-width="0.75"></path>
+    									 <path d="M466.57658,626.760866 C366.222409,671.483921 263.141223,664.39368 174.240517,619.125223" id="path-4" stroke="#000" stroke-width="1"></path>
+    									 <path d="M174.78592,618.579819 C86.9760202,568.402734 32.4357098,500.772749 8.43797326,395.50995" id="path-5" stroke="#000" stroke-width="1.25"></path>
+    									 <path d="M7.52818231,394.419144 C-14.8333449,290.792554 21.708663,186.620562 70.7949423,126.080817" id="path-6" stroke="#000" stroke-width="1.5"></path>
+
+    							 </g>
+    							 <g transform="translate(72.000000, 90.000000)" fill-rule="nonzero">
+    							 <circle id="one" fill="#58B0E2" fill-rule="nonzero" cx="0" cy="0" r="4"></circle>
+    							 <circle id="two" fill="#4CC8B2" fill-rule="nonzero" cx="0" cy="0" r="4"></circle>
+    							 <circle id="three" fill="#A0B354" fill-rule="nonzero" cx="0" cy="0" r="4"></circle>
+    							 <circle id="four" fill="#f89700" fill-rule="nonzero" cx="0" cy="0" r="4"></circle>
+    							 <circle id="five" fill="#FC754B" fill-rule="nonzero" cx="0" cy="0" r="4"></circle>
+    							 <circle id="six" fill="#C27AC8" fill-rule="nonzero" cx="0" cy="0" r="4"></circle>
+    							 <circle id="seven" fill="#8B71D6" fill-rule="nonzero" cx="0" cy="0" r="4"></circle>
+    					 </g>
+    				 </g>
+    			 </svg>
+
+
+
+  </div>
+
+
+
+  <!-- ____________________ Intro 1  ________________________________________
+
+  -->
+
+    <section class="flex w-100 ">
+      {{ site.start | where:"thema" , "einleitung" }}
+    </section>
+
+
+    <!-- ____________________ Wie funktioniert ?  ________________________________________
+
+    -->
+
+
+    <article class="sectionTitle odd">
+      <h1 class="mv0 pt3 euclid-m f-xxxl tracked">Wie Calypso funktioniert</h1>
+    </article>
+    <article class="sectionBack flex ">
+        {{ site.start | where:"thema" , "wie Calypso funktioniert" }}
+    </article>
+
+    <!-- ____________________ Menu Diagram  ________________________________________
+
+    -->
+
+  <section class="wrapper-diagram">
+  {{ site.start | where:"thema" , "diagram menu" }}
+</section>  <!-- wrappper -->
+
+
+<!-- ____________________ Intro 2  ________________________________________
+
+-->
+<section class="flex w-100 ">
+  {{ site.start | where:"thema" , "einleitung_2" }}
+</section>
+
+<!-- ____________________ Was Calypso alles bietet  ________________________________________
+
+-->
+
+
+    <article class="sectionTitle odd">
+      <h1 class="mv0 pt3 euclid-m f-xxxl tracked">Was Calypso alles bietet</h1>
+    </article>
+
+    <article class="sectionBack flex">
+      {{ site.start | where:"thema" , "was calypso alles bietet fokusfelder" }}
+    </article>
+
+
+  <!-- ____________________ Fokusfelder  ________________________________________
+
+  -->
+  <section class="w-100 center bg-white pb6">
+
+    <div class="flex-grid ">
+
+
+	<!-- LEFT  -->
+
+	<article class="col">
+
+		<div class="row">
+			<img src="images/start/ikon-korper-und-bewegung.png" class="imgFade" />
+			 <div class="row-text f-lg euclid-m color-4">
+				 Körper und Bewegung
+			 </div>
+		</div>
+
+		<div class="row">
+			<img src="images/start/ikon-tanz-andere-kunste.png" class="imgFade" />
+			 <div class="row-text f-lg euclid-m color-4">
+				 Tanz und andere Künste
+			 </div>
+		</div>
+
+		<div class="row">
+			<img src="images/start/ikon-tanzkulturen.png" class="imgFade" />
+			 <div class="row-text f-lg euclid-m color-4">
+				 Tanzkulturen
+			 </div>
+		</div>
+	</article>
+
+	<!-- RIGHT  -->
+
+		<article class="col">
+
+			<div class="row">
+				<img src="images/start/ikon-tanz-und-gestaltung.png" class="imgFade" />
+				 <div class="row-text f-lg euclid-m color-4">
+					 Tanz und Gestaltung
+				 </div>
+			</div>
+
+			<div class="row">
+				<img src="images/start/ikon-tanz-und-gesellschaft.png" class="imgFade" />
+				 <div class="row-text f-lg euclid-m color-4">
+					 Tanz und Gesellschaft
+				 </div>
+			</div>
+
+			<div class="row">
+				<img src="images/start/ikon-tanz-und-unterricht.png" class="imgFade" />
+				 <div class="row-text f-lg euclid-m color-4">
+					 Tanz und Unterricht
+				 </div>
+			</div>
+
+		</article>
+
+</div>
+
+  </section>
+
+
+  <!-- ____________________ Leitfäden  ________________________________________
+
+  -->
+
+      <article class="sectionBack pa3 flex">
+          {{ site.start | where:"thema" , "was calypso alles bietet leitfaden" }}
+      </article>
+
+  <section class="w-100 center bg-white pa3 pb5">
+      {{ site.start | where:"thema" , "leitfaden cards" }}
+  </section>
+
+<!-- ____________________ Kartenspiele  ________________________________________
+
+-->
+
+
+<article class=" pa3 flex">
+    {{ site.start | where:"thema" , "was calypso alles bietet kartenspiele" }}
+</article>
+
+
+<section class="ph3 pt4 pb6">
+    {{ site.start | where:"thema" , "kartenspiele cards" }}
+</section>
+
+<!-- ____________________ Was Calypso sonst noch bietet  ________________________________________
+
+-->
+
+<section class="">
+    <article class="sectionTitle odd">
+      <h1 class="mv0 pt3 euclid-m f-xxxl tracked">Was Calypso sonst noch bietet</h1>
+    </article>
+
+    <article class="sectionBack pa3">
+
+<!-- image RIGHT -->
+<div class="flex-grid ph4 pv4" >
+	<div class="col flex justify-end pr4">
+			<div class="gallery-textbox">
+				<h2 class="color-2 f-xl">Choreograf*innenbuch</h2>
+				<p class="f-md euclid-r lh-copy">Die 15 Porträts berühmter Choreografinnen und Choreografen führen in ihr Leben und ihre Werke ein. Ausführliche Beschreibungen geben Einblick in ihre Arbeitsweisen.</p>
+				<button class="button btn-ch2 pv3 ph4 euclid-m md tracked">zum Choreograf*innenbuch</button>
+			</div>
+	</div>
+	<div class="col align-center">
+				<img src="images/start/ikon-choreograph.png" />
+	</div>
+</div>
+
+<!-- image LEFT -->
+<div class="flex-grid ph4 pv4">
+	<div class="col flex justify-end pr4">
+			<img src="images/start/ikon-video.png" />
+	</div>
+	<div class="col">
+			<div class="gallery-textbox">
+			<h2 class="color-2 f-xl">Video-Beispiele</h2>
+			<p class="f-md euclid-r lh-copy">Die Videos zeigen den Schüler*innen, worauf es bei einer Choreografie ankommt, und die große Bandbreite an Präsentationsmöglichkeiten: von der klassischen Bühnenaufführung bis hin zu Darbietungen im öffentlichen Raum.</p>
+				<button class="button btn-ch2 pv3 ph4 euclid-m md tracked">zu den Präsentationen</button>
+			</div>
+	</div>
+</div>
+
+
+  </article>
+  </section>
+
+  <!-- ____________________ Zugangskonzepte  ________________________________________
+
+  -->
+  <section class="sectionBack pa3 zugangskonzepte">
+  	<div class="flex-container">
+  	    <div class="w-40 test tc">
+
+            <h2 class="euclid-m tc f-xl">Zugangskonzepte</h2>
+            <p class="f-md lh-copy">Wie begeistern wir Schüler*innen für den zeitgenössischen Tanz und führen sie an das Thema heran?
+              Calypso stellt Ansätze für verschiedene Altersstufen vor und gibt Tipps für Filme, Comics und Videospiele,
+              die Brücken schlagen und helfen, das Eis zu brechen.</p>
+
+	        <button class="button btn-ch2 pv3 ph4 euclid-m md tracked">zu den Zugangskonzepten</button>
+
+  	    </div>
+  	</div>
+  </section>
+
+    <!-- ____________________ Services   ________________________________________
+
+    -->
+    <section class="mv5">
+
+      {{ site.start | where:"thema" , "services" }}
+
+    </section>
+
+
+    <section class="w-100 center pa3 mb5">
+      {{ site.start | where:"thema" , "services cards" }}
+
+  </section>
+
+  <!-- ____________________ Abbinder  ________________________________________
+
+  -->
+	<div class="flex-container abbinder dark cover w-100 h-100">
+    <div class="w-60  white">
+
+        <!-- <h2 class="euclid-m tc f-xxxl ">Calypso lässt die Schule tanzen!</h2> -->
+        <p class="f-lg lh-copy">Die Materialien wurden im Rahmen des Kunstlabors Tanz entwickelt
+          und basieren auf den Praxiserfahrungen des Projekts <a href="#" class=" white">TanzZeit</a>.</p>
+          <p class="f-lg tc lh-copy">Hier findet ihr:</p>
+        <p class="f-lg lh-copy"><a href="#" class=" white">Praktische Informationen,</a> um ein Tanzprojekt in Schulen zu initiieren, von der Idee über die
+            Auswahl eines Unterrichtsformats bis hin zu Finanzierungsmöglichkeiten.</p>
+        <p class="f-lg lh-copy"><a href="#" class="white">Informationen</a> zu unserem Calypso-Weiterbildungsangebot</p>
+        <p class="f-lg lh-copy">Für Anregungen und Feedback zu Calypso oder um weitere Informationen über unser
+          Angebot und analoge Materialen zu erhalten: <a href="mailto:calypso@tanzzeit-berlin.de" class="white">calypso@tanzzeit-berlin.de</a></p>
+    </div>
+
+	</div>
+
+  <!-- ____________________ Footer  ________________________________________
+
+  -->
+  <section class="footer mt0" style="background-color: {{ page.color}}; margin-top:0;" id="sechs">
+
+    <a href="#eins" class="scrollIkon" style="background-color: {{ page.color}}"></a>
+
+    <div class="left euclid-r f-s lh-copy">
+      <p><span>Calypso</span> ist entstanden im Rahmen des Programms <span>Kunstlabore</span> in Zusammenarbeit mit dem <span>Kunstlabor Tanz.</span></p>
+      <p><span>Kunstlabore</span> ist ein Programm der <span>MUTIK gGmbH,</span> gefördert von der <span>Stiftung Mercator.</span></p>
+      <p><span>Kunstlabor Tanz</span> ist ein Projekt von <span>TanzZeit e.V.</span>, gefördert durch das Programm <span>Kunstlabore</span> der <span>MUTIK gGmbH,</span> gefördert durch die <span>Stiftung Mercator.</span></p>
+      <a href="#" class=" euclid-m f-md">kunstlabore.de</a>
+      <a href="#" class="euclid-m f-md">tanzzeit-berlin.de</a>
+    </div>
+
+    <div class="euclid-m lh-copy f-md">
+      <p>
+        TanzZeit e.V. <br>
+        Klosterstraße 68 <br>
+        10179 Berlin
+      </p>
+      <a href="mailto:info@tanzzeit-berlin.de" class="euclid-m f-md">info(at)tanzzeit-berlin.de</a>
+      <div class="mt3">
+        <a href="8-contact.html" class="euclid-m f-md">Impressum</a>
+        <a href="8-contact.html" class=" euclid-m f-md">Datenschutz</a>
+      </div>
+    </div>
+
+    <div class="logo">
+      <img src="images/logos/mutik.svg" alt="mutik" style="width: 100px; ">
+      <img src="images/logos/stiftung-mercator.png" alt="stiftung-mercator" style="width: 120px; ">
+      <img src="images/logos/taz_logo.svg" alt="taz_logo" style="width: 140px; ">
+    </div>
+
+  </section>
+
+
+
+
+  <!-- ____________________ Javascript  ________________________________________
+
+  -->
+
+
+
+<script src="js/anime.js"></script>
+<script src="js/start_animation_new.js"></script>
+<script src="js/start-menu-diagram.js"></script>

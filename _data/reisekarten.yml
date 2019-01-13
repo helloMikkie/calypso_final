@@ -1,0 +1,50 @@
+- sub: start
+  front: Idee und Thema
+  back: Haben wir ein Thema?
+  aufgabe: 1
+- sub: start
+  front: Bewegungen (er)finden
+  back: Wie entwickeln wir Bewegungen? <br> Imitieren? <br> Improvisieren? <br> Erfinden?
+  aufgabe: 0
+- sub: start
+  front: ausprobieren
+  back: "Raum: Richtungen? Ebenen? <br> Zeit: Schnell? Langsam? Wiederholungen? Bewegungsqualitäten: Rund? Eckig? <br> Beziehung: alleine? Zu zweit? In einer Gruppe? Mit einem Objekt?"
+  aufgabe: 0
+- sub: start
+  front: Experiment
+  back: "?"
+  aufgabe: 1
+
+- sub: mittendrin
+  front: Bewegungsabläufe <br>gestalten
+  back: "Gibt es ein Anfang, ein Mittelteil und ein Ende? <br> Gibt es Übergänge?"
+  aufgabe: 0
+- sub: mittendrin
+  front: auswählen
+  back: "Was war cool? <br> Für was entscheiden wir uns? <br> Warum?"
+  aufgabe: 1
+- sub: mittendrin
+  front: Musik
+  back: "Welche Musik passt? <br />Brauchen wir Musik? <br />Tanzen wir auch in Stille?"
+  aufgabe: 0
+- sub: mittendrin
+  front: Reihenfolge
+  back: "Haben wir eine Reihenfolge? <br />Vertauschen wir die Reihenfolge?"
+  aufgabe: 0
+
+- sub: endspurt
+  front: üben
+  back: "Üben, Üben, Üben"
+  aufgabe: 0
+- sub: endspurt
+  front: Was fehlt dir?
+  back: "Kostüme, Objekte, Bühnenbild, Texte, Videos, Bilderprojektionen … <br /> Was passt zum Thema?"
+  aufgabe: 0
+- sub: endspurt
+  front: entscheiden
+  back: "Was begeistert? <br /> Was ist spannend?"
+  aufgabe: 1
+- sub: endspurt
+  front: ausführen
+  back: "Wo führen wir auf? <br /> Wo befinden sich die Zuschauer?"
+  aufgabe: 1

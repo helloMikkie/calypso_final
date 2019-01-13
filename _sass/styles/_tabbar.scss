@@ -1,0 +1,61 @@
+.tabContainer{
+  height: 600px;
+  background-color: #E7E6E3;
+  border-radius: 4px;
+}
+
+.tabContainer-2{
+
+  height: auto;
+  background-color: #E7E6E3;
+  border-radius: 4px;
+}
+
+
+.tabbar {
+    overflow: hidden;
+    background-color: #fff;
+
+}
+
+.subTab {
+      overflow: hidden;
+      // display: none;
+      border-radius: 4px;
+
+
+}
+.subTab.open{
+  display: block;
+}
+
+
+
+.tabbar button, .subTab button{
+    background-color: transparent;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+.tabbar button.active{
+  color: #000;
+}
+.subTab button.active{
+  color: #000;
+}
+
+
+// TabContent
+
+.tabcontent {
+    height: auto;
+}
+
+@keyframes showContent {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}

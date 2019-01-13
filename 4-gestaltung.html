@@ -1,0 +1,238 @@
+---
+layout: page_chapter4
+title: Tanz und Gestaltung
+ziel-nr: 4
+color: "#f89700"
+text-color: "#ee8f01"
+ziel-title: thematisieren
+intro: "Im Fokusfeld Tanz und andere Künste richten die Schüler*innen ihre Aufmerksamkeit auf die Schnittmengen zwischen zeitgenössischem Tanz und anderenkünstlerischen Ausdrucksformen. Denn Interdisziplinarität ist ein wesentliches Merkmal von zeitgenössischem Tanz. In diesem Sinne wird sich physisch und kognitiv mit den Gemeinsamkeiten von darstellenden und nicht-darstellenden Künsten auseinandergesetzt. Impulseaus den Bereichen anderer darstellenden Künste, der bildenden Kunst, der Musik und der Literatur erweitern das Feld der gestalterischen Möglichkeiten und werden zu Inspiration. Beispielsweise kann Poetry Slam inhaltlich, durch Reimrhythmus und Sprachklang tänzerische Improvisation inspirieren. Die Verbindung von verschiedenen Künsten führt zu einer Entdeckungsreise, welche die Voraussetzung bildet, mögliche Synergien zu erforschen, zu erfahren und sichtbar zu machen. Der zeitgenössische Tanz verbindet sich mit anderen künstlerischen Ausdrucksformen und ermöglicht somit den Schüler*innen die Gestaltung und Erfahrung von neuartigem Körper- und Tanzwissen."
+hero: images/hero/4-hero-gestaltung.png
+tipp-eins: Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
+tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
+---
+
+<!-- Header bar -->
+  <header class="headerBar">
+    <span style="color: {{ page.color}}" >{{ page.ziel-title }}</span> {{ page.title }}
+  </header>
+
+<!-- Ziel-Nummer  -->
+  <div class="page-number euclid-m" style="color: {{page.color}}">{{ page.ziel-nr }}</div>
+
+<!-- Hinweis -->
+  <article class="hinweis">
+    <div class="hinweisContent">
+      <p>Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+      <ul>
+        <li>Dauer:</li>
+        <li>Material:</li>
+      </ul>
+    </div>
+    <div class="hinweisButton" style="background-color: {{page.color}}"></div>
+  </article>
+
+<!-- subNav footer -->
+
+
+<article class="subnavigation">
+  <ul>
+    <li><a href="#scrollTo-eins"  class="subnavTab pb3 color-4 no-underline f-s">Intro</a></li>
+    <li><a href="#scrollTo-zwei"  class="subnavTab pb3 color-4 no-underline f-s">Tänzer*innen</a></li>
+    <li><a href="#scrollTo-drei"  class="subnavTab pb3 color-4 no-underline f-s">Zeit</a></li>
+    <li><a href="#scrollTo-vier"  class="subnavTab pb3 color-4 no-underline f-s">Raum</a></li>
+    <li><a href="#scrollTo-fuenf"  class="subnavTab pb3 color-4 no-underline f-s">Musik</a></li>
+    <li><a href="#scrollTo-sechs" class="subnavTab pb3 color-4 no-underline f-s">Ausdruck</a></li>
+    <li><a href="#scrollTo-sieben" class="subnavTab pb3 color-4 no-underline f-s">Komposition</a></li>
+  </ul>
+</article>
+
+<!-- hero Material -->
+
+<div class="hero-material" >
+    <div class="hero-image" style="background-image: url({{page.hero}});"></div>
+
+      <div class="hero-material-title">
+        <h1 class=" euclid-m ml4 mv0">{{ page.title }}</h1>
+      </div>
+</div>
+
+<!-- Introtext -->
+
+<div class="wrapper" id="scrollTo-eins">
+  <article class="intro color-gray pa2  mv6 f-lg lh-md euclid-m">
+  {{ page.intro }}
+  </article>
+</div>
+
+
+
+<!-- Körper -->
+  <section class="mv5" id="scrollTo-zwei">
+
+      <article class=" sectionTitle odd pa3">
+        <h1 class="mv0 pt2 euclid-m f-xl tracked">Tänzer*innen</h1>
+      </article>
+
+      <article class="sectionBack pa3 mb3">
+
+          <h2 class="tc f-xl" style="color:{{page.text-color}}">Gruppenformation</h2>
+        <div class="content center" >
+          {{ site.themenfelder | where:"thema" , "gruppenformation" }}
+        </div>
+      </article>
+
+        <article class="sectionBack pa3 mb3">
+          <div class=" pa3 flex items-center justify-center">
+            <h2 class="tc f-xl" style="color:{{page.text-color}}">Räumlich/Zeitlicher Bezug</h2>
+            <button class="open-modal ml3 flipcardButton" onclick="openModal(event,'bezug')"></button>
+        </div>
+          <div class="content center ">
+            {{ site.themenfelder | where:"thema" , "bezug" }}
+          </div>
+        </article>
+
+        <article class="sectionBack pa3 mb3">
+          <h2 class="tc f-xl" style="color:{{page.text-color}}">Aufstellungen</h2>
+          <div class="content center ">
+            {{ site.themenfelder | where:"thema" , "aufstellungen" }}
+          </div>
+        </article>
+
+        <article class="sectionBack pa3 mb3">
+          <h2 class="tc f-xl" style="color:{{page.text-color}}">Publikumsbezug</h2>
+          <div class="content center ">
+            {{ site.themenfelder | where:"thema" , "publikumsbezug" }}
+          </div>
+        </article>
+
+  </section>
+
+<!-- Bildende Kunst -->
+  <section class="mv5" id="scrollTo-drei">
+
+    <article class=" sectionTitle pa3">
+      <h1 class="mv0 pt2 euclid-m f-xl tracked">Zeit</h1>
+    </article>
+
+    <article class="w-100 pa3">
+      <div class="  pa3 flex items-center justify-center">
+        <h2 class="tc f-xl" style="color:{{page.text-color}}">Rhythmisierung</h2>
+        <button class="open-modal ml3 flipcardButton" onclick="openModal(event,'rhythmisierung')"></button>
+    </div>
+      <div class="content center ">
+        {{ site.themenfelder | where:"thema" , "rhythmisierung" }}
+      </div>
+    </article>
+
+    <article class="w-100 pa3 ">
+        <h2 class="tc f-xl" style="color:{{page.text-color}}">Bearbeitung</h2>
+      <div class="content center">
+        {{ site.themenfelder | where:"thema" , "bearbeitung" }}
+      </div>
+    </article>
+
+
+  </section>
+
+<!-- Musikalische Formen -->
+
+  <section class="mv5" id="scrollTo-vier">
+
+    <article class="sectionTitle odd pa3">
+      <h1 class="mv0 pt2 tc ttu euclid-m f-xl tracked">Raum</h1>
+    </article>
+
+    <article class=" sectionBack pa3 mb3 ">
+        <h2 class=" tc f-xl" style="color:{{page.text-color}}">Formationen</h2>
+      <div class="content center ">
+        {{ site.themenfelder | where:"thema" , "formationen" }}
+      </div>
+    </article>
+
+    <article class="sectionBack pa3 mb3 ">
+      <div class="pa3 flex items-center justify-center">
+        <h2 class=" tc f-xl" style="color:{{page.text-color}}">Wege</h2>
+        <button class="open-modal  ml3 flipcardButton" onclick="openModal(event,'wege')"></button>
+      </div>
+      <div class="content center ">
+        {{ site.themenfelder | where:"thema" , "wege" }}
+      </div>
+    </article>
+
+    <article class="sectionBack pa3 mb3  ">
+        <h2 class=" tc f-xl" style="color:{{page.text-color}}">Position</h2>
+      <div class="content center ">
+        {{ site.themenfelder | where:"thema" , "position" }}
+      </div>
+    </article>
+
+  </section>
+
+<!-- Epik -->
+
+  <section class="mv5" id="scrollTo-fuenf">
+
+    <article class="sectionTitle pa3 ">
+      <h1 class="mv0 pt2 tc ttu euclid-m f-xl tracked">Musik</h1>
+    </article>
+
+    <article class="w-100 pa3">
+      <div class="pa3 flex items-center justify-center">
+        <button class="open-modal  ml3 flipcardButton" onclick="openModal(event,'musik')"></button>
+      </div>
+      <div class="content center ">
+        {{ site.themenfelder | where:"thema" , "musik" }}
+      </div>
+    </article>
+
+  </section>
+
+  <!-- Epik -->
+
+    <section class="mv5" id="scrollTo-sechs">
+
+      <article class="sectionTitle odd pa3 ">
+        <h1 class="mv0 pt2 tc ttu euclid-m f-xl tracked">Ausdruck</h1>
+      </article>
+
+      <article class="sectionBack pa3 mb3">
+        <div class="pa3 flex items-center justify-center">
+          <button class="open-modal  ml3 flipcardButton" onclick="openModal(event,'ausdruck')"></button>
+        </div>
+        <div class="content center ">
+          {{ site.themenfelder | where:"thema" , "ausdruck" }}
+        </div>
+      </article>
+
+    </section>
+
+      <!-- Komposition -->
+
+    <section class="mv5" id="scrollTo-sieben">
+
+      <!-- Tab Komponente -->
+
+    </section>
+
+
+  <!-- scrollTop Button -->
+              <div class="scrolltoTop" style="background-color:{{page.color}};" >
+                    <a href="#scrollTo-eins" class="topScroll no-underline" ></a>
+                </div>
+
+  <!-- Modal "Aufgabe" -->
+
+  {{ site.modals | where:"thema" , "Bezug" }}
+  {{ site.modals | where:"thema" , "Rhythmisierung" }}
+  {{ site.modals | where:"thema" , "Wege" }}
+  {{ site.modals | where:"thema" , "Musik" }}
+  {{ site.modals | where:"thema" , "Ausdruck" }}
+
+
+
+
+    <script src="js/modal.js"></script>
+    <script src="js/subnav.js"></script>
+    <script src="js/subnav_taglist.js"></script>
+    <!-- <script src="js/avatar.js"></script> -->
+    <script src="js/header-scroll.js"></script>

@@ -1,0 +1,184 @@
+---
+layout: page_chapter3
+title: Klassenscan
+ziel-nr: 3
+color: "#A0B354"
+text-color: ""
+ziel-title: kennenlernen
+intro: "Freundschaften, Hierarchien, individuelle Bedürfnisse – jede Klasse ist anders! Der Klassenscan hilft dir dabei, die Klasse durch gezielte
+Fragen zu Lern- und Sozialverhalten, Motorik, Motivation und Inspiration differenziert zu beobachten und besser kennenzulernen.
+Deine Beobachtungen sind eine wichtige Grundlage für die Gestaltung des Projekts."
+hinweis: "Lies dir den Klassenscan vor Projektbeginn durch und nutze die Fragen, um die Klasse über die folgenden drei bis vier Unterrichtseinheiten genau zu beobachten.
+Gestalte den Unterricht so, dass du Informationen zu allen aufgeführten Aspekten sammeln kannst. Notiere deine Beobachtungen nach jeder Stunde."
+hero: images/hero/3-hero-klassenscan.png
+tipp-eins: Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
+tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
+---
+<!-- Header bar -->
+  <header class="headerBar">
+    <span style="color: {{ page.color}}" >{{ page.ziel-title }}</span> {{ page.title }}
+  </header>
+
+<!-- Ziel-Nummer  -->
+  <div class="page-number euclid-m" style="color: {{page.color}}">{{ page.ziel-nr }}</div>
+
+<!-- Hinweis -->
+  <article class="hinweis">
+    <div class="hinweisContent">
+      <p>{{page.hinweis}}</p>
+      <ul>
+        <li>Dauer:</li>
+        <li>Material:</li>
+      </ul>
+    </div>
+    <div class="hinweisButton" style="background-color: {{page.color}}"></div>
+  </article>
+
+<!-- subNav footer -->
+
+<article class="subnavigation short">
+    <ul class=" ">
+      <li><a href="#scrollTo-eins" class="subnavTab pb3 color-3 no-underline f-s">Intro</a></li>
+      <li><a href="#scrollTo-zwei" class="subnavTab pb3 color-3 no-underline f-s">Starten</a></li>
+    </ul>
+
+    <ul class="rightSubNav">
+      <li><a href="#scrollTo-acht" class="subnavTab pb3 color-3 no-underline f-s">neue Frage</a></li>
+      <li><a href="#scrollTo-neun" class="subnavTab pb3 color-3 no-underline f-s">Drucken</a></li>
+    </ul>
+</article>
+
+<!-- hero-Material -->
+
+<div class="hero-material" >
+    <div class="hero-image" style="background-image: url({{page.hero}});"></div>
+
+      <div class="hero-material-title">
+        <h1 class="euclid-m mv0">{{ page.title }}</h1>
+      </div>
+</div>
+
+
+<!-- Introtext -->
+  <div class="wrapper" id="scrollTo-eins">
+    <article class="intro color-gray pa2  mv6 f-lg lh-md euclid-m">
+    {{ page.intro }}
+    </article>
+  </div>
+
+<!-- Content -->
+
+<section class="mv5" id="scrollTo-zwei">
+    <article class="sectionTitle odd">
+      <h1 class="mv0 pt3 euclid-m f-xl tracked">Lernverhalten</h1>
+    </article>
+    <article class="sectionBack pa3">
+        <div class="description ph3 lh-copy ls-small euclid-r">
+          <p>	Wähle zunächst eine der drei Hauptkategorien
+              Entscheide dich für eine der vier Unterkategorien
+              Wähle einen Begriff
+              Formuliere Fragen zu dem ausgewählten Begriff.
+              Was genau interessiert dich daran? Warum?</p>
+        </div>
+          <div class="wrapper">
+            {{ site.fragen | where:"thema" , "3_lernverhalten"  }}
+          </div>
+    </article>
+  </section>
+
+
+  <section class=" mv5">
+      <article class="sectionTitle">
+        <h1 class="mv0 pt2 euclid-m f-xl tracked">Sozialverhalten</h1>
+      </article>
+      <article class="w-100 pa3">
+          <div class="wrapper">
+            {{ site.fragen | where:"thema" , "3_sozialverhalten"  }}
+          </div>
+      </article>
+    </section>
+
+<!-- Diese Section ist mit Avatar-Tipp -->
+
+    <section class=" mv5"  data-tipp="{{ page.tipp-eins }}">
+        <article class="sectionTitle odd">
+          <h1 class="mv0 pt2  euclid-m f-xl tracked">Motorik</h1>
+        </article>
+
+        <article class="sectionBack pa3">
+              <div class="wrapper">
+                {{ site.fragen | where:"thema" , "3_motorik"  }}
+              </div>
+        </article>
+      </section>
+
+      <section class=" mv5" >
+          <article class="sectionTitle">
+            <h1 class="mv0 pt2  euclid-m f-xl tracked">Energie/Motivation</h1>
+          </article>
+          <article class="w-100 pa3">
+              <div class="wrapper">
+                {{ site.fragen | where:"thema" , "3_energie"  }}
+              </div>
+          </article>
+        </section>
+
+    <!-- Diese Section ist mit Avatar-Tipp -->
+
+        <section class=" mv5" data-tipp="{{ page.tipp-zwei }}" >
+            <article class="sectionTitle odd  ">
+              <h1 class="mv0 pt2 euclid-m f-xl tracked">Wesen/Inspiration</h1>
+            </article>
+
+            <article class="sectionBack pa3">
+                  <div class="wrapper">
+                    {{ site.fragen | where:"thema" , "3_wesen"  }}
+                  </div>
+            </article>
+          </section>
+
+
+
+<!-- neue Frage -->
+            <section class="mv5" id="scrollTo-acht">
+                <button class="open-modal db center white f-md  pv4 ph5 bn br1 euclid-m" style="background-color:{{page.color}};" onclick="openModal(event,'planungstreffen-modal')">neue Frage hinzufügen</button>
+            </section>
+
+<!-- Drucken -->
+
+          <section class=" mv5" id="scrollTo-neun">
+            <div class="wrapper">
+              {{ site.drucken | where:"thema" , "klassenscan"  }}
+            </div>
+          </section>
+<!-- scrollTop Button -->
+            <div class="scrolltoTop" style="background-color:{{page.color}};" >
+                  <a href="#scrollTo-eins" class="topScroll no-underline" ></a>
+              </div>
+<!-- ************** -->
+
+    <!-- Modal "Frage erstellen" -->
+    {{ site.modals | where:"thema" , "chapter_3" }}
+
+
+    <!-- Avatar-tipp -->
+
+    <div class="avatar" style="background-color: {{page.color}}">
+      <div class="face">
+      <!-- <img src="images/icons/avatar_2.png" alt="avatar"> -->
+        </div>
+      <div class="avatar-tipp" style="background-color: {{ page.color}}">
+
+      </div>
+    </div>
+
+
+    <!--  javascript -->
+
+    <script src="js/subnav.js"></script>
+    <script src="js/subnav_taglist.js"></script>
+
+    <script src="js/modal.js"></script>
+    <script src="js/fragenOpen.js"></script>
+    <script src="js/avatar.js"></script>
+    <script src="js/header-scroll.js"></script>

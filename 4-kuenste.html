@@ -1,0 +1,248 @@
+---
+layout: page_chapter4
+title: Tanz und andere Künste
+ziel-nr: 4
+color: "#f89700"
+text-color: "#ee8f01"
+ziel-title: thematisieren
+intro: "Im Fokusfeld Tanz und andere Künste richten die Schüler*innen ihre Aufmerksamkeit auf die Schnittmengen zwischen zeitgenössischem Tanz und anderenkünstlerischen Ausdrucksformen. Denn Interdisziplinarität ist ein wesentliches Merkmal von zeitgenössischem Tanz. In diesem Sinne wird sich physisch und kognitiv mit den Gemeinsamkeiten von darstellenden und nicht-darstellenden Künsten auseinandergesetzt. Impulseaus den Bereichen anderer darstellenden Künste, der bildenden Kunst, der Musik und der Literatur erweitern das Feld der gestalterischen Möglichkeiten und werden zu Inspiration. Beispielsweise kann Poetry Slam inhaltlich, durch Reimrhythmus und Sprachklang tänzerische Improvisation inspirieren. Die Verbindung von verschiedenen Künsten führt zu einer Entdeckungsreise, welche die Voraussetzung bildet, mögliche Synergien zu erforschen, zu erfahren und sichtbar zu machen. Der zeitgenössische Tanz verbindet sich mit anderen künstlerischen Ausdrucksformen und ermöglicht somit den Schüler*innen die Gestaltung und Erfahrung von neuartigem Körper- und Tanzwissen."
+hero: images/hero/4-hero-kuenste.png
+tipp-eins: Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
+tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
+---
+
+<!-- Header bar -->
+  <header class="headerBar">
+    <span style="color: {{ page.color}}" >{{ page.ziel-title }}</span> {{ page.title }}
+  </header>
+
+<!-- Ziel-Nummer  -->
+  <div class="page-number euclid-m" style="color: {{page.color}}">{{ page.ziel-nr }}</div>
+
+<!-- Hinweis -->
+  <article class="hinweis">
+    <div class="hinweisContent">
+      <p>Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+      <ul>
+        <li>Dauer:</li>
+        <li>Material:</li>
+      </ul>
+    </div>
+    <div class="hinweisButton" style="background-color: {{page.color}}"></div>
+  </article>
+
+<!-- subNav footer -->
+
+
+<article class="subnavigation">
+  <ul>
+    <li><a href="#scrollTo-eins"  class="subnavTab pb3 color-4 no-underline f-s">Intro</a></li>
+    <li><a href="#scrollTo-zwei"  class="subnavTab pb3 color-4 no-underline f-s">Darstellende Kunst</a></li>
+    <li><a href="#scrollTo-drei"  class="subnavTab pb3 color-4 no-underline f-s">Bildende Kunst</a></li>
+    <li><a href="#scrollTo-vier"  class="subnavTab pb3 color-4 no-underline f-s">Musik</a></li>
+    <li><a href="#scrollTo-fuenf" class="subnavTab pb3 color-4 no-underline f-s">Literatur</a></li>
+    <li><a href="#scrollTo-sechs" class="subnavTab pb3 color-4 no-underline f-s">Komposition</a></li>
+  </ul>
+</article>
+
+<!-- hero Material -->
+
+<div class="hero-material" >
+    <div class="hero-image" style="background-image: url({{page.hero}});"></div>
+
+      <div class="hero-material-title">
+        <h1 class=" euclid-m ml4 mv0">{{ page.title }}</h1>
+      </div>
+</div>
+
+<!-- Introtext -->
+
+<div class="wrapper" id="scrollTo-eins">
+  <article class="intro color-gray pa2  mv6 f-lg lh-md euclid-m">
+  {{ page.intro }}
+  </article>
+</div>
+
+
+
+<!-- Darstellende Kunst -->
+
+  <section class="mv5" id="scrollTo-zwei">
+
+      <article class=" sectionTitle odd pa3">
+        <h1 class="mv0 pt2 euclid-m f-xl tracked">Darstellende Kunst</h1>
+      </article>
+
+      <article class="sectionBack pa3 mb3">
+        <div class="  pa3 flex items-center justify-center">
+          <h2 class=" dib mh0 f-xl " style="color:{{page.text-color}}">Theater</h2>
+          <button class="open-modal ml3 flipcardButton" onclick="openModal(event,'theater')"></button>
+      </div>
+
+        <div class="content center" >
+          {{ site.themenfelder | where:"thema" , "theater" }}
+        </div>
+      </article>
+
+        <article class="sectionBack pa3 mb3">
+          <h2 class="tc f-xl" style="color:{{page.text-color}}">Medienkunst</h2>
+          <div class="content center ">
+            {{ site.themenfelder | where:"thema" , "medienkunst" }}
+          </div>
+        </article>
+
+        <article class="sectionBack pa3 mb3">
+          <h2 class="tc f-xl" style="color:{{page.text-color}}">Konzeptkunst</h2>
+          <div class="content center ">
+            {{ site.themenfelder | where:"thema" , "konzeptkunst" }}
+          </div>
+        </article>
+
+  </section>
+
+<!-- Bildende Kunst -->
+
+  <section class="mv5" id="scrollTo-drei">
+
+    <article class=" sectionTitle pa3">
+      <h1 class="mv0 pt2 euclid-m f-xl tracked">Bildende Kunst</h1>
+    </article>
+
+    <article class="w-100 pa3">
+      <div class="pa3 flex items-center justify-center">
+        <h2 class=" dib mh0 f-xl " style="color:{{page.text-color}}">Malerei</h2>
+        <button class="open-modal  ml3 flipcardButton" onclick="openModal(event,'malerei')"></button>
+    </div>
+      <div class="content center ">
+        {{ site.themenfelder | where:"thema" , "malerei" }}
+      </div>
+    </article>
+
+    <article class="w-100 pa3 ">
+      <div class="pa3 flex items-center justify-center">
+        <h2 class=" dib mh0 f-xl " style="color:{{page.text-color}}">Bildhauerei</h2>
+    </div>
+      <div class="content center">
+        {{ site.themenfelder | where:"thema" , "bildhauerei" }}
+      </div>
+    </article>
+
+    <article class="w-100 pa3 ">
+      <div class="pa3 flex items-center justify-center">
+        <h2 class=" dib mh0 f-xl " style="color:{{page.text-color}}">Graphik/Zeichnung</h2>
+    </div>
+      <div class="content center">
+        {{ site.themenfelder | where:"thema" , "graphik" }}
+      </div>
+    </article>
+
+    <article class="w-100 pa3 ">
+      <div class="pa3 flex items-center justify-center">
+      <h2 class=" dib mh0 f-xl " style="color:{{page.text-color}}">Fotografie</h2>
+      <button class="open-modal  ml3 flipcardButton" onclick="openModal(event,'fotografie')"></button>
+    </div>
+      <div class="content center">
+        {{ site.themenfelder | where:"thema" , "fotografie" }}
+      </div>
+    </article>
+
+    <article class="w-100 pa3 ">
+      <div class="pa3 flex items-center justify-center">
+        <h2 class=" dib mh0 f-xl " style="color:{{page.text-color}}">Architektur</h2>
+    </div>
+      <div class="content center">
+        {{ site.themenfelder | where:"thema" , "architektur" }}
+      </div>
+    </article>
+
+  </section>
+
+
+<!-- Musik -->
+
+  <section class="mv5" id="scrollTo-vier">
+
+    <article class=" sectionTitle odd pa3 ">
+      <h1 class="mv0 pt2 tc ttu euclid-m f-xl tracked">Musik</h1>
+    </article>
+
+    <article class="sectionBack pa3 mb3">
+      <div class="pa3 flex items-center justify-center">
+        <button class="open-modal  ml3 flipcardButton" onclick="openModal(event,'musik')"></button>
+      </div>
+      <div class="content center ">
+        {{ site.themenfelder | where:"thema" , "musik" }}
+      </div>
+    </article>
+
+  </section>
+
+
+
+<!-- Literatur -->
+
+  <section class="mv5" id="scrollTo-fuenf">
+
+    <article class="sectionTitle pa3 ">
+      <h1 class="mv0 pt2 tc ttu euclid-m f-xl tracked">Literatur</h1>
+    </article>
+
+    <article class="w-100 pa3">
+      <div class="pa3 flex items-center justify-center">
+        <button class="open-modal  ml3 flipcardButton" onclick="openModal(event,'literatur')"></button>
+      </div>
+      <div class="content center ">
+        {{ site.themenfelder | where:"thema" , "literatur" }}
+      </div>
+    </article>
+
+  </section>
+
+
+<!--  -->
+
+  <!-- Komposition  -->
+    <article class="mv5" id="scrollTo-sechs">
+
+      <article class=" pa3 mw7 center bg-white ">
+      <h1 class="mv0 pt2 tc ttu euclid-m f-xl tracked">Komposition</h1>
+    </article>
+
+
+    <article class="center bg-white pv4 ">
+
+      <div class="description ph3 pb4 lh-copy ls-small euclid-r">
+        <p>	Wenn Du Begriffe aus verschiedenen Kategorien miteinander verbindest entsteht Komposition. Dabei kannst Du Schwerpunkte setzen,
+          indem Du eine Kategorie stärker berücksichtigst als eine andere. Du kannst außerdem Begriffe aus unterschiedlichen Fokusfeldern miteinander
+          in Beziehung setzen. Deinem Spiel sind hierbei keine Grenzen gesetzt. </p><p>Nutze die Karten um selbst Choreografien für die Schüler*innen
+          zu entwickeln oder Kompositionsaufgaben für die Schüler*innen zu formulieren. </p>
+          <p>Außerdem kannst Du die Schüler*innen eigene Begriffe wählen und eigenständig choreografieren lassen.</p>
+      </div>
+      {{ site.spieloptionen | where:"title", "komposition"}}
+    </article>
+  </article>
+
+
+
+
+
+  <!-- scrollTop Button -->
+              <div class="scrolltoTop" style="background-color:{{page.color}};" >
+                    <a href="#scrollTo-eins" class="topScroll no-underline" ></a>
+                </div>
+
+  <!-- Modal "Aufgabe" -->
+
+  {{ site.modals | where:"thema" , "Theater" }}
+  {{ site.modals | where:"thema" , "Malerei" }}
+  {{ site.modals | where:"thema" , "Fotografie" }}
+  {{ site.modals | where:"thema" , "Musik" }}
+  {{ site.modals | where:"thema" , "Literatur" }}
+
+
+    <script src="js/tabbar.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/subnav.js"></script>
+    <script src="js/subnav_taglist.js"></script>
+    <!-- <script src="js/avatar.js"></script> -->
+    <script src="js/header-scroll.js"></script>

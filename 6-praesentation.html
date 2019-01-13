@@ -1,0 +1,102 @@
+---
+layout: page_chapter6
+title: Präsentation
+ziel-nr: 6
+ziel-title: choreografieren
+color: "#C27AC8"
+intro: "Zu einem Tanzprojekt gehört abschließend auch eine Präsentation. Da Präsentationen ganz unterschiedlich aussehen können,
+ist es sinnvoll, dass du dein Konzept schon während des Projektverlaufs darauf abstimmst. Wir geben hier einen Überblick über verschiedene
+Möglichkeiten und Formate einer Vorführung und zeigen ihre jeweiligen Besonderheiten und Herausforderungen für die Beteiligten."
+hinweis: "Lass dich von unseren Beispielen inspirieren und experimentiere auch mit verschiedenen Formaten. Wähle eine Präsentationsform, die zu deiner Klasse und deinem choreografischen Material passt."
+hero: images/hero/6-hero-praesentation.png
+---
+
+<!-- Header bar -->
+<header class="headerBar">
+  <span style="color: {{ page.color}}">{{ page.ziel-title }}</span> {{ page.title }}
+</header>
+
+<!-- Ziel-Nummer  -->
+<div class="page-number euclid-m" style="color: {{ page.color}}">{{ page.ziel-nr }}</div>
+
+<!-- Hinweis -->
+<article class="hinweis">
+  <div class="hinweisContent">
+    <p>Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+    <ul>
+      <li>Dauer:</li>
+      <li>Material:</li>
+    </ul>
+  </div>
+  <div class="hinweisButton" style="background-color: {{page.color}}"></div>
+</article>
+
+<!-- subnavigation footer -->
+
+<article class="subnavigation">
+  <ul>
+    <li><a href="#scrollTo-eins" class="subnavTab  pb3 color-6 no-underline f-s">Intro</a></li>
+    <li><a href="#scrollTo-zwei" class="subnavTab  pb3 color-6 no-underline f-s">Präsentationsoptionen</a></li>
+  </ul>
+</article>
+
+<!-- hero Material -->
+
+<div class="hero-material">
+  <div class="hero-image" style="background-image: url({{page.hero}});"></div>
+
+  <div class="hero-material-title">
+    <h1 class=" euclid-m ml4 mv0">{{ page.title }}</h1>
+  </div>
+</div>
+
+<!-- Intro -->
+<section>
+<div class="wrapper" id="scrollTo-eins">
+  <article class="intro color-gray pa2  mv6 f-lg lh-md euclid-m">
+    {{ page.intro }}
+  </article>
+</div>
+</section>
+<!-- Content  -->
+
+<section class="mv5 " id="scrollTo-zwei">
+  <article class=" sectionTitle odd">
+    <h1 class="mv0 pt3 euclid-m f-xl tracked">Präsentationsoptionen</h1>
+  </article>
+  <article class="sectionBack pa3">
+
+    <div class="wrapper">
+      {{ site.praesentation | where:"thema" , "format"  }}
+
+      {{ site.praesentation | where:"thema" , "intern"  }}
+
+      {{ site.praesentation | where:"thema" , "lecture"  }}
+
+      {{ site.praesentation | where:"thema" , "oeffentlich"  }}
+    </div>
+
+  </article>
+</section>
+
+
+<!-- scrollTop Button -->
+<div class="scrolltoTop" style="background-color:{{page.color}};">
+  <a href="#scrollTo-eins" class="topScroll no-underline"></a>
+</div>
+
+
+{{ site.modals | where:"thema" , "format" }}
+{{ site.modals | where:"thema" , "intern" }}
+{{ site.modals | where:"thema" , "lecture" }}
+{{ site.modals | where:"thema" , "oeffentlich" }}
+
+
+
+
+<!--  js -->
+  <script src="js/modal.js"></script>
+<script src="js/subnav.js"></script>
+<script src="js/subnav_taglist.js"></script>
+<!-- <script src="js/avatar.js"></script> -->
+<script src="js/header-scroll.js"></script>

@@ -1,0 +1,183 @@
+@media screen, projection {
+
+// Define variables in _variables.scss
+// Then create classes that refer to them here
+// Then use these class names in your HTML
+
+// Example: create an alternative sans-serif class
+// Define $c-sans-serif in _variables.scss
+// Then create a c-sans-serif class here
+// Like so:
+
+
+
+body{
+  background-color: #E7E6E3;
+  font-family: euclid-r;
+}
+
+.sectionBack{
+  width: 100%;
+  background-color: #fff;
+}
+.sectionTitle{
+  margin:0 auto;
+  max-width: 50%;
+  padding: 2em;
+}
+
+
+.sectionTitle.odd{
+  background-color: #fff;
+}
+
+.sectionTitle h1{
+  text-transform: uppercase;
+  text-align: center;
+
+}
+
+.wrapper{
+  max-width: 1024px;
+  padding: 1em 2em;
+  margin: 3em auto;
+}
+
+.description{
+  margin: 0 auto;
+  max-width: 40%;
+}
+
+button{
+  outline: none;
+}
+.translate-mid{
+  transform: translate(-50%,0);
+}
+
+.bw0 { border-width: 0; }
+.bw1 { border-width: .125rem; }
+.bw2 { border-width: .25rem; }
+.bw3 { border-width: .5rem; }
+.bw4 { border-width: 1rem; }
+.bw5 { border-width: 2rem; }
+
+
+.thumbnail{
+  position: absolute;
+  top: -80px;
+  left: -80px;
+  border-radius: 50%;
+  display: inline-block;
+  width: 160px;
+  height: 160px;
+}
+
+.card {
+  position: relative;
+    width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 8em;
+  background-color: #fff;
+  transition: all 0.2s;
+  border-radius: 4px;
+}
+
+.card-text{
+  position: relative;
+    width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 8em;
+  margin-top: 12em;
+  background-color: #fff;
+  transition: all 0.2s;
+  border-radius: 4px;
+  padding: 3em 0 0;
+}
+.card:hover{
+ box-shadow: 8px 8px 24px  rgba(0,0,0,0.20);
+}
+
+.card.print{
+  max-width: 50%;
+}
+
+.card button{
+  background-color: #000;
+  border-radius: 4px;
+  position: absolute;
+  bottom: -2em;
+  color: #fff;
+  transform: translate(-50%,0);
+}
+
+.card-text button{
+  background-color: #000;
+  border-radius: 4px;
+  position: absolute;
+  bottom: -2em;
+  color: #fff;
+  transform: translate(-50%,0);
+}
+
+// Span Intro und allgemenin
+.intro span{
+  color: #000;
+}
+
+span.ch-1{
+  border-bottom: 3px solid #58B0E2;
+  padding-bottom: 1px;
+  cursor: pointer;
+}
+.intro .link.ch-1{
+  border-bottom: 3px solid #58B0E2;
+  padding-bottom: 2px;
+  cursor: pointer;
+}
+.intro .link.ch-2{
+  border-bottom: 3px solid #4CC8B2;
+  padding-bottom: 2px;
+  cursor: pointer;
+}
+.intro .link.ch-3{
+  border-bottom: 3px solid #58B0E2;
+  padding-bottom: 2px;
+  cursor: pointer;
+}
+.intro span.ch-4{
+  color: #ee8f01;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.intro span.ch-5{
+  color: #F3BE00;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.intro span.ch-6{
+  color: #F3BE00;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.intro span.ch-7{
+  color: #F3BE00;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+// Some empty media queries
+// Use these if you want to make responsive custom classes
+
+@media #{$breakpoint-not-small} {
+}
+
+@media #{$breakpoint-medium} {
+}
+
+@media #{$breakpoint-large} {
+}
+
+
+} // End the enclosing screen/projection media query

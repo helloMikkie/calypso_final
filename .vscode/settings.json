@@ -1,0 +1,12 @@
+{
+    "editor.hover.enabled": false,
+    "editor.letterSpacing": 0.3,
+    "editor.lineHeight": 20,
+    "editor.parameterHints.enabled": false,
+    "editor.renderLineHighlight": "none",
+    "editor.fontFamily": "Inconsolata, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.minimap.enabled": false,
+    "workbench.iconTheme": "eq-material-theme-icons-darker",
+    "git.ignoreLimitWarning": true
+}

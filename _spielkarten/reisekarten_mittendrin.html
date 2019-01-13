@@ -1,0 +1,28 @@
+---
+title: flip-card
+thema: mittendrin
+color: "#C27AC8"
+---
+
+{% for item in site.data.reisekarten %}
+{% if item.sub == "mittendrin" %}
+<article class="flip-card spiel relative  ">
+  <div class="flip-vorn  bg-white black z-1 absolute top left br2 flex justify-center items-center ttu euclid-m " style="border: 4px solid {{page.color}}">
+    <p class="">
+
+      {{ item.front}}
+    </p>
+  </div>
+  <div class="flip-hinten white z--1 absolute top left br2  euclid-r pa2 overflow-y-scroll" style="border: 4px solid {{page.color}}; background-color: {{ page.color }}">
+    <p class="mv0 lh-copy euclid-r ls-small">
+
+      {{ item.back }}
+
+    </p>
+  </div>
+  <div class="shadow"></div>
+
+
+</article>
+{% endif %}
+{% endfor %}

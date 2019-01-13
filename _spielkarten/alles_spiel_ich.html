@@ -1,0 +1,34 @@
+---
+title: flip-card
+thema: ich
+color: "#A0B354"
+---
+
+{% for item in site.data.alles_spiel %}
+{% if item.sub == "ich" %}
+<article class="flip-card spiel relative  ">
+  <div class="flip-vorn  bg-white black z-1 absolute top left br2 flex justify-center items-center ttu euclid-m " style="border: 4px solid {{page.color}}">
+    <p class="">
+
+      {{ item.front}}
+    </p>
+  </div>
+  <div class="flip-hinten white z--1 absolute top left br2  euclid-r pa2 overflow-y-scroll" style="border: 4px solid {{page.color}}; background-color: {{ page.color }}">
+    <p class="mv0 lh-copy euclid-r ls-small">
+
+      {{ item.back }}
+
+    </p>
+  </div>
+  <div class="shadow"></div>
+
+
+    {% if item.aufgabe == 1 %}
+      <div class="flipcardAufgabe">
+        <button class="open-modal flipcardButton" onclick="openModal(event,'ihre_interessen')"></button>
+      </div>
+    {% endif %}
+
+</article>
+{% endif %}
+{% endfor %}

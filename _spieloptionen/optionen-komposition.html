@@ -1,0 +1,101 @@
+---
+title: komposition
+color: "#f89700"
+---
+
+<section class="tabContainer mw8 center euclid-m">
+
+<div class="subTab " id="paarweise" style="background-color: {{page.color}}">
+  <button class="tablinks active euclid-m pa3 white" onclick="openTab(event,'solo')" style="background-color: {{page.color}}">Solo</button>
+  <button class="tablinks euclid-m pa3 white" onclick="openTab(event,'duett')" style="background-color: {{page.color}}">Duett</button>
+  <button class="tablinks euclid-m pa3 white" onclick="openTab(event,'gruppe')" style="background-color: {{page.color}}">Gruppe</button>
+</div>
+
+
+<!-- Tab content -->
+
+
+<!--  -->
+<div id="solo" class="tabcontent pa4">
+  <!-- <div class=" w5 mr4 dib v-top h-100">
+    <img src="images/spieloptionen/talkshow.png" alt="talkshow">
+  </div> -->
+  <div class=" w-100 dib ph5 v-top">
+    <h3 class="euclid-m f-xxl mt0 mb4">Solo</h3>
+    <ul class="list pl0">
+      <li class="mv3 lh-copy euclid-r">Wähle jeweils eine Karte mit einem Begriff aus mindestens vier unterschiedlichen Kategorien aus den Fokusfeldern „Tanz und Gestaltung“ und „Körper und Bewegung“ aus.  </li>
+      <li class="mv3 lh-copy euclid-r">zum Beispiel:
+
+        <li class="lh-copy euclid-m pl4 mv2">Körper und Bewegung - Kategorie Körper/Körperaktion: Gehen</li>
+        <li class="lh-copy euclid-m pl4 mv2">Körper und Bewegung - Kategorie Bewegungsqualität: schnell</li>
+        <li class="lh-copy euclid-m pl4 mv2">Körper und Bewegung - Kategorie Raum/Raumebenen: oben</li>
+        <li class="lh-copy euclid-m pl4 mv2">Tanz und Gestaltung - Kategorie Raum/Raumwege: Kreis</li>
+        <li class="lh-copy euclid-m pl4 mv2">Tanz und Gestaltung - Kategorie Zeit/Rhythmisierung: verlangsamen</li>
+
+
+      </li>
+      <li class="mv3 lh-copy euclid-r">Entwickle aus diesen Begriffen ein Solo.  </li>
+      <li class="mv3 lh-copy euclid-r">z.B. Anna geht/schnell/auf Zehenspitzen/im Kreis/und verlangsamt ihr Tempo am Ende ihrer Kreisbahn.</li>
+      <li class="mv3 lh-copy euclid-r">Finde eine eigene Übersetzung der Begriffe in Bewegung und probiere die Karten in unterschiedlichen Reihenfolgen aus.</li>
+    </ul>
+
+  </div>
+</div>
+
+<!--  -->
+
+<div id="duett" class="tabcontent pa4" style="display: none;">
+  <!-- <div class=" w5 mr4 dib v-top h-100">
+    <img src="images/spieloptionen/talkshow.png" alt="talkshow">
+  </div> -->
+  <div class=" w-100 dib ph5 v-top" style="overflow: scroll">
+    <h3 class="euclid-m f-xxl mt0 mb4">Duett</h3>
+    <ul class="list pl0">
+      <li class="mv3 lh-copy euclid-r">Wählt jeweils eine Karte mit einem Begriff aus mindestens vier unterschiedlichen Kategorien aus den Fokusfeldern „Tanz und Gestaltung“ und „Körper und Bewegung“ aus.</li>
+      <li class="mv3 lh-copy euclid-r">zum Beispiel:
+
+        <li class="lh-copy euclid-m pl4 mv2">Tanz und Gestaltung - Kategorie Tänzer*innen/Aufstellung: voreinander</li>
+        <li class="lh-copy euclid-m pl4 mv2">Körper und Bewegung - Kategorie Form/Formqualität: zu Boden sinken</li>
+        <li class="lh-copy euclid-m pl4 mv2">Körper und Bewegung - Kategorie Bewegungsqualität: langsam</li>
+        <li class="lh-copy euclid-m pl4 mv2">Körper und Bewegung - Kategorie Beziehung/zu anderen: Gewicht übernehmen</li>
+      </li>
+      <li class="mv3 lh-copy euclid-r">Entwickelt zu zweit aus diesen Begriffen ein Duett. </li>
+      <li class="mv3 lh-copy euclid-r">Z.B. Yilmaz und Mohammed stehen voreinander. Yilmaz sinkt zu Boden so langsam es geht. Mohammed verhilft ihm wieder zum Stand. Yilmaz und Mohammed stehen voreinander. Mohammed sinkt zu Boden so langsam es geht. Yilmaz verhilft ihm wieder zum Stand. </li>
+      <li class="mv3 lh-copy euclid-r">Findet eigene Übersetzungen der Begriffe in Bewegung und probiert die Karten in unterschiedlichen Reihenfolgen aus.</li>
+    </ul>
+
+  </div>
+</div>
+
+
+<!--  -->
+
+<div id="gruppe" class="tabcontent pa4" style="display: none;">
+  <!-- <div class=" w5 mr4 dib v-top h-100">
+    <img src="images/spieloptionen/talkshow.png" alt="talkshow">
+  </div> -->
+  <div class=" w-100 dib ph5 v-top" style="overflow: scroll">
+    <h3 class="euclid-m f-xxl mt0 mb4">Gruppe</h3>
+    <ul class="list pl0">
+      <li class="mv3 lh-copy euclid-r">Wählt jeweils eine Karte mit einem Begriff aus unterschiedlichen Kategorien von mehr als zwei unterschiedlichen Fokusfeldern aus.</li>
+      <li class="mv3 lh-copy euclid-r">zum Beispiel:
+
+        <li class="lh-copy euclid-m pl4 mv2">Tanz und Gestaltung - Kategorie Raum/Positionen: Nummer 1-9</li>
+        <li class="lh-copy euclid-m pl4 mv2">Tanz und Gesellschaft – Lebenswirklichkeit: Bewegungen aus dem Praktikum</li>
+        <li class="lh-copy euclid-m pl4 mv2">Tanz und Gestaltung - Kategorie Tänzer*innen/Formation: Linie</li>
+        <li class="lh-copy euclid-m pl4 mv2">Körper und Bewegung – Bewegungsqualität: schnell/langsam</li>
+      </li>
+      <li class="mv3 lh-copy euclid-r">Bringt die Karten in eine sinnvolle Reihenfolge und entwickelt daraus einen Bewegungsablauf. Entscheidet dabei welche Karten individuell und welche karten ihr als Gruppe umsetzen möchtet. Vereinbart Signale, durch die ihr Eure individuellen Aktionen mit den Gruppenaktionen verbinden könnt. </li>
+      <li class="mv3 lh-copy euclid-r">Z.B. Jede*r Schüler*in wählt 1 der 9 Positionen im Raum (siehe Übersicht) und tanzt auf einem dieser Punkte die Bewegungen aus dem Praktikum. Schüler*innen können sich dabei auch einen Punkt teilen. Auf ein verabredetes Signal hin (z.B. eine*r stampft auf den Boden) sammeln sich alle so schnell wie möglich auf einer Linie im Raum.  Auf ein weiteres Signal hin bewegen sich alle Schüler*innen in Zeitlupe am Boden auf ihren individuellen Ausgangspunkt zurück.</li>
+
+    </ul>
+
+  </div>
+</div>
+
+
+
+
+
+
+</section>

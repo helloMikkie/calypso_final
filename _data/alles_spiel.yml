@@ -1,0 +1,76 @@
+- sub: ich
+  front: mein Leben
+  back: Vergangenheit<br>
+        Gegenwart<br>
+        Zukunft<br>
+        Fantasie-Leben
+  aufgabe: 1
+- sub: ich
+  front: meine Interessen
+  back: Meine Kultur <br>
+        Mein Alltag <br>
+        Meine Hobbies <br>
+        In der Schule <br>
+  aufgabe: 0
+- sub: ich
+  front: meine Bewegungen
+  back: Meine Lieblings-Moves <br>
+        Meine Lieblings-Tänze <br>
+        Meine Sportarten <br>
+  aufgabe: 0
+- sub: ich
+  front: meine Musik
+  back: Was ich höre <br>
+        Was ich spiele <br>
+        Musik aus meiner Kultur <br>
+  aufgabe: 1
+- sub: anderes
+  front: ihr*sein Leben
+  back: Vorbilder/Idole <br>
+        Ein Bekannter <br>
+        Ein Fremder <br>
+        Fantasie-Person <br>
+
+  aufgabe: 0
+- sub: anderes
+  front: ihre*seine Interessen
+  back: Die Kultur von jemand anderem <br>
+        Der Alltag von jemand anderem <br>
+  aufgabe: 1
+- sub: anderes
+  front: ihre*seine Bewegungen
+  back: Die Lieblings-Moves von jemand anderem <br>
+        Die Lieblings-Tänze von jemand anderm <br>
+        Die Lieblings-Sportarten von jemand anderm <br>
+  aufgabe: 0
+- sub: anderes
+  front: ihre*seine Musik
+  back: Was jemand anderes hört <br>
+        Was jemand anderes spielt <br>
+        Musik aus eine anderen Kultur <br>
+  aufgabe: 0
+- sub: welt
+  front: Weltgeschichte
+  back: Vergangenheit <br>
+        Gegenwart <br>
+        Zukunft <br>
+        Fantasie-Welt <br>
+  aufgabe: 0
+- sub: welt
+  front: Themen unserer Welt
+  back: Unsere Erde <br>
+        Fortschritt <br>
+        Konflikte <br>
+  aufgabe: 0
+- sub: welt
+  front: Was sich in der Welt bewegt
+  back: Wie sich Menschen bewegen <br>
+        Wie sich Natur bewegt <br>
+        Das Universum <br>
+  aufgabe: 1
+- sub: welt
+  front: Wie die Welt klingt
+  back: Musik, die ich nicht kenne <br>
+        Geräusche <br>
+        Klänge <br>
+  aufgabe: 1

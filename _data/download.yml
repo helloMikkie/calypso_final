@@ -1,0 +1,102 @@
+- category: Fragebogen
+  ziel: kooperieren
+  name: Planungstreffen
+  adressat: "Lehrer*innen, Tänzer*innen"
+  filesize:
+- category: Fragebogen
+  ziel: kooperieren
+  name: Selbstbefragung
+  adressat: "Lehrer*innen, Tänzer*innen"
+  filesize:
+- category: Fragebogen
+  ziel: kennenlernen
+  name: Klassenscan
+  adressat: "Lehrer*innen, Tänzer*innen"
+  filesize:
+- category: Fragebogen
+  ziel: reflektieren
+  name: Reflexionstreffen
+  adressat: "Lehrer*innen, Tänzer*innen"
+  filesize:
+- category: Fragebogen
+  ziel: reflektieren
+  name: Selbstevaluation
+  adressat: "Schüler*innen"
+  filesize:
+- category: Fragebogen
+  ziel: abschließen
+  name: Abschlusstreffen
+  adressat: "Lehrer*innen, Tänzer*innen"
+  filesize:
+- category: Fragebogen
+  ziel: abschließen
+  name: Projekt-Evaluation
+  adressat: "Lehrer*innen, Tänzer*innen"
+  filesize:
+
+- category: Zugangskonzept
+  ziel: interessieren
+  name: Comicfiguren und Idole
+  adressat: "Lehrer*innen, Tänzer*innen"
+  filesize:
+- category: Zugangskonzept
+  ziel: interessieren
+  name: Tanzen und Sport
+  adressat: "Lehrer*innen, Tänzer*innen"
+  filesize:
+- category: Zugangskonzept
+  ziel: interessieren
+  name: Safets Traum
+  adressat: "Lehrer*innen, Tänzer*innen"
+  filesize:
+- category: Zugangskonzept
+  ziel: interessieren
+  name: Abschreiben erlaubt?
+  adressat: "Lehrer*innen, Tänzer*innen"
+  filesize:
+- category: Zugangskonzept
+  ziel: interessieren
+  name: Gaming
+  adressat: "Lehrer*innen, Tänzer*innen"
+  filesize:
+- category: Zugangskonzept
+  ziel: interessieren
+  name: Tanztypen
+  adressat: "Lehrer*innen, Tänzer*innen"
+  filesize:
+- category: Zugangskonzept
+  ziel: interessieren
+  name: Beruf Tanz
+  adressat: "Lehrer*innen, Tänzer*innen"
+  filesize:
+
+- category: Biographie
+  ziel: kennenlernen
+  name: Isodora Duncan
+  adressat: "Lehrer*innen, Tänzer*innen"
+  filesize:
+- category: Biographie
+  ziel: kennenlernen
+  name: Merce Cunningham
+  adressat: "Lehrer*innen, Tänzer*innen"
+  filesize:
+- category: Biographie
+  ziel: kennenlernen
+  name: Mary Wigman
+  adressat: "Lehrer*innen, Tänzer*innen"
+  filesize:
+- category: Biographie
+  ziel: kennenlernen
+  name: Sasha Waltz
+  adressat: "Lehrer*innen, Tänzer*innen"
+  filesize:
+- category: Spiel
+  ziel: kennenlernen
+  name: Alles ist Tanz
+  adressat: "Lehrer*innen, Tänzer*innen"
+  filesize:
+- category: Planung
+  ziel: Service
+  name: Unterrichtsplanung
+  adressat: "Lehrer*innen, Tänzer*innen"
+  filesize:

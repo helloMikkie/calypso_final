@@ -1,0 +1,274 @@
+- sub: gruppenformation
+  front: Solo
+  back:
+  flip: 0
+- sub: gruppenformation
+  front: Duett
+  back:
+  flip: 0
+- sub: gruppenformation
+  front: Trio
+  back:
+  flip: 0
+- sub: gruppenformation
+  front: Gruppe
+  back:
+  flip: 0
+
+- sub: bezug
+  front: Im Unisono
+  back:
+  flip: 0
+- sub: bezug
+  front: Im Kanon
+  back:
+  flip: 0
+- sub: bezug
+  front: Im Dialog
+  back:
+  flip: 0
+- sub: bezug
+  front: Als Schatten
+  back:
+  flip: 0
+- sub: bezug
+  front: Als Spiegel
+  back:
+  flip: 0
+
+- sub: aufstellungen
+  front: Nebeneinander
+  back:
+  flip: 0
+- sub: aufstellungen
+  front: "Übereinander"
+  back:
+  flip: 0
+- sub: aufstellungen
+  front: ZuEinander
+  back:
+  flip: 0
+- sub: aufstellungen
+  front: Hintereinander
+  back:
+  flip: 0
+- sub: aufstellungen
+  front: Umeinander
+  back:
+  flip: 0
+- sub: aufstellungen
+  front: Auseinander
+  back:
+  flip: 0
+
+- sub: publikumsbezug
+  front: "Rücken zum Publikum"
+  back:
+  flip: 0
+- sub: publikumsbezug
+  front: Gesicht zum Publikum
+  back:
+  flip: 0
+- sub: publikumsbezug
+  front: Profil zum Publikum
+  back:
+  flip: 0
+- sub: publikumsbezug
+  front: Diagonal zum Publikum
+  back:
+  flip: 0
+
+- sub: rhythmisierung
+  front: Schneller
+  back:
+  flip: 0
+- sub: rhythmisierung
+  front: Langsamer werden
+  back:
+  flip: 0
+- sub: rhythmisierung
+  front: Unterbrechen
+  back:
+  flip: 0
+- sub: rhythmisierung
+  front: Pause
+  back:
+  flip: 0
+
+- sub: bearbeitung
+  front: Wiederholen
+  back:
+  flip: 0
+- sub: bearbeitung
+  front: Loopen
+  back:
+  flip: 0
+- sub: bearbeitung
+  front: Rewind
+  back:
+  flip: 0
+- sub: bearbeitung
+  front: Zeitlupe
+  back:
+  flip: 0
+- sub: bearbeitung
+  front: Zeitraffer
+  back:
+  flip: 0
+
+- sub: formationen
+  front: Kreis
+  back:
+  flip: 0
+- sub: formationen
+  front: Linie
+  back:
+  flip: 0
+- sub: formationen
+  front: Viereck
+  back:
+  flip: 0
+- sub: formationen
+  front: Dreieck
+  back:
+  flip: 0
+- sub: formationen
+  front: Knauel
+  back:
+  flip: 0
+
+- sub: wege
+  front: Kurve
+  back:
+  flip: 0
+- sub: wege
+  front: Winkel
+  back:
+  flip: 0
+- sub: wege
+  front: Vieleck
+  back:
+  flip: 0
+- sub: wege
+  front: Spirale
+  back:
+  flip: 0
+- sub: wege
+  front: Stern
+  back:
+  flip: 0
+- sub: wege
+  front: "1,9"
+  back:
+  flip: 0
+- sub: wege
+  front: "7,3"
+  back:
+  flip: 0
+- sub: wege
+  front: "1,9"
+  back:
+  flip: 0
+- sub: wege
+  front: "7,3"
+  back:
+  flip: 0
+- sub: wege
+  front: "1,3,5,7"
+  back:
+  flip: 0
+
+- sub: position
+  front: "1,2,3,4,5,6,7,8,9"
+  back:
+  flip: 0
+- sub: position
+  front: "1,2,3,4,5,6,7,8,9"
+  back:
+  flip: 0
+
+- sub: musik
+  front: Stille
+  back:
+  flip: 0
+- sub: musik
+  front: Stimme
+  back:
+  flip: 0
+- sub: musik
+  front: Gerausche
+  back:
+  flip: 0
+- sub: musik
+  front: Konserve
+  back:
+  flip: 0
+- sub: musik
+  front: "Live-Musik"
+  back:
+  flip: 0
+
+- sub: ausdruck
+  front: "Hip Hopper*in"
+  back:
+  flip: 0
+- sub: ausdruck
+  front: "Konig*in"
+  back:
+  flip: 0
+- sub: ausdruck
+  front: Fauler Sack
+  back:
+  flip: 0
+- sub: ausdruck
+  front: "Fuss-Baller*in"
+  back:
+  flip: 0
+- sub: ausdruck
+  front: "Ballet-Tanzer*in"
+  back:
+  flip: 0
+- sub: ausdruck
+  front: "Wilde Wolf*in"
+  back:
+  flip: 0
+- sub: ausdruck
+  front: Alter Mensch
+  back:
+  flip: 0
+- sub: ausdruck
+  front: Nervenbundel
+  back:
+  flip: 0
+- sub: ausdruck
+  front: "Fröhlich"
+  back:
+  flip: 0
+- sub: ausdruck
+  front: Traurig
+  back:
+  flip: 0
+- sub: ausdruck
+  front: Zwinkernd
+  back:
+  flip: 0
+- sub: ausdruck
+  front: Verwirrt
+  back:
+  flip: 0
+- sub: ausdruck
+  front: Erstaunt
+  back:
+  flip: 0
+- sub: ausdruck
+  front: "Wütend"
+  back:
+  flip: 0
+- sub: ausdruck
+  front: Verliebt
+  back:
+  flip: 0
+- sub: ausdruck
+  front: "Ängstlich"
+  back:
+  flip: 0

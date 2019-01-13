@@ -1,0 +1,148 @@
+---
+layout: page_chapter3
+title: Alles ist Tanz-Spiel
+ziel-nr: 3
+color: "#A0B354"
+ziel-title: kennenlernen
+intro: "Jedes Thema lässt sich tanzen. In diesem Spiel teilen alle Mitspielenden - also Schüler*innen, Tanzvermittler*innen und Lehrer*innen – mit, was sie
+thematisch interessiert. Dazu wählen sie einen Begriff aus dem Kartenset, überlegen sich assoziativ Fragen dazu und tauschen sich mit den Mitspielenden darüber aus.
+Lassen sich diese Themen auch in Bewegung umsetzen? Das Spiel hilft dabei, Themen für das Projekt zu finden, die später in eine Choreografie Eingang finden."
+hinweis: "Die Mitspielenden können sich mündlich über die Themen austauschen oder die Karten in „Themenlandkarten“ zusammenbringen. Was davon lässt sich in Bewegung umsetzen?
+In den Spieloptionen findest du hierzu mögliche Ideen. Paarweise oder in Gruppen können alle Kombinationen aus Schüler*innen, Tanzvermittler*innen und Lehrer*innen mitspielen."
+hero: images/hero/3-hero-allesisttanz.png
+tipp-eins: Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
+tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
+---
+
+
+<!-- Header bar -->
+  <header class="headerBar">
+    <span style="color: {{ page.color}}" >{{ page.ziel-title }}</span> {{ page.title }}
+  </header>
+
+<!-- Ziel-Nummer  -->
+  <div class="page-number euclid-m" style="color: {{page.color}}">{{ page.ziel-nr }}</div>
+
+<!-- Hinweis -->
+  <article class="hinweis">
+    <div class="hinweisContent">
+      <p>{{page.hinweis}}</p>
+      <ul>
+        <li>Dauer:</li>
+        <li>Material:</li>
+      </ul>
+    </div>
+    <div class="hinweisButton" style="background-color: {{page.color}}"></div>
+  </article>
+
+<!-- subNav footer -->
+<article class="subnavigation">
+  <ul>
+      <li><a href="#scrollTo-eins" class="subnavTab pb3 color-3 no-underline f-s">Intro</a></li>
+      <li><a href="#scrollTo-zwei" class="subnavTab pb3 color-3 no-underline f-s">Spielablauf</a></li>
+      <li><a href="#scrollTo-drei" class="subnavTab pb3 color-3 no-underline f-s" >Spieloptionen</a></li>
+      <li><a href="#scrollTo-vier" class="subnavTab pb3 color-3 no-underline f-s" >Spiel drucken</a></li>
+  </ul>
+</article>
+
+
+
+
+
+<!-- hero Material -->
+
+<div class="hero-material" >
+    <div class="hero-image" style="background-image: url({{page.hero}});"></div>
+
+      <div class="hero-material-title">
+        <h1 class=" euclid-m ml4 mv0">{{ page.title }}</h1>
+      </div>
+</div>
+
+<!-- Introtext -->
+<div class="wrapper" id="scrollTo-eins">
+  <article class="intro color-gray pa2  mv6 f-lg lh-md euclid-m">
+  {{ page.intro }}
+  </article>
+</div>
+
+<!-- content -->
+<!-- Spielablauf  -->
+
+  <section class="mv5" id="scrollTo-zwei">
+
+      <article class=" pa3 mw7 center bg-white ">
+        <h1 class="mv0 pt2 tc ttu euclid-m f-xl tracked">Spielablauf</h1>
+      </article>
+
+
+      <article class="bg-white w-100  pb5 pt3 mb3  ">
+
+          <div class="mw6 center pa3  lh-copy ls-small euclid-r">
+            <ul>
+              <li>Wähle zunächst eine der drei Hauptkategorien <br>(ich / er*sie / die ganze Welt)</li>
+              <li>Entwickle Fragen zu deinem gewählten Begriff. <br>Was genau interessiert dich an diesem Begriff und warum?</li>
+              <li>Tausche dich mit den Mitspielenden über dein gewähltes Thema aus.</li>
+              <li>Gibt dir das Thema die Idee von einer Bewegung und wenn ja, welche? Vielleicht findet ihr gemeinsam eine ganze Bewegungsabfolge?</li>
+            </ul>
+          </div>
+      </article>
+
+          <article class="bg-white w-100  pb5 pt3 mb3  ">
+            <h2 class="mv0 pt2 tc ttu euclid-m f-xl tracked">Ich</h2>
+            <div class="content center" >
+              {{ site.spielkarten | where:"thema" , "ich" }}
+            </div>
+          </article>
+
+      <article class="bg-white w-100  pb5 pt3 mb3  ">
+          <h2 class="mv0 pt2 tc ttu euclid-m f-xl tracked">Sie*Er</h2>
+          <div class="content center" >
+            {{ site.spielkarten | where:"thema" , "anderes" }}
+          </div>
+      </article>
+
+      <article class="bg-white w-100  pb5 pt3 mb3  ">
+        <h2 class="mv0 pt2 tc ttu euclid-m f-xl tracked">Die ganze Welt</h2>
+        <div class="content center" >
+          {{ site.spielkarten | where:"thema" , "welt" }}
+        </div>
+      </article>
+
+</section >
+
+
+
+  <!-- Spieloptionen  -->
+    <article class="mv5" id="scrollTo-drei">
+
+      <article class=" pa3 mw7 center bg-white ">
+      <h1 class="mv0 pt2 tc ttu euclid-m f-xl tracked">Spieloptionen</h1>
+    </article>
+
+    <article class="center bg-white pt4 pb6 ">
+      {{ site.spieloptionen | where:"title", "alles-spiel-optionen"}}
+    </article>
+  </article>
+
+  <!-- Spiel drucken -->
+
+  <section class=" mv5" id="scrollTo-vier">
+      <div class="wrapper">
+        {{ site.drucken | where:"thema" , "Alles-Spiel"  }}
+    </div>
+  </section>
+
+  <!-- Modal "Aufgabe" -->
+
+  {{ site.modals | where:"thema" , "ihre*seine Interessen" }}
+
+
+
+    <script src="js/tabbar.js"></script>
+    <script src="js/modal.js"></script>
+
+    <script src="js/subnav.js"></script>
+      <script src="js/subnav_taglist.js"></script>
+    <!-- <script src="js/avatar.js"></script> -->
+    <script src="js/header-scroll.js"></script>

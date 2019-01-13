@@ -1,0 +1,32 @@
+---
+title: Lecture Demonstration
+thema: lecture
+category:
+color: "#C27AC8"
+headline: Lecture Demonstration
+subheadline: Beyonce vs Keersmaker
+description: "Diese Form wählt man, wenn man andere Aspekte der Arbeit zeigen will als die, die die in ein konventionelles Stückformat passen.
+Beispielsweise können Fragestellungen zum Thema oder Ideen zur Stückentwicklung den Zuschauern vorgestellt werden. Der Ablauf sollte so dramaturgisch
+aufgebaut sein, dass der Kontext dem Publikum transparent gemacht wird. Auch hier können die Schüler*innen erleben wie man live, vor Publikum,
+interagiert und Aufgabenstellungen ergebnisoffen bearbeitet."
+thumbnail: images/thumbnails/praesentation/placeholder.jpg
+---
+
+<article class="relative center tc">
+
+    <h4 class="f-md tracked " style="color: {{ page.color }}">{{ page.category }}</h4>
+
+    <div class="card pa4" style="border: 4px solid {{page.color}}">
+      <img src="{{ page.thumbnail }}" alt="klauen" class="thumbnail">
+      <h1 class="mv0 ttu f-xl tracked euclid-m" style="color: {{page.color}};">{{ page.headline }}</h1>
+      <!-- <h2 class="mt2 mb4 f-md euclid-m">{{ page.subheadline }}</h2> -->
+      <p class=" tc ls-small lh-copy"> {{ page.description }}</p>
+      <ul class="tl mt5 euclid-m pl0 list lh-copy" style="color: {{page.color}}">
+          <li class="mv3">Die Schüler*innen können die Moderation übernehmen.</li>
+      </ul>
+
+      <button class="open-modal pv3 ph3 euclid-m f-md tracked ml3" onclick="openModal(event,'lecture')">Videobeispiel</button>
+
+    </div>
+
+  </article>

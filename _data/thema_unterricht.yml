@@ -1,0 +1,68 @@
+- sub: mint
+  front: Mathematik
+  back:
+  flip: 0
+- sub: mint
+  front: Physik
+  back:
+  flip: 0
+- sub: mint
+  front: Biologie
+  back:
+  flip: 0
+- sub: mint
+  front: Chemie
+  back:
+  flip: 0
+
+- sub: sprachen
+  front: Englisch
+  back:
+  flip: 0
+- sub: sprachen
+  front: Deutsch als Fremdsprache
+  back:
+  flip: 0
+- sub: sprachen
+  front: "Französisch"
+  back:
+  flip: 0
+
+- sub: musische
+  front: Bildende Kunst
+  back:
+  flip: 0
+- sub: musische
+  front: Musik
+  back:
+  flip: 0
+- sub: musische
+  front: Theater
+  back:
+  flip: 0
+
+- sub: gesellschaftskunde
+  front: Geschichte
+  back:
+  flip: 0
+- sub: gesellschaftskunde
+  front: Politikwissenschaften
+  back:
+  flip: 0
+- sub: gesellschaftskunde
+  front: Religion
+  back:
+  flip: 0
+- sub: gesellschaftskunde
+  front: Geografie
+  back:
+  flip: 0
+- sub: gesellschaftskunde
+  front: Philosophie
+  back:
+  flip: 0
+
+- sub: sachkunde
+  front: "MINT-Themen in der Schulanfangsphase"
+  back:
+  flip: 0

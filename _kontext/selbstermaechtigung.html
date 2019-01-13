@@ -1,0 +1,27 @@
+---
+title: Selbstermächtigung
+thema: selbstermaechtigung
+category:
+color: "#C27AC8"
+headline: Selbstermächtigung
+description: "Die Schüler*innen erfahren sich als Menschen, die etwas gestalten und bewegen können."
+thumbnail: images/thumbnails/kontext/selbstermaechtigung.jpg
+---
+
+<article class="relative center tc">
+
+    <h4 class="f-md tracked " style="color: {{ page.color }}">{{ page.category }}</h4>
+
+    <div class="card pa4" style="border: 4px solid {{page.color}}">
+      <img src="{{ page.thumbnail }}" alt="klauen" class="thumbnail">
+      <h1 class="mv0 ttu f-xl tracked euclid-m" style="color: {{page.color}};">{{ page.headline }}</h1>
+      <!-- <h2 class="mt2 mb4 f-md euclid-m">{{ page.subheadline }}</h2> -->
+      <p class=" tc ls-small lh-copy"> {{ page.description }}</p>
+      <ul class="tl mt5 euclid-m pl0 list" style="color: {{page.color}}">
+          <li class="mv3">Wird den Schüler*innen Verantwortung übertragen?</li>
+          <li class="mv3">Werden Einschränkungen als Inspiration genutzt?</li>
+      </ul>
+
+      <button class="open-modal pv3  ph3 euclid-m f-md tracked ml3" onclick="openModal(event,'selbstermaechtigung')">Videobeispiel</button>
+
+  </article>

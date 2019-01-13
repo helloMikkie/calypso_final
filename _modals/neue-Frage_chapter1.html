@@ -1,0 +1,38 @@
+---
+title: modal-fragen
+thema: Planungstreffen
+color: "#58B0E2"
+text-color: "#58B0E2"
+intro: ""
+filter_1: explorieren
+aufgabe_1: "Ich habe: Wählt ein leichtes und ein schweres Objekt, zum Beispiel Tuch, Luftballon, Feder, Stein, Medizinball etc. Exploriert tanzend die spezifischen Eigenschaften Eures Objektes (leicht, schwer, schnell, langsam etc.).
+  Ich hatte: Tanzt nun ohne Eurer Objekt und erinnert dabei Eure Bewegungen mit dem Objekt. Ich bin: Tanzt nun so, als wäret ihr dieses Objekt."
+---
+
+
+<div class="modal" id="planungstreffen-modal">
+
+<!-- Abdecker -->
+  <div class="modal-background"></div>
+
+
+<!--  -->
+  <div class="modal-window modal-frage bg-white" style="border: 4px solid {{page.color}};">
+
+    <div class="modal-header f-md euclid-m ">
+        <h1 class="mv0 euclid-m f-lg black"style="color:{{page.text-color}}" >Neue Frage hinzufügen</h1>
+    </div>
+    <div class="modal-close"></div>
+
+      <div class="pa2 w-100">
+        <div class="neueFrage">
+          <textarea name="" id="" cols="1" rows="1" placeholder="Gebe hier deine Frage ein …" class="euclid-r black pa2 bw0  "></textarea>
+        </div>
+        <div class="button-container tl">
+            <button class="white euclid-m pv2 mr2 ph3 ttu br2" style=" background-color: {{page.color}}; border: 2px solid {{page.color}};">ok</button>
+            <button class="bg-white euclid-m pv2 ph3 ttu br2" style=" border: 2px solid {{page.color}}; color:{{page.color}}">abbrechen</button>
+        </div>
+      </div>
+
+  </div>
+  </div>

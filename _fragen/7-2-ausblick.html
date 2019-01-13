@@ -1,0 +1,20 @@
+---
+title: projektevaluation
+thema: 7_2_ausblick
+color: "#8B71D6"
+---
+
+{% for frage in site.data.frage %}
+  {% if frage.sub == "7_2_ausblick" %}
+
+  <article class="module mv4 ph4 pv2" style="border: 3px solid {{page.color}}">
+    <button class="toggleVisible pa2 f-xs euclid-r">verbergen</button>
+    <p class="textFrage euclid-m ls-small f-md w-90 lh-copy" style="color: {{page.color}}">{{ frage.text}}</p>
+    <div class="openButton" style=""></div>
+    <div class="textPanel">
+      <textarea name="" id="" cols="1" rows="1" placeholder="Deine Antwort hier" class="mt2 pt2 euclid-r"></textarea>
+  </div>
+</article>
+
+{% endif %}
+{% endfor %}

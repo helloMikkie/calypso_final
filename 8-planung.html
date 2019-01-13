@@ -1,0 +1,45 @@
+---
+layout: page_service
+ziel-title: Service
+title: Planung
+color: "#909090"
+text-color: ""
+intro: "Die inhaltliche Planung und Dokumentation eines Tanzprojektes gestaltet jede*r Tanzvermittler*in individuell. Einige notieren sich jedes Detail im Voraus, auch wenn sie im Unterricht ihren Plan ändern. Andere planen ihren Unterricht nur skizzenhaft und wieder andere notieren erst nachträglich, was sie gemacht haben. <br />
+Hier findest Du zwei Planungstools, die Dir helfen können, Dein Projekt auf eine Art und Weise inhaltlich vorzubereiten, die Deinen Bedürfnissen entspricht. <br /> Die Projektplanung hilft Dir, das gesamte Tanzprojekt mit allen Unterrichtseinheiten zu überblicken und einzuteilen, wie lange Du in welchen Phasen verweilen möchtest. Das Tool Unterrichtsplanung unterstützt Dich dabei eine Unterrichtseinheit im Detail zu planen. "
+---
+
+<!-- Header bar -->
+<header class="headerBar subpage">
+  <span style="color: {{ page.color}}">{{ page.ziel-title }}</span> {{ page.title }}
+</header>
+
+
+
+<!-- subNav footer -->
+
+<article class="subnavigation ">
+  <ul class=" ">
+    <li><a href="#scrollTo-eins" class="subnavTab pb3 black no-underline f-s">Intro</a></li>
+    <li><a href="#scrollTo-zwei" class="subnavTab pb3 black no-underline f-s">Projektplanung</a></li>
+    <li><a href="#scrollTo-drei" class="subnavTab pb3 black no-underline f-s">Unterrichtsplanung</a></li>
+    <li><a href="#scrollTo-drei" class="subnavTab pb3 black no-underline f-s">Drucken</a></li>
+  </ul>
+</article>
+
+
+<!-- Introtext -->
+  <div class="wrapper" id="scrollTo-eins">
+    <article class="intro color-gray pa2  mv6 f-lg lh-md euclid-m">
+    <span class="mr3">{{page.title}}</span>{{ page.intro }}
+    </article>
+  </div>
+
+<div class="wrapper markdown">
+    {{ site.texts | where:"title" , "planung" }}
+</div>
+
+<section class=" mv5" id="scrollTo-neun">
+    <div class="wrapper">
+      {{ site.drucken | where:"thema" , "planung"  }}
+  </div>
+</section>

@@ -1,0 +1,259 @@
+---
+layout: page_chapter4
+title: Körper und Bewegung
+ziel-nr: 4
+color: "#f89700"
+text-color: "#ee8f01"
+ziel-title: thematisieren
+intro: "Im Fokusfeld Körper und Bewegung achten die Schüler*innen besonders auf ihren <span class='ch-4'>Körper</span>  und darauf, was beim zeitgenössischen Tanzen mit ihm passiert. <br /> Hierbei stehen Wahrnehmen, Explorieren, Empfinden, Erleben und Üben im Mittelpunkt: Die Schüler*innen erfahren durch die bewusste Wahrnehmung des eigenen und auch der anderen Körper die Beziehung zwischen sich selbst und der Welt. Deshalb wird großer Wert auf die Durchlässigkeit von Empfindungen der Tanzenden gelegt. Durch Improvisation entwickeln die jungen Menschen eine persönliche Bewegungssprache. <br /> Angelehnt an die Bewegungsanalyse von Rudolf von Laban lassen sich die unterschiedlichen Aspekte (z.B. Körper, <span class='ch-4'>Form,</span> <span class='ch-4'>Raum,</span> <span class='ch-4'>Phrasierung,</span> <span class='ch-4'>Beziehung,</span>) einzeln anwenden oder miteinander kombinieren, um den eigenen Körper und unterschiedliche <span class='ch-4'>Bewegungs-</span>qualitäten besser kennenzulernen und um sich ausdrücken zu können. Durch die Einbeziehung verschiedener Techniken (z.B. Kontaktimprovisation), Martial Arts und somatischer Praktiken (z.B. Feldenkrais) fördert zeitgenössischer Tanz nicht nur das Körpergefühl junger Menschen, sondern unterstützt sie in ihrer gesamten Selbstwahrnehmung und ihrem Selbstausdruck - ganz ohne den sonst im Sport üblichen Wettbewerbsgedanken."
+hero: images/hero/4-hero-koerper.png
+tipp-eins: Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
+tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
+---
+
+<!-- Header bar -->
+  <header class="headerBar">
+    <span style="color: {{ page.color}}" >{{ page.ziel-title }}</span> {{ page.title }}
+  </header>
+
+<!-- Ziel-Nummer  -->
+  <div class="page-number euclid-m" style="color: {{page.color}}">{{ page.ziel-nr }}</div>
+
+<!-- Hinweis -->
+  <article class="hinweis">
+    <div class="hinweisContent">
+      <p>Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+      <ul>
+        <li>Dauer:</li>
+        <li>Material:</li>
+      </ul>
+    </div>
+    <div class="hinweisButton" style="background-color: {{page.color}}"></div>
+  </article>
+
+<!-- subNav footer -->
+
+
+<article class="subnavigation">
+  <ul>
+    <li><a href="#scrollTo-eins"  class="subnavTab pb3 color-4 no-underline f-s">Intro</a></li>
+    <li><a href="#scrollTo-zwei"  class="subnavTab pb3 color-4 no-underline f-s">Körper</a></li>
+    <li><a href="#scrollTo-drei"  class="subnavTab pb3 color-4 no-underline f-s">Form</a></li>
+    <li><a href="#scrollTo-vier"  class="subnavTab pb3 color-4 no-underline f-s">Raum</a></li>
+    <li><a href="#scrollTo-fuenf"  class="subnavTab pb3 color-4 no-underline f-s">Phrasierung</a></li>
+    <li><a href="#scrollTo-sechs" class="subnavTab pb3 color-4 no-underline f-s">Beziehung</a></li>
+    <li><a href="#scrollTo-sieben" class="subnavTab pb3 color-4 no-underline f-s">Bewegung</a></li>
+  </ul>
+</article>
+
+<!-- hero Material -->
+
+<div class="hero-material" >
+    <div class="hero-image" style="background-image: url({{page.hero}});"></div>
+
+      <div class="hero-material-title">
+        <h1 class=" euclid-m ml4 mv0">{{ page.title }}</h1>
+      </div>
+</div>
+
+<!-- Introtext -->
+
+<div class="wrapper" id="scrollTo-eins">
+  <article class="intro color-gray pa2  mv6 f-lg lh-md euclid-m">
+  {{ page.intro }}
+  </article>
+</div>
+
+
+
+<!-- Körper -->
+  <section class="mv5" id="scrollTo-zwei">
+
+      <article class=" sectionTitle odd pa3">
+        <h1 class="mv0 pt2 euclid-m f-xl tracked">Körper</h1>
+      </article>
+
+      <article class="sectionBack pa3 mb3">
+        <div class="  pa3 flex items-center justify-center">
+          <h2 class=" dib mh0 f-xl " style="color:{{page.text-color}}">Körperteile</h2>
+          <button class="open-modal ml3 flipcardButton" onclick="openModal(event,'koerperteile')"></button>
+      </div>
+
+        <div class="content center" >
+          {{ site.themenfelder | where:"thema" , "koerperteile" }}
+        </div>
+      </article>
+
+        <article class="sectionBack pa3 mb3">
+          <h2 class="tc f-xl" style="color:{{page.text-color}}">Körperaktionen</h2>
+          <div class="content center ">
+            {{ site.themenfelder | where:"thema" , "koerperaktionen" }}
+          </div>
+        </article>
+
+  </section>
+
+<!-- Form -->
+  <section class="mv5" id="scrollTo-drei">
+
+    <article class=" sectionTitle pa3">
+      <h1 class="mv0 pt2 euclid-m f-xl tracked">Form</h1>
+    </article>
+
+    <article class="w-100 pa3">
+      <h2 class=" tc f-xl" style="color:{{page.text-color}}">Körperform</h2>
+      <div class="content center ">
+        {{ site.themenfelder | where:"thema" , "koerperform" }}
+      </div>
+    </article>
+
+    <article class="w-100 pa3 ">
+      <div class="pa3 flex items-center justify-center">
+        <h2 class=" dib mh0 f-xl " style="color:{{page.text-color}}">Formqualitäten</h2>
+        <button class="open-modal  ml3 flipcardButton" onclick="openModal(event,'formqualitaeten')"></button>
+    </div>
+      <div class="content center">
+        {{ site.themenfelder | where:"thema" , "formqualitaeten" }}
+      </div>
+    </article>
+
+  </section>
+
+
+<!-- Persönlicher Raum -->
+
+  <section class="mv5" id="scrollTo-vier">
+
+    <article class=" sectionTitle odd pa3 ">
+      <h1 class="mv0 pt2 tc ttu euclid-m f-xl tracked">Persönlicher Raum</h1>
+    </article>
+
+    <article class="sectionBack pa3 mb3">
+      <div class="pa3 flex items-center justify-center">
+        <h2 class=" tc f-xl" style="color:{{page.text-color}}">Reichweite</h2>
+        <button class="open-modal  ml3 flipcardButton" onclick="openModal(event,'reichweite')"></button>
+      </div>
+      <div class="content center ">
+        {{ site.themenfelder | where:"thema" , "reichweite" }}
+      </div>
+    </article>
+
+    <article class="sectionBack pa3 mb3">
+      <h2 class=" tc f-xl" style="color:{{page.text-color}}">Ebenen</h2>
+      <div class="content center ">
+        {{ site.themenfelder | where:"thema" , "ebenen" }}
+      </div>
+    </article>
+
+    <article class="sectionBack pa3 mb3">
+      <h2 class=" tc f-xl" style="color:{{page.text-color}}">Bewegungsrichtungen</h2>
+      <div class="content center ">
+        {{ site.themenfelder | where:"thema" , "bewegungsrichtungen" }}
+      </div>
+    </article>
+
+    <article class="sectionBack pa3 mb3" >
+      <h2 class=" tc f-xl" style="color:{{page.text-color}}">Flächen</h2>
+      <div class="content center ">
+        {{ site.themenfelder | where:"thema" , "flaechen" }}
+      </div>
+    </article>
+
+  </section>
+
+<!-- Phrasierung -->
+
+  <section class="mv5" id="scrollTo-fuenf">
+
+    <article class="sectionTitle pa3">
+      <h1 class="mv0 pt2 tc ttu euclid-m f-xl tracked">Phrasierung</h1>
+    </article>
+
+    <article class=" w-100 pa3 ">
+      <div class="pa3 flex items-center justify-center">
+        <h2 class=" tc f-xl" style="color:{{page.text-color}}">Bestandteile von Bewegungsphrasen</h2>
+        <button class="open-modal  ml3 flipcardButton" onclick="openModal(event,'bewegungsphrasen')"></button>
+      </div>
+      <div class="content center ">
+        {{ site.themenfelder | where:"thema" , "bewegungsphrasen" }}
+      </div>
+    </article>
+
+    <article class="w-100 pa3">
+      <h2 class=" tc f-xl" style="color:{{page.text-color}}">Zeitlicher Bewegungsverlauf</h2>
+      <div class="content center ">
+        {{ site.themenfelder | where:"thema" , "bewegungsverlauf" }}
+      </div>
+    </article>
+
+  </section>
+
+<!-- Beziehung -->
+
+  <section class="mv5" id="scrollTo-sechs">
+
+    <article class="sectionTitle odd pa3 ">
+      <h1 class="mv0 pt2 tc ttu euclid-m f-xl tracked">Beziehung</h1>
+    </article>
+
+    <article class="sectionBack pa3 mb3">
+      <h2 class=" tc f-xl" style="color:{{page.text-color}}">Art</h2>
+      <div class="content center ">
+        {{ site.themenfelder | where:"thema" , "art" }}
+      </div>
+    </article>
+
+    <article class="sectionBack pa3 mb3">
+      <div class="pa3 flex items-center justify-center">
+        <h2 class=" tc f-xl" style="color:{{page.text-color}}">zu Anderen</h2>
+        <button class="open-modal  ml3 flipcardButton" onclick="openModal(event,'beziehung')"></button>
+      </div>
+
+      <div class="content center ">
+        {{ site.themenfelder | where:"thema" , "anderen" }}
+      </div>
+    </article>
+
+  </section>
+
+
+<!-- Bewegungsqualitäten -->
+
+  <section class="mv5" id="scrollTo-sieben">
+
+    <article class="sectionTitle pa3">
+      <h1 class="mv0 pt2 tc ttu euclid-m f-xl tracked">Bewegungsqualitäten</h1>
+    </article>
+
+    <article class="w-100 pa3 ">
+          <div class="pa3 flex items-center justify-center">
+            <h2 class=" tc f-xl" style="color:{{page.text-color}}">Antrieb</h2>
+            <button class="open-modal  ml3 flipcardButton" onclick="openModal(event,'antrieb')"></button>
+          </div>
+      <div class="content center ">
+        {{ site.themenfelder | where:"thema" , "antrieb" }}
+      </div>
+    </article>
+
+  </section>
+  <!-- scrollTop Button -->
+              <div class="scrolltoTop" style="background-color:{{page.color}};" >
+                    <a href="#scrollTo-eins" class="topScroll no-underline" ></a>
+                </div>
+
+  <!-- Modal "Aufgabe" -->
+
+  {{ site.modals | where:"thema" , "Körperteile" }}
+  {{ site.modals | where:"thema" , "Formqualitäten" }}
+  {{ site.modals | where:"thema" , "Antrieb" }}
+  {{ site.modals | where:"thema" , "Bewegungsphrasen" }}
+  {{ site.modals | where:"thema" , "Beziehung" }}
+  {{ site.modals | where:"thema" , "Reichweite" }}
+
+
+
+    <script src="js/modal.js"></script>
+    <script src="js/subnav.js"></script>
+    <script src="js/subnav_taglist.js"></script>
+    <!-- <script src="js/avatar.js"></script> -->
+    <script src="js/header-scroll.js"></script>

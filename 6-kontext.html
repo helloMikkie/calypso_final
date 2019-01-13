@@ -1,0 +1,106 @@
+---
+layout: page_chapter6
+title: Kontext Schule
+ziel-nr: 2
+ziel-title: choreografieren
+color: "#C27AC8"
+intro: "Die Schule bildet einen besonderen Rahmen für eine Choreografie. Was genau macht in der Arbeit mit Schüler*innen ihre Qualität aus,
+welche Chancen bestehen, was können wir im Idealfall erreichen? Ein Tanzprojekt an einer Schule zu choreografieren, birgt die Möglichkeit,
+die ganz spezifischen sozialen Gefüge einer Klasse aufzuspüren und diesen mit einem künstlerischen Ansatz zu begegnen. Pädagogik und Kunst
+verschmelzen hier zu etwas Neuem, in dem sich auch die Schüler*innen neu wahrnehmen. Unsere Videobeispiele und Qualitätskriterien veranschaulichen,
+was für uns die Qualität von Tanz an Schulen ausmacht."
+hinweis: "Schau dir das Material, das du im Tanzprojekt bereits gesammelt hast, in Ruhe an und versuche daraus Schwerpunkte zu entwickeln.
+Beziehe deine Beobachtungen zur Klasse und den einzelnen Schüler*innen aus der Kennenlernphase mit ein (Klassenscan und Alles-ist-Tanz Spiel)
+und mache dir deinen eigenen künstlerischen Anspruch, den du anfangs in der Selbstbefragung formuliert hast, noch einmal bewusst."
+hero: images/hero/6-hero-kontextSchule.png
+---
+
+<!-- Header bar -->
+<header class="headerBar">
+  <span style="color: {{ page.color}}">{{ page.ziel-title }}</span> {{ page.title }}
+</header>
+
+<!-- Ziel-Nummer  -->
+<div class="page-number euclid-m" style="color: {{ page.color}}">{{ page.ziel-nr }}</div>
+
+<!-- Hinweis -->
+<article class="hinweis">
+  <div class="hinweisContent">
+    <p>{{page.hinweis}}</p>
+    <ul>
+      <li>Dauer:</li>
+      <li>Material:</li>
+    </ul>
+  </div>
+  <div class="hinweisButton" style="background-color: {{page.color}}"></div>
+</article>
+
+<!-- subnavigation footer -->
+
+<article class="subnavigation">
+  <ul>
+    <li><a href="#scrollTo-eins" class="subnavTab  pb3 color-6 no-underline f-s">Intro</a></li>
+    <li><a href="#scrollTo-zwei" class="subnavTab  pb3 color-6 no-underline f-s">Qualitätskriterien</a></li>
+  </ul>
+</article>
+
+<!-- hero Material -->
+
+<div class="hero-material">
+  <div class="hero-image" style="background-image: url({{page.hero}});"></div>
+
+  <div class="hero-material-title">
+    <h1 class=" euclid-m ml4 mv0">{{ page.title }}</h1>
+  </div>
+</div>
+
+<!-- Intro -->
+<section>
+<div class="wrapper" id="scrollTo-eins">
+  <article class="intro color-gray pa2  mv6 f-lg lh-md euclid-m">
+    {{ page.intro }}
+  </article>
+</div>
+</section>
+<!-- Content  -->
+
+<section class="mv5 " id="scrollTo-zwei">
+  <article class=" sectionTitle odd">
+    <h1 class="mv0 pt3 euclid-m f-xl tracked">Qualitätskriterien</h1>
+  </article>
+  <article class="sectionBack pa3">
+
+    <div class="wrapper">
+      {{ site.kontext | where:"thema" , "anschlussfaehigkeit"  }}
+
+      {{ site.kontext | where:"thema" , "beziehung"  }}
+
+      {{ site.kontext | where:"thema" , "selbstermaechtigung"  }}
+
+      {{ site.kontext | where:"thema" , "sichtbarkeit"  }}
+    </div>
+
+  </article>
+</section>
+
+
+<!-- scrollTop Button -->
+<div class="scrolltoTop" style="background-color:{{page.color}};">
+  <a href="#scrollTo-eins" class="topScroll no-underline"></a>
+</div>
+
+
+{{ site.modals | where:"thema" , "anschluss" }}
+{{ site.modals | where:"thema" , "beziehung" }}
+{{ site.modals | where:"thema" , "selbstermaechtigung" }}
+{{ site.modals | where:"thema" , "sichtbarkeit" }}
+
+
+
+
+<!--  js -->
+  <script src="js/modal.js"></script>
+<script src="js/subnav.js"></script>
+<script src="js/subnav_taglist.js"></script>
+<!-- <script src="js/avatar.js"></script> -->
+<script src="js/header-scroll.js"></script>

@@ -1,0 +1,23 @@
+---
+title: flip-card
+thema: musik
+color: "#f89700"
+---
+{% for item in site.data.thema_kuenste %}
+{% if item.sub == "musik" %}
+<article class="flip-card relative  ">
+  <div class="flip-vorn bg-white black absolute top left br2  flex justify-center items-center ttu euclid-m tracked-medium ">
+    <p class="tc">
+
+      {{ item.front}}
+    </p>
+  </div>
+  <div class="flip-hinten absolute top left br2  pa2 overflow-y-scroll" style="background-color: {{page.color}}; border-color: {{page-color}}">
+    <p class="mv0 lh-title euclid-r tracked-medium">{{ item.back }}</p>
+  </div>
+  {% if item.flip == 1 %}
+    <div class="shadow"></div>
+  {% endif %}
+</article>
+{% endif %}
+{% endfor %}

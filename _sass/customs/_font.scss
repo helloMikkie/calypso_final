@@ -1,0 +1,67 @@
+@font-face{
+  font-family: euclid-l;
+  src: url(fonts/euclid-light/EuclidCircularB-Light-WebM.woff2), url(fonts/EuclidCircularB-Light-WebM.woff) ;
+
+
+}
+@font-face{
+  font-family: euclid-r;
+  src: url(fonts/euclid-regular/EuclidCircularB-Regular-WebM.woff2), url(fonts/EuclidCircularB-Regular-WebM.woff);
+}
+@font-face{
+  font-family: euclid-m;
+  src: url(fonts/euclid-medium/EuclidCircularB-Medium-WebM.woff2), url(fonts/EuclidCircularB-Medium-WebM.woff);
+}
+@font-face{
+  font-family: euclid-sb;
+  src: url(fonts/euclid-semibold/EuclidCircularB-Semibold-WebM.woff2), url(fonts/EuclidCircularB-Semibold-WebM.woff);
+}
+@font-face{
+  font-family: euclid-b;
+  src: url(fonts/euclid-bold/EuclidCircularB-Bold-WebM.woff2), url(fonts/EuclidCircularB-Bold-WebM.woff);
+}
+
+
+/* global Typo */
+*{
+  -webkit-font-smoothing: antialiased;
+}
+/* Font-Family */
+.euclid-l{
+  font-family: euclid-l, Avenir, Arial, sans-serif;
+  font-weight: 200;
+}
+
+.euclid-r{
+  font-family: euclid-r, Avenir, Arial, sans-serif;
+  font-weight: 400;
+}
+.euclid-m{
+  font-family: euclid-m, Avenir, Arial, sans-serif;
+  font-weight: 500;
+}
+
+.euclid-sb{
+  font-family: euclid-sb, Avenir, Arial, sans-serif;
+  font-weight: 600;
+}
+.euclid-b{
+  font-family: euclid-b, Avenir, Arial, sans-serif;
+  font-weight: 700;
+}
+
+/* letter spacing */
+
+.tracked       { letter-spacing:  .06em; }
+.tracked-tight { letter-spacing: -.05em; }
+.tracked-mega  { letter-spacing:  .25em; }
+.tracked-medium {
+  letter-spacing: 0.03em;
+}
+
+// line-height
+.lh-solid { line-height: 1; }
+.lh-title { line-height: 1.25; }
+.lh-copy  { line-height: 1.5; }
+.lh-md    { line-height: 1.75; }
+.lh-lg   { line-height: 2; }

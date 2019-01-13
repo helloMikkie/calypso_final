@@ -1,0 +1,59 @@
+---
+layout: page_service
+ziel-title: Service
+title: Über uns 
+color: "#909090"
+text-color: ""
+intro: "Die Materialen wurden im Rahmen der Kunstlabor Tanz entwickelt und basieren auf die Praxiserfahrung des Projekts TanzZeit.
+Praktische Informationen um ein Tanzprojekt in Schulen zu initiieren, von der Idee bis zum Auswahl eines Unterrichtsformat bis hin zu Finanzierungsmöglichkeiten, findest du hier.
+Informationen über unsere Calypso Weiterbildungsangebot findest du hier: Calypso Seite auf TanzZeit Webseite.
+Über Anregungen und Feedback zu Calypso oder um weitere Informationen zu unsere Angebot und analoge Materialen zu erhalten, schreibst du uns bitter hier : info@calypso.de"
+---
+
+<!-- Header bar -->
+<header class="headerBar subpage">
+  <span style="color: {{ page.color}}">{{ page.ziel-title }}</span> {{ page.title }}
+</header>
+
+
+
+<!-- hero-Material -->
+
+<!-- <div class="hero-material" >
+    <div class="hero-image" style="background-image: url({{page.hero}});"></div>
+
+      <div class="hero-material-title">
+        <h1 class="euclid-m mv0">{{ page.title }}</h1>
+      </div>
+</div> -->
+
+
+<!-- Introtext -->
+ <div class="wrapper" id="scrollTo-eins">
+    <article class="intro color-gray pa2  mv6 f-lg lh-md euclid-m">
+    <span>{{ page.title}}</span> {{ page.intro }}
+    </article>
+  </div>
+<section class="bg-white w-100">
+<div class="wrapper markdown flex ">
+
+    <article class="w-50 f-md">
+      <p>
+      TanzZeit e.V. <br>
+      Klosterstraße 68 <br>
+      10179 Berlin <br>
+      </p>
+      <p>
+      <a href="">info(at)tanzzeit-berlin.de</a>
+      </p>
+      <p>
+        Telefon: (030) 247 49 791 <br>
+        <a href=""> www.tanzzeit-berlin.de</a>
+      </p>
+    </article >
+
+    <article  class="w-50 flex flex-column">
+      {{ site.texts | where:"title" , "kontakt" }}
+    </article>
+</div>
+</section>

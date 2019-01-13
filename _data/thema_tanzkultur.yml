@@ -1,0 +1,197 @@
+- sub: traditionell
+  front: Tarantella
+  back: "18. Jh. Sueditalien"
+  flip: 1
+- sub: traditionell
+  front: Flamenco
+  back: "19. Jh. Andalusien"
+  flip: 1
+- sub: traditionell
+  front: Schuhplattler
+  back: "184 O Oberbayern, Tirol, Salzburg"
+  flip: 1
+- sub: traditionell
+  front: Halay
+  back: "Türkischer Volkstanz"
+  flip: 1
+- sub: traditionell
+  front: Dabke
+  back: "Orientalischer Folkloretanz, Libanon, Tuerkei, Jordanien, Syrien, Palaestinensische Autonomiegebiete, Israel, Irak"
+  flip: 1
+- sub: traditionell
+  front: Attan
+  back: Paschtun Tanz Afghanistan
+  flip: 1
+
+- sub: gesellschaftstaenze
+  front: Menuett
+  back: "17. Jh. Frankereich"
+  flip: 1
+- sub: gesellschaftstaenze
+  front: Walzer
+  back: "1811 Mitteleuropa"
+  flip: 1
+- sub: gesellschaftstaenze
+  front: Polka
+  back: "1831 Tschechien/Deutschland"
+  flip: 1
+- sub: gesellschaftstaenze
+  front: Tango
+  back: "1881 Argentinien/Uruguay"
+  flip: 1
+- sub: gesellschaftstaenze
+  front: Swing
+  back: "1931 USA"
+  flip: 1
+- sub: gesellschaftstaenze
+  front: "Rock'n'Roll"
+  back: "1951 USA Jugendprotestkultur"
+  flip: 1
+- sub: gesellschaftstaenze
+  front: Twist
+  back: "1961 Afro-Amerikanische Kultur"
+  flip: 1
+- sub: gesellschaftstaenze
+  front: Salsa
+  back: "1971 Karibik"
+  flip: 1
+- sub: gesellschaftstaenze
+  front: Samba
+  back: "21. Jh. Brasilien"
+  flip: 1
+- sub: gesellschaftstaenze
+  front: "Cha Cha-Cha"
+  back: "21. Jh. Kuba"
+  flip: 1
+- sub: gesellschaftstaenze
+  front: Jive
+  back: "Vorlaeufer des Rock'n'Rolls, Afro-Amerikanischer Ursprung"
+  flip: 1
+- sub: gesellschaftstaenze
+  front: Disco
+  back: "1971 Europa/USA"
+  flip: 1
+- sub: gesellschaftstaenze
+  front: Techno
+  back: "1971 Europa/USA"
+  flip: 1
+- sub: gesellschaftstaenze
+  front: "Drum'N'Bass"
+  back: "1991 England"
+  flip: 1
+- sub: gesellschaftstaenze
+  front: Jump Style
+  back: "2115 Belgien"
+  flip: 1
+
+- sub: urban
+  front: Locking
+  back: "1971er Jahre Los Angeles"
+  flip: 1
+- sub: urban
+  front: Popping
+  back: "1971er Jahre Fresno"
+  flip: 1
+- sub: urban
+  front: Hip-Hop
+  back: "(Sammelbegriff) 71er New York"
+  flip: 1
+- sub: urban
+  front: Breakdance
+  back: "1981er Jahre New York"
+  flip: 1
+- sub: urban
+  front: Freestyle
+  back: "1981er Jahre New York"
+  flip: 1
+- sub: urban
+  front: Krumping
+  back: "1991er Jahre Los Angeles"
+  flip: 1
+- sub: urban
+  front: House
+  back: "1991er Jahre New York"
+  flip: 1
+- sub: urban
+  front: Streetdance Activism
+  back: "2112 Los Angeles"
+  flip: 1
+
+- sub: buehnentaenze
+  front: Nihon Buyo
+  back: Klassischer japanischer Tanz
+  flip: 1
+- sub: buehnentaenze
+  front: Bharatnatyam
+  back: Klassischer indischer Tanz
+  flip: 1
+- sub: buehnentaenze
+  front: Ballet
+  back: "15. und 16. Jh. Italien und Frankreich"
+  flip: 1
+- sub: buehnentaenze
+  front: Moderner Tanz
+  back: "Ab 1911/1921 USA"
+  flip: 1
+- sub: buehnentaenze
+  front: Ausdruckstanz
+  back: "21. Jh. Deutschland"
+  flip: 1
+- sub: buehnentaenze
+  front: Postmoderner Tanz
+  back: "1961er Jahre USA"
+  flip: 1
+- sub: buehnentaenze
+  front: Zeitgenossischer Tanz
+  back: "(Sammelbegriff) 81er Jahre"
+  flip: 1
+- sub: buehnentaenze
+  front: Jazz Tanz
+  back: "1931er Jahre USA"
+  flip: 1
+- sub: buehnentaenze
+  front: Tanztheater
+  back: "1971er Jahre Deutschland"
+  flip: 1
+- sub: buehnentaenze
+  front: Kozept Tanz
+  back: "2111er Jahre"
+  flip: 1
+
+- sub: rituell
+  front: "Orisha-Tanze"
+  back: Afrikanische Goetter Taenze
+  flip: 1
+- sub: rituell
+  front: Kathak
+  back: "13. Jh. Indien"
+  flip: 1
+- sub: rituell
+  front: Dogon Tanze
+  back: "Maskentänze aus Mali"
+  flip: 1
+- sub: rituell
+  front: Sonnentanz
+  back: "19. Jh. Nordafrika. Indianerstaemmen"
+  flip: 1
+- sub: rituell
+  front: Haka Whakatu Waeawae
+  back: Maori Kriegstanz Neuseeland
+  flip: 1
+- sub: rituell
+  front: Tanz Der Derwische
+  back: "Mevlevi-Orden Türkei"
+  flip: 1
+
+- sub: bewegungskulturen
+  front: Capoeira
+  back: "Afro-brasilianischer Kampftanz"
+  flip: 1
+- sub: bewegungskulturen
+  front: Shaolin Kung Fu
+  back: Traditionelle Kampfkunst aus China
+  flip: 1
+- sub: bewegungskulturen
+  front: Aikido
+  back: moderne japanische Kampfkunst
+  flip: 1

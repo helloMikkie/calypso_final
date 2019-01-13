@@ -1,0 +1,241 @@
+- sub: theater
+  front: Sprechtheater
+  back:
+  flip: 0
+- sub: theater
+  front: Musiktheater
+  back:
+  flip: 0
+- sub: theater
+  front: Kleinkunst
+  back:
+  flip: 0
+
+- sub: medienkunst
+  front: Filmkunst
+  back:
+  flip: 0
+- sub: medienkunst
+  front: Videokunst
+  back:
+  flip: 0
+- sub: medienkunst
+  front: Klangkunst
+  back:
+  flip: 0
+- sub: medienkunst
+  front: Digitale Kunst
+  back:
+  flip: 0
+
+- sub: konzeptkunst
+  front: "Aktionkunst (z.B Flashmob, Performance)"
+  back:
+  flip: 0
+
+- sub: malerei
+  front: Expressionismus
+  back:
+  flip: 0
+- sub: malerei
+  front: Pop Art
+  back:
+  flip: 0
+- sub: malerei
+  front: Action Painting
+  back:
+  flip: 0
+- sub: malerei
+  front: Fotorealismus
+  back:
+  flip: 0
+
+- sub: bildhauerei
+  front: Skulptur
+  back:
+  flip: 0
+- sub: bildhauerei
+  front: Plastik
+  back:
+  flip: 0
+
+- sub: graphik
+  front: Druck
+  back:
+  flip: 0
+- sub: graphik
+  front: Mosaik
+  back:
+  flip: 0
+- sub: graphik
+  front: Sgraffito
+  back:
+  flip: 0
+
+- sub: fotografie
+  front: Fotojournalismus
+  back:
+  flip: 0
+- sub: fotografie
+  front: Sportfotographie
+  back:
+  flip: 0
+- sub: fotografie
+  front: Modefotographie
+  back:
+  flip: 0
+- sub: fotografie
+  front: Theaterfotographie
+  back:
+  flip: 0
+- sub: fotografie
+  front: Naturfotographie
+  back:
+  flip: 0
+
+- sub: architektur
+  front: Konstruktivismus
+  back:
+  flip: 0
+- sub: architektur
+  front: Dekonstruktivismus
+  back:
+  flip: 0
+- sub: architektur
+  front: Moderne
+  back:
+  flip: 0
+- sub: architektur
+  front: Strukturalismus
+  back:
+  flip: 0
+
+- sub: musik
+  front: Mittelalter
+  back: "Ballade, Rondeau, Virelai"
+  flip: 0
+- sub: musik
+  front: Renaissance
+  back: "Madrigal, Motetten"
+  flip: 0
+- sub: musik
+  front: Barock
+  back: "Oper, Fuge, Oratorium, Kantate, Suite (Ouvertueren-, Tanzsuite)"
+  flip: 0
+- sub: musik
+  front: Klassik
+  back: "Oper, Sinfonie, Sonate, Solokonzert, Streichquartett"
+  flip: 0
+- sub: musik
+  front: Romantik
+  back: "Poetisches kleines Klavierstueck, sinfonische Dichtung, Kunstlied, Musikdrama, Ballett, Operette"
+  flip: 0
+- sub: musik
+  front: "Moderne, Impressionismus"
+  back: "Prelude, Arabesque, Nocturne"
+  flip: 0
+- sub: musik
+  front: Neue Musik
+  back: "Klassische und experimentelle Formen, atonale Musik"
+  flip: 0
+
+- sub: musik
+  front: Blues
+  back:
+  flip: 0
+- sub: musik
+  front: Folk
+  back:
+  flip: 0
+- sub: musik
+  front: Lateinamerikanische Musik
+  back:
+  flip: 0
+- sub: musik
+  front: Reggae
+  back:
+  flip: 0
+- sub: musik
+  front: Traditionelle Musik
+  back:
+  flip: 0
+- sub: musik
+  front: Country
+  back:
+  flip: 0
+- sub: musik
+  front: Funk
+  back:
+  flip: 0
+- sub: musik
+  front: Metall
+  back:
+  flip: 0
+- sub: musik
+  front: Rock
+  back:
+- sub: musik
+  front: Disco
+  back:
+  flip: 0
+- sub: musik
+  front: Hip Hop
+  back:
+  flip: 0
+- sub: musik
+  front: "Rock’n’Roll"
+  back:
+  flip: 0
+- sub: musik
+  front: Pop
+  back:
+  flip: 0
+- sub: musik
+  front: Elektronische Musik
+  back:
+  flip: 0
+- sub: musik
+  front: Jazz
+  back:
+  flip: 0
+- sub: musik
+  front: Punk
+  back:
+  flip: 0
+- sub: musik
+  front: Ska
+  back:
+  flip: 0
+
+- sub: literatur
+  front: "Märchen"
+  back:
+   flip: 0
+- sub: literatur
+  front: Sage
+  back:
+  flip: 0
+- sub: literatur
+  front: Fabel
+  back:
+  flip: 0
+- sub: literatur
+  front: Kurzgeschichte
+  back:
+  flip: 0
+- sub: literatur
+  front: Novelle
+  back:
+  flip: 0
+- sub: literatur
+  front: Roman
+  back:
+  flip: 0
+- sub: literatur
+  front: "Tragödie"
+  back:
+  flip: 0
+- sub: literatur
+  front: "Komödie"
+  back:
+  flip: 0

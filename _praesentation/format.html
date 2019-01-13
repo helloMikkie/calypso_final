@@ -1,0 +1,32 @@
+---
+title: Format
+thema: format
+category:
+color: "#C27AC8"
+headline: Choreografisches Format
+subheadline: Beyonce vs Keersmaker
+description: "Eine thematisch entwickelte Choreographie wird in Form eines festgelegten und geprobten Ablaufs in einem Theater oder in einer schulinternen Aufführung präsentiert."
+thumbnail: images/thumbnails/praesentation/placeholder.jpg
+---
+
+<article class="relative center tc">
+
+    <h4 class="f-md tracked " style="color: {{ page.color }}">{{ page.category }}</h4>
+
+    <div class="card pa4" style="border: 4px solid {{page.color}}">
+      <img src="{{ page.thumbnail }}" alt="klauen" class="thumbnail">
+      <h1 class="mv0 ttu f-xl tracked euclid-m" style="color: {{page.color}};">{{ page.headline }}</h1>
+      <!-- <h2 class="mt2 mb4 f-md euclid-m">{{ page.subheadline }}</h2> -->
+      <p class=" tc ls-small lh-copy"> {{ page.description }}</p>
+      <ul class="tl mt5 euclid-m pl0 list lh-copy" style="color: {{page.color}}">
+          <li class="mv3">Schüler*innen erleben nach den Höhen und Tiefen eines künstlerischen Prozesses Momente von hoher Intensität und Konzentration auf der Bühne.</li>
+          <li class="mv3">Schüler*innen lernen einen Bühnenauftritt vor Publikum als eine Situation kennen, in der selbstverantwortliches Handeln und Authentizität zu einem sofortigen positivem Echo führt
+Die potentielle Magie einer Bühnenerfahrung kann für Schüler*innen zu einem unvergesslichen Erlebnis werden.</li>
+
+      </ul>
+
+      <button class="open-modal pv3 ph3 euclid-m f-md tracked ml3" onclick="openModal(event,'format')">Videobeispiel</button>
+
+    </div>
+
+  </article>

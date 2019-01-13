@@ -1,0 +1,269 @@
+
+# Chapter 1 - Selbstbefragung
+
+- sub: 1_1_biografisches
+  text: Welchen biografischen Hintergrund habe ich?
+- sub: 1_1_biografisches
+  text: Wie steht dieser in Beziehung zu meinem Interesse für zeitgenössischen Tanz?
+- sub: 1_1_biografisches
+  text: Welche anderen Kunstsparten interessieren mich?
+
+- sub: 1_1_tanzverstaendnis
+  text: Wann ist ein Bewegungsablauf für mich gelungen?
+- sub: 1_1_tanzverstaendnis
+  text: "Welche motorischen Grundfähigkeiten sind in einem Tanztraining besonders relevant (Kraft, Ausdauer, Schnelligkeit, Koordination, Haltung etc.)?"
+- sub: 1_1_anzverstaendnis
+  text: Was bedeutet für mich Präsenz?
+
+- sub: 1_1_vermittlungsansatz
+  text: Was möchte ich vermitteln?
+- sub: 1_1_vermittlungsansatz
+  text: Verfolge ich einen ergebnisoffenen Ansatz oder lege ich das Ziel der Aufführung vorher fest?
+- sub: 1_1_vermittlungsansatz
+  text: Was sind meine Stärken in der Vermittlung?
+
+- sub: 1_1_vermittlungskompetenzen
+  text: Welche der folgenden Punkte halte ich für die Tanzvermittlung wichtig?
+- sub: 1_1_vermittlungskompetenzen
+  text: Welche dieser Themen möchte ich in meiner Vermittlungsarbeit stärken und vertiefen? Welche Möglichkeiten gibt es dafür?
+
+
+# Chapter 1 - Planungstreffen
+
+- sub: 1_2_bezug
+  text: Welche Erfahrungen hast du mit Tanz?
+- sub: 1_2_bezug
+  text: Schaue dir die Bilder an. Welches spricht dich besonders an und welches gefällt dir weniger? Bringe sie in eine Reihenfolge und begründe.
+- sub: 1_2_bezug
+  text: Was begeistert dich momentan? Gibt es dafür Raum in deinem Beruf?
+
+- sub: 1_2_motivation
+  text: Warum möchtest du dieses Tanzprojekt durchführen?
+- sub: 1_2_motivation
+  text: Welche Hoffnungen und welche Bedenken hast Du?
+
+- sub: 1_2_organisation
+  text: Legt die Termine für den Tanzunterricht verbindlich fest.
+- sub: 1_2_organisation
+  text: Klärt, in welchem Raum der Unterricht stattfinden wird.
+- sub: 1_2_organisation
+  text: Gibt es dort eine Musikanlage, Internet, ist es sauber, wie ist der Fußboden beschaffen?
+
+- sub: 1_2_inhalt
+  text: Werft einen Blick auf die Calypso-Fokusfelder und tauscht euch über eure Interessen aus.
+- sub: 1_2_inhalt
+  text: Welche Themen werden aktuell im Schulunterricht behandelt?
+
+- sub: 1_2_vermittlung
+  text: Welche Regeln für den Unterrichtsablauf wollt ihr vereinbaren?
+- sub: 1_2_vermittlung
+  text: Möchtet ihr die Zugangskonzepte als Projekteinstieg gemeinsam nutzen? Wann und wie wollt ihr sie gemeinsam mit den Schüler*innen sichten?
+
+- sub: 1_2_kooperation
+  text: Kann die Lehrer*in durch zugewandtes Beobachten den Unterricht unterstützen?
+- sub: 1_2_kooperation
+  text: Können die Lehrer*innen die Tanzvermittler*innen im Fall von Unsicherheiten und Konzentrationsproblemen seitens der Schüler*innen mit Rat und Tat unterstützen?
+- sub: 1_2_kooperation
+  text: Können die Tanzvermittler*innen ihren Vermittlungsansatz transparent machen und die Beteiligten bei der Themenfindung für den Unterricht einbeziehen?
+
+- sub: 1_2_reflexion
+  text: Habt ihr bereits einen Termin für ein Reflexionstreffen zur ‚Halbzeit’ des Projekts festgelegt?
+- sub: 1_2_reflexion
+  text: Welche Zeitfenster und ritualisierten Gespräche könnt ihr einplanen, um während des Prozesses im Gespräch zu bleiben? (z.B. kleine Rituale, wie ein kurzes Gespräch, jeweils 5 Minuten nach dem Unterricht etc.)
+- sub: 1_2_reflexion
+  text: Was läuft gut? Was kann wie verbessert werden?
+
+
+# Chapter 3 - Klassenscan
+
+- sub: 3_lernverhalten
+  text: Wie lange kann sich die Klasse auf eine Aufgabe konzentrieren?
+- sub: 3_lernverhalten
+  text: Können die Schüler*innen selbständig in Gruppen arbeiten?
+- sub: 3_lernverhalten
+  text: Können sie Aufgabenstellungen für sich umsetzen und kreative Lösungen finden?
+
+- sub: 3_sozialverhalten
+  text: "Welcher Umgangsmodus bestimmt das Sozialverhalten, ist er freundlich/respektvoll oder eher ruppig? Welche “Sprache” sprechen die Schüler?"
+- sub: 3_sozialverhalten
+  text: Wie gehen Mädchen und Jungen miteinander um?
+- sub: 3_sozialverhalten
+  text: Welche Cliquen existieren?
+- sub: 3_sozialverhalten
+  text: Lassen sich Meinungsführer ausmachen? Welche Schüler*innen ordnen sich eher unter? Gibt es Außenseiter?
+
+- sub: 3_motorik
+  text: "Welche - der Altersgruppe entsprechenden - motorischen Fähigkeiten sind gut ausgebildet, welche weniger und welche fehlen ganz?"
+- sub: 3_motorik
+  text: Wie gut können sich die Schüler*innen körperlich artikulieren?
+- sub: 3_motorik
+  text: Über welche körperliche Risikobereitschaft verfügt die Klasse?
+- sub: 3_motorik
+  text: Wer braucht Unterstützung bei Bewegungsabläufen?
+
+- sub: 3_energie
+  text: "Sind die Schüler motiviert und wie steht es mit ihrer Ausdauer? Sind sie fähig und bereit zu körperlicher Anstrengung, auch über eine längere Dauer. Wie hoch ist ihr „Energielevel“?"
+- sub: 3_energie
+  text: "Welcher Zusammenhang besteht zwischen „Energielevel“ und Motivationsgrad?  (z.B. viel Energie – wenig Motivation, oder viel Energie – viel Motivation)"
+
+- sub: 3_wesen
+  text: Fühle ich mich durch die Klasse oder einzelne Schüler*innen inspiriert?
+- sub: 3_wesen
+  text: Welche Themen interessieren die Schüler*innen?
+- sub: 3_wesen
+  text: "Wenn ich Schwächen und Probleme, aber auch besondere Fähigkeiten der Klasse erkannt habe: Wie kann ich beides in meine Arbeit einfließen lassen und künstlerisch umsetzen?"
+
+# Chapter 5 - Reflexionstreffen
+
+- sub: 5_1_motivation
+  text: "Welche Hoffnungen haben sich erfüllt, welche Wünsche sind noch offen?"
+- sub: 5_1_motivation
+  text: "Gab es anfängliche Bedenken und was ist aus ihnen geworden?"
+- sub: 5_1_motivation
+  text: "Könnt Ihr gemeinsame Ziele für die zweite Hälfte des Projektes formulieren? (z.B. Stärkung des Ausdrucks- und Bewegungswillens der Schüler*innen, Förderung des Gemeinschaftssinns)"
+
+- sub: 5_1_organisation
+  text: "Habt Ihr alle Unterrichtstermine aktualisiert?"
+- sub: 5_1_organisation
+  text: "Habt Ihr dabei die Termine der Präsentationen, Extra- und Generalproben berücksichtigt?"
+- sub: 5_1_organisation
+  text: "Sind alle für die Präsentation notwendigen Materialien, wie z.B. Kostüme usw. organisiert? Wie möchtet ihr vorgehen?"
+
+- sub: 5_1_inhalte
+  text: "Kannst du als Tanzvermittler*in deine bisherige Vorgehensweise erläutern?"
+- sub: 5_1_inhalte
+  text: "Welches sind Eure bisherigen Unterrichtsinhalte? Tauscht Euch aus. Habt Ihr dazu die Fokusfelder berücksichtigt?"
+- sub: 5_1_inhalte
+  text: "Wie können diese Inhalte im weiteren Projektverlauf bis zur Präsentation gestaltet werden?"
+- sub: 5_1_inhalte
+  text: "Habt ihr Euch die Qualitätskriterien für Choreografie als Hilfestellung herangezogen, um das Wesentliche des Materials herauszufiltern?"
+
+- sub: 5_1_vermittlung
+  text: "Welche Ansprache, Rituale o.ä. brauchen die Schüler*innen, um eine Präsentation auf die Beine zu stellen?"
+- sub: 5_1_vermittlung
+  text: "Wie bringt man ihnen bei, dass die Präsentation mit Üben, Wiederholen und Arbeiten verbunden ist?"
+- sub: 5_1_vermittlung
+  text: "Wie kannst du als Lehrer*in die Tanzvermittler*innen bei den Vorbereitungen unterstützen?"
+- sub: 5_1_vermittlung
+  text: "Kannst du als Tanzvermittler*in etwas an ihrem Vermittlungsansatz verbessern?"
+
+- sub: 5_1_kooperation
+  text: "Wie hat sich eure Zusammenarbeit entwickelt und was könnt ihr Euch für die Dauer des Projekts noch vorstellen?"
+- sub: 5_1_kooperation
+  text: "Willst du als Lehrer*in selbst eine Erfahrung machen und mittanzen?"
+- sub: 5_1_kooperation
+  text: "Willst du als Lehrer*in selbst Übungen und Rituale anleiten?"
+
+- sub: 5_1_reflexion
+  text: "Seid Ihr beide zufrieden mit Euren Ritualen, die ihr anfangs zur gemeinsamen Reflexion festgelegt habt?"
+- sub: 5_1_reflexion
+  text: "Seid Ihr beide zufrieden damit, wie ihr die Kommunikation in Eurem Prozess gestaltet? Möchtet ihr etwas ändern?"
+- sub: 5_1_reflexion
+  text: "Habt Ihr einen Termin für euer Abschlusstreffen am Ende des Projektes festgelegt?"
+
+# Selbstevaluation
+
+- sub: 5_2_kooperation
+  text: "Habe ich heute anderen aufmerksam zugehört?"
+- sub: 5_2_kooperation
+  text: "Fiel es mir heute leicht, mit anderen zusammenarbeiten?"
+- sub: 5_2_kooperation
+  text: "Habe ich Vorschläge meiner Partner*in angenommen?"
+- sub: 5_2_kooperation
+  text: "Wurden meinen Vorschlägen angenommen?"
+
+- sub: 5_2_verhalten
+  text: "Habe ich heute jemanden geschlagen, getreten, angerempelt, beschimpft usw.?"
+- sub: 5_2_verhalten
+  text: "Habe ich mich heute an die Regeln unserer Klasse gehalten?"
+- sub: 5_2_verhalten
+  text: Bin ich heute zufrieden mit meinem Verhalten?
+
+- sub: 5_2_spass
+  text: "Hatte ich heute Spaß hatte beim Tanzen?"
+- sub: 5_2_spass
+  text: "Freue ich mich auf den nächsten Tanzunterricht?"
+- sub: 5_2_spass
+  text: "Was macht mir im Tanzunterricht am meisten Spaß?"
+
+- sub: 5_2_tanzunterricht
+  text: "Fiel es mir heute leicht, Bewegungen nachzumachen?"
+- sub: 5_2_tanzunterricht
+  text: "Fiel es mir heute leicht, Bewegungen zu erfinden?"
+- sub: 5_2_tanzunterricht
+  text: "Konnte ich heute meine Bewegungsideen in die Gruppe einbringen?"
+- sub: 5_2_tanzunterricht
+  text: "Was hast Du heute Neues erfahren/gelernt?"
+- sub: 5_2_ftanzunterricht
+  text: "Fiel es mir heute leicht, zu improvisieren?"
+- sub: 5_2_tanzunterricht
+  text: "Wenn nicht, warum?"
+- sub: 5_2_tanzunterricht
+  text: "Welche Ideen habe ich zu unserem Tanzstück?"
+
+- sub: 5_2_sonstiges
+  text: "Was wünsche ich mir im Tanzunterricht?"
+- sub: 5_2_sonstiges
+  text: "Gibt es etwas, das mich stört?"
+- sub: 5_2_sonstiges
+  text: "Was gefällt mir im Tanzunterricht?"
+- sub: 5_2_sonstiges
+  text: "Was ich sonst noch loswerden möchte?"
+
+# Abschlusstreffen
+
+- sub: 7_1_prozess
+  text: "Wie beurteilst Du den Prozess?"
+- sub: 7_1_prozess
+  text: "Was war gewöhnungsbedürftig?"
+- sub: 7_1_prozess
+  text: "Was hat Dich bewegt/erstaunt?"
+- sub: 7_1_prozess
+  text: "Welche Erkenntnisse nimmst Du aus dem Prozess mit?"
+
+- sub: 7_1_fazit
+  text: "Welche Ziele haben sich eingelöst?"
+- sub: 7_1_fazit
+  text: "Wie haben sich die Schüler*innen entwickelt?"
+- sub: 7_1_fazit
+  text: "Was nehmen die Kinder aus dem Prozess mit?"
+- sub: 7_1_fazit
+  text: "Wie habt Ihr die Präsentation erlebt? Hatte das Stück inhaltlich für Euch Relevanz?"
+- sub: 7_1_fazit
+  text: "Habt Ihr den Evaluationsbogen ausgefüllt?"
+
+- sub: 7_1_perspektiven
+  text: "Gibt es das Bedürfnis das Tanzprojekt fortzuführen?"
+- sub: 7_1_perspektiven
+  text: "Wenn ja, wie kann der/die Tanzvermittler*in dabei unterstützen? Wenn nein, warum nicht?"
+- sub: 7_1_perspektiven
+  text: "Kann sich der/die Lehrer*in vorstellen gemeinsam mit dem/der Tanzvermittler*in ein gesamtes Projekt inhaltlich zu planen, gestalten und durchzuführen?"
+- sub: 7_1_perspektiven
+  text: "Ist der Lehrer*in das Tandemformat und das Hand in Hand Schulen Modell bekannt?"
+
+# ProjektEvaluation
+
+- sub: 7_2_meinung
+  text: "Was hat Dir am Tanzprojekt gefallen?"
+- sub: 7_2_meinung
+  text: "Was hat Dir gefehlt?"
+- sub: 7_2_meinung
+  text: "Beschreibe das, was Du im Tanzprojekt am Liebsten gemacht hast?"
+- sub: 7_2_meinung
+  text: "Beschreibe das, was Du am Liebsten machen würdest?"
+
+- sub: 7_2_miteinander
+  text: "Wie fandst Du das Miteinander?"
+- sub: 7_2_miteinander
+  text: "Was könnte besser laufen?"
+- sub: 7_2_miteinander
+  text: "Wie wurden Deine Meinung, Deine Gefühle und Beobachtungen ernst genommen?"
+- sub: 7_2_miteinander
+  text: "WER könnte WAS anders machen, um das Miteinander zu verbessern?"
+- sub: 7_2_miteinander
+  text: "Was könntest Du anders machen?"
+
+- sub: 7_2_ausblick
+  text: "Was würdest Du in einem nächsten Tanzprojekt anders machen wollen?"
+- sub: 7_2_ausblick
+  text: "Was könnten die anderen Deiner Meinung nach anders machen?"

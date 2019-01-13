@@ -1,0 +1,325 @@
+- sub: koerperteile
+  front: Kopf
+  back:
+  flip: 0
+- sub: koerperteile
+  front: Schultern
+  back:
+  flip: 0
+- sub: koerperteile
+  front: Brustkorb
+  back: Homepage
+  flip: 0
+- sub: koerperteile
+  front: Taille
+  back:
+  flip: 0
+- sub: koerperteile
+  front: Becken
+  back:
+  flip: 0
+- sub: koerperteile
+  front: Beine
+  back:
+  flip: 0
+- sub: koerperteile
+  front: Knie
+  back:
+  flip: 0
+- sub: koerperteile
+  front: Fuss
+  back:
+  flip: 0
+- sub: koerperteile
+  front: Zehen
+  back:
+  flip: 0
+- sub: koerperteile
+  front: Arme
+  back:
+  flip: 0
+- sub: koerperteile
+  front: Ellenbogen
+  back:
+  flip: 0
+- sub: koerperteile
+  front: Handgelenk
+  back:
+  flip: 0
+- sub: koerperteile
+  front: Hand
+  back:
+  flip: 0
+- sub: koerperteile
+  front: Finger
+  back:
+  flip: 0
+
+- sub: koerperaktionen
+  front: Fortbewegung
+  back: "Rennen <br> Krabbeln <br> Robben <br>etc."
+  flip: 1
+- sub: koerperaktionen
+  front: Sprung
+  back: "von 2 Füßen auf 2 Füße springen  <br />von einem Fuß auf den anderen Fuß <br />etc."
+  flip: 1
+- sub: koerperaktionen
+  front: Drehung und Rotationen
+  back: ""
+  flip: 1
+- sub: koerperaktionen
+  front: Stillstand
+  back: ""
+  flip: 1
+- sub: koerperaktionen
+  front: rotation
+  back: ""
+  flip: 1
+
+- sub: koerperform
+  front: Linear
+  back: Wie ein Stift
+  flip: 1
+- sub: koerperform
+  front: Flach
+  back: Wie eine Wand
+  flip: 1
+- sub: koerperform
+  front: Rund
+  back: Wie ein Ball
+  flip: 1
+- sub: koerperform
+  front: Verdreht
+  back: Wie eine Schraube
+  flip: 1
+
+- sub: formqualitaeten
+  front: Vostreben
+  back:
+  flip: 0
+- sub: formqualitaeten
+  front: Zurueckziehen
+  back:
+  flip: 0
+- sub: formqualitaeten
+  front: Ausbreiten
+  back:
+  flip: 0
+- sub: formqualitaeten
+  front: Schliessen
+  back:
+  flip: 0
+- sub: formqualitaeten
+  front: Steigen
+  back:
+  flip: 0
+- sub: formqualitaeten
+  front: Sinken
+  back:
+  flip: 0
+
+- sub: reichweite
+  front: Enge Reichweite
+  back: Am Platz bleiben und sich ganz nah am Koerper bewegen (ganz klein und ganz eng, den Koerper entlang streichen usw.)
+  flip: 1
+- sub: reichweite
+  front: Mittlere Reichweite
+  back: Am Platz bleiben und mit gebeugten Koerperteile sich bewegen (wie meistens im Alltag)
+  flip: 1
+- sub: reichweite
+  front: Weite Reichweite
+  back: Am Platz bleiben und sich ganz weit ausstrecken (expandieren, erobern, ganz gross und lang)
+  flip: 1
+
+- sub: ebenen
+  front: Am Boden
+  back:
+  flip: 0
+- sub: ebenen
+  front: Hocke
+  back:
+  flip: 0
+- sub: ebenen
+  front: Im Stehen
+  back:
+  flip: 0
+- sub: ebenen
+  front: Auf Der Zehenspitze
+  back:
+  flip: 0
+- sub: ebenen
+  front: In Der Luft
+  back:
+  flip: 0
+
+- sub: bewegungsrichtungen
+  front: Vertikale Dimension
+  back: z.B. Hüpfen am Platz
+  flip: 1
+- sub: bewegungsrichtungen
+  front: Sagittale Dimension
+  back: z.B. Jemandem die Hand geben
+  flip: 1
+- sub: bewegungsrichtungen
+  front: Horizontale Dimension
+  back: z.B. Eine Schiebetuer aufmachen
+  flip: 1
+
+- sub: flaechen
+  front: Tür Vertikale Flache
+  back: z.B. sich platt wie in einem Tuerrahmen bewegen, Fenster putzen
+  flip: 1
+- sub: flaechen
+  front: Rad Sagittale Flache
+  back: z.B. hinsetzten und aufstehen, Purzelbaum
+  flip: 1
+- sub: flaechen
+  front: Tisch Horizonrale Flache
+  back: z.B. Tish abwischen, Suppe ruehren
+  flip: 1
+
+
+- sub: bewegungsphrasen
+  front: Anfang
+  back:
+  flip: 0
+- sub: bewegungsphrasen
+  front: Aktion
+  back:
+  flip: 0
+- sub: bewegungsphrasen
+  front: Ende
+  back:
+  flip: 0
+
+- sub: bewegungsverlauf
+  front: Simultan
+  back: Mehrere Koerperteile
+  flip: 1
+- sub: bewegungsverlauf
+  front: Sukzessiv
+  back: benachbarte Koerperteile nacheinander bewegen
+  flip: 1
+- sub: bewegungsverlauf
+  front: Sequentiell
+  back: nicht benachbarten Koerpteile nacheinander bewegen
+  flip: 1
+
+- sub: art
+  front: aktiv
+  back:
+  flip: 0
+- sub: art
+  front: passiv
+  back:
+  flip: 0
+- sub: art
+  front: führen
+  back:
+  flip: 0
+- sub: art
+  front: folgen
+  back:
+  flip: 0
+
+- sub: anderen
+  front: Wahrnehmen
+  back:
+  flip: 0
+- sub: anderen
+  front: Anschauen
+  back:
+  flip: 0
+- sub: anderen
+  front: Sich Aufeinander Zu Bewegen
+  back:
+  flip: 0
+- sub: anderen
+  front: Nah Sein
+  back:
+  flip: 0
+- sub: anderen
+  front: Sich Berühren
+  back:
+  flip: 0
+- sub: anderen
+  front: Gewicht Abgeben
+  back:
+  flip: 0
+- sub: anderen
+  front: Sich Voneinander Weg Bewegen
+  back:
+  flip: 0
+- sub: anderen
+  front: Sich Abgrenzen
+  back:
+  flip: 0
+- sub: anderen
+  front: Auseinander Strömen
+  back:
+  flip: 0
+
+- sub: antrieb
+  front: Kräftig
+  back:
+  flip: 1
+- sub: antrieb
+  front: Leicht
+  back:
+  flip: 1
+- sub: antrieb
+  front: Gefuhrt
+  back:
+  flip: 1
+- sub: antrieb
+  front: Frei
+  back:
+  flip: 1
+- sub: antrieb
+  front: Direkt
+  back:
+  flip: 1
+- sub: antrieb
+  front: Ziellos
+  back:
+  flip: 1
+- sub: antrieb
+  front: Schnell
+  back:
+  flip: 1
+- sub: antrieb
+  front: Langsam
+  back:
+  flip: 1
+- sub: antrieb
+  front: Flattern
+  back: ziellos,leicht,schnell, z.B. zucken, aufgescheuchte Vögel
+  flip: 1
+- sub: antrieb
+  front: Stossen
+  back: direkt, schwer, schnell
+  flip: 1
+- sub: antrieb
+  front: Schweben
+  back: ziellos, leicht, langsam, z.B.fliegen, schwanken, Astronauten, streicheln
+  flip: 1
+- sub: antrieb
+  front: Wringen
+  back: ziellos, schwer, langsam, z.B. schrauben, biegen, Waesche auswringen
+  flip: 1
+- sub: antrieb
+  front: Tupfen
+  back: direkt, leicht, schnell,z.B. tippen, schuetteln, klopfen
+  flip: 1
+- sub: antrieb
+  front: Peitschen
+  back: ziellos, schwer,schnell, z.B. schlagen, werfen, um sich hauen, schleudern
+  flip: 1
+- sub: antrieb
+  front: Gleiten
+  back: direkt, leicht, langsam, z.B. glaetten, strecken, wischen
+  flip: 1
+- sub: antrieb
+  front: Drücken
+  back: direkt, schwer, langsam, z.B. pressen, Möbel ruecken
+  flip: 1

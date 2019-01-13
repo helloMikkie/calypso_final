@@ -1,0 +1,62 @@
+- sub: selbst
+  front: Herkunft
+  back:
+  flip: 0
+- sub: selbst
+  front: Lebenswirklichkeit
+  back:
+  flip: 0
+- sub: selbst
+  front: Interessen
+  back:
+  flip: 0
+- sub: selbst
+  front: Selbstbild
+  back:
+  flip: 0
+- sub: selbst
+  front: Selbstwert
+  back:
+  flip: 0
+
+- sub: gegenueber
+  front: "Unterschiede/Vielfalt"
+  back:
+  flip: 0
+- sub: gegenueber
+  front: Zusammenleben
+  back:
+  flip: 0
+- sub: gegenueber
+  front: Gemeinsamkeiten
+  back:
+  flip: 0
+- sub: gegenueber
+  front: Kommunikation
+  back:
+  flip: 0
+- sub: gegenueber
+  front: Empathie
+  back:
+  flip: 0
+
+- sub: gesellschaft
+  front: Soziales Umfeld
+  back:
+  flip: 0
+- sub: gesellschaft
+  front: Politik
+  back:
+  flip: 0
+- sub: gesellschaft
+  front: Natur
+  back:
+  flip: 0
+- sub: gesellschaft
+  front: "Globalisierung/Digitalisierung"
+  back:
+  flip: 0
+- sub: gesellschaft
+  front: Verantwortung
+  back:
+  flip: 0

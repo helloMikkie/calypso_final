@@ -1,0 +1,213 @@
+---
+layout: page_chapter1
+title: Planungstreffen
+ziel-nr: 1
+color: "#58B0E2"
+text-color: ""
+ziel-title: kooperieren
+intro: "Beim Planungstreffen begegnen sich Tanzvermittler*in und Lehrer*in oft zum ersten Mal. Dieser Leitfaden gibt Anregungen für die Gesprächsführung und fasst die wesentlichen Themen zusammen.
+Denn eure gute Zusammenarbeit trägt entscheidend zum Gelingen des Projekts bei. Dabei geht es sowohl darum, dass ihr euch gegenseitig kennenlernt und euch über eure Erwartungen austauscht,
+als auch um organisatorische Aspekte. Meist moderieren die Tanzvermittler*innen dieses Gespräch.<br>
+Die besprochenen Inhalte des Planungstreffens dienen später als Grundlage für das <span class='link ch-1'>Reflexionstreffen</span> in der Mitte und das Abschlusstreffen am Ende des Projekts."
+hinweis: "Das Planungstreffen dauert ungefähr 60 Minuten. Die Fragen des Leitfadens kannst du beliebig anordnen, einzelne weglassen oder auch eigene hinzufügen.
+Am besten beginnst du mit dem, was dich am meisten anspricht. Im Gespräch beantwortet ihr euch die Fragen gegenseitig und notiert die Antworten stichpunktartig."
+hero: images/hero/1-hero-planungstreffen.gif
+tipp-eins: Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
+tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
+---
+<!-- Header bar -->
+  <header class="headerBar">
+    <span style="color: {{ page.color}}" >{{ page.ziel-title }}</span> {{ page.title }}
+  </header>
+
+<!-- Ziel-Nummer  -->
+  <div class="page-number euclid-m" style="color: {{page.color}}">{{ page.ziel-nr }}</div>
+
+<!-- Hinweis -->
+  <article class="hinweis">
+    <div class="hinweisContent">
+      <p>{{page.hinweis}}</p>
+      <ul>
+        <li>Dauer:</li>
+        <li>Material:</li>
+      </ul>
+    </div>
+    <div class="hinweisButton" style="background-color: {{page.color}}"></div>
+  </article>
+
+<!-- subNav footer -->
+
+<article class="subnavigation short">
+    <ul class=" ">
+      <li><a href="#scrollTo-eins" class="subnavTab pb3 color-1 no-underline f-s">Intro</a></li>
+      <li><a href="#scrollTo-zwei" class="subnavTab pb3 color-1 no-underline f-s">Starten</a></li>
+    </ul>
+
+    <ul class="rightSubNav">
+      <li><a href="#scrollTo-acht" class="subnavTab pb3 color-1 no-underline f-s">neue Frage</a></li>
+      <li><a href="#scrollTo-neun" class="subnavTab pb3 color-1 no-underline f-s">Drucken</a></li>
+    </ul>
+</article>
+
+<!-- hero-Material -->
+
+<div class="hero-material" >
+    <div class="hero-image" style="background-image: url({{page.hero}});"></div>
+
+      <div class="hero-material-title">
+        <h1 class="euclid-m mv0">{{ page.title }}</h1>
+      </div>
+</div>
+
+
+<!-- Introtext -->
+<section>
+  <div class="wrapper" id="scrollTo-eins">
+    <article class="intro color-gray pa2  mv6 f-lg lh-md euclid-m">
+    {{ page.intro }}
+    </article>
+  </div>
+  </section>
+
+<!-- Content -->
+
+<section class="mv5" id="scrollTo-zwei">
+    <article class="sectionTitle odd">
+      <h1 class="mv0 pt3 euclid-m f-xl tracked">Bezug</h1>
+    </article>
+    <article class="sectionBack pa3">
+        <div class="description ph3 lh-copy ls-small euclid-r">
+          <p>	Wähle zunächst eine der drei Hauptkategorien
+              Entscheide dich für eine der vier Unterkategorien
+              Wähle einen Begriff
+              Formuliere Fragen zu dem ausgewählten Begriff.
+              Was genau interessiert dich daran? Warum?</p>
+        </div>
+          <div class="wrapper">
+            {{ site.fragen | where:"thema" , "1_2_bezug"  }}
+          </div>
+    </article>
+  </section>
+
+
+  <section class=" mv5">
+      <article class="sectionTitle">
+        <h1 class="mv0 pt2 euclid-m f-xl tracked">Motivation</h1>
+      </article>
+      <article class="w-100 pa3">
+          <div class="wrapper">
+            {{ site.fragen | where:"thema" , "1_2_motivation"  }}
+          </div>
+      </article>
+    </section>
+
+<!-- Diese Section ist mit Avatar-Tipp -->
+
+    <section class=" mv5"  data-tipp="{{ page.tipp-eins }}">
+        <article class="sectionTitle odd">
+          <h1 class="mv0 pt2  euclid-m f-xl tracked">Organisation</h1>
+        </article>
+
+        <article class="sectionBack pa3">
+              <div class="wrapper">
+                {{ site.fragen | where:"thema" , "1_2_organisation"  }}
+              </div>
+        </article>
+      </section>
+
+      <section class=" mv5" >
+          <article class="sectionTitle">
+            <h1 class="mv0 pt2  euclid-m f-xl tracked">Inhalt</h1>
+          </article>
+          <article class="w-100 pa3">
+              <div class="wrapper">
+                {{ site.fragen | where:"thema" , "1_2_inhalt"  }}
+              </div>
+          </article>
+        </section>
+
+        <section class=" mv5" >
+            <article class="sectionTitle odd  ">
+              <h1 class="mv0 pt2 euclid-m f-xl tracked">Vermittlung</h1>
+            </article>
+
+            <article class="sectionBack pa3">
+                  <div class="wrapper">
+                    {{ site.fragen | where:"thema" , "1_2_vermittlung"  }}
+                  </div>
+            </article>
+          </section>
+
+          <!-- Diese Section ist mit Avatar-Tipp -->
+
+          <section class=" mv5" data-tipp="{{ page.tipp-zwei }}">
+              <article class="sectionTitle">
+                <h1 class="mv0 pt2 euclid-m f-xl tracked">Kooperation</h1>
+              </article>
+
+
+              <article class="w-100 pa3">
+                  <div class="wrapper">
+                    {{ site.fragen | where:"thema" , "1_2_kooperation"  }}
+                  </div>
+              </article>
+            </section>
+
+            <section class=" mv5" >
+                <article class="sectionTitle odd ">
+                  <h1 class="mv0 pt2 euclid-m f-xl tracked">Reflexion</h1>
+                </article>
+
+                <article class="sectionBack pa3">
+                  <div class="description ph3 lh-copy ls-small euclid-r">
+                    <p>	Legt bereits einen Termin für das Reflexionstreffen fest. Plant außerdem kurze Gespräche zwischendurch ein, zum Beispiel als kleines Ritual jeweils fünf Minuten nach dem Unterricht.</p>
+                    </div>
+                      <div class="wrapper">
+                        {{ site.fragen | where:"thema" , "1_2_reflexion"  }}
+                      </div>
+                </article>
+              </section>
+
+<!-- neue Frage -->
+            <section class="mv5" id="scrollTo-acht">
+                <button class="open-modal db center white f-md  pv4 ph5 bn br1 euclid-m" style="background-color:{{page.color}};" onclick="openModal(event,'planungstreffen-modal')">neue Frage hinzufügen</button>
+            </section>
+
+<!-- Drucken -->
+
+          <section class=" mv5" id="scrollTo-neun">
+              <div class="wrapper">
+                {{ site.drucken | where:"thema" , "Planungstreffen"  }}
+            </div>
+          </section>
+<!-- scrollTop Button -->
+            <div class="scrolltoTop" style="background-color:{{page.color}};" >
+                  <a href="#scrollTo-eins" class="topScroll no-underline" ></a>
+              </div>
+<!-- ************** -->
+
+    <!-- Modal "Frage erstellen" -->
+    {{ site.modals | where:"thema" , "Planungstreffen" }}
+
+
+    <!-- Avatar-tipp -->
+
+    <div class="avatar" style="background-color: {{page.color}}">
+      <div class="face">
+      <!-- <img src="images/icons/avatar_2.png" alt="avatar"> -->
+        </div>
+      <div class="avatar-tipp" style="background-color: {{ page.color}}">
+
+      </div>
+    </div>
+
+
+    <!--  javascript -->
+
+    <script src="js/subnav.js"></script>
+    <script src="js/subnav_taglist.js"></script>
+
+    <script src="js/modal.js"></script>
+    <script src="js/fragenOpen.js"></script>
+    <script src="js/avatar.js"></script>
+    <script src="js/header-scroll.js"></script>

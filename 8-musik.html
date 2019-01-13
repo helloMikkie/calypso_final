@@ -1,0 +1,187 @@
+---
+layout: page_service
+title: Musikdatenbank
+ziel-nr:
+color: "#909090"
+text-color: ""
+ziel-title: Service
+intro: "Bist du auf der Suche nach einem bestimmten Lied? Willst du alles über deine Lieblingsband und deren Alben in Erfahrung bringen? Brauchst du Informationen über Sonderversionen des Albums XY
+und deren Bonustracks? Benötigst du Konzertdaten, Chartinformationen, Videoclips und noch viel mehr zu einem bestimmten Künstler? Oder möchtest du einfach nur deine CD-Sammlung online verwalten?
+Dann bist du hier genau richtig! Die omdb soll das umfangreichste deutschsprachige Nachschlagewerk für Musikfreunde werden. Viel Spaß beim Stöbern auf unseren Seiten. Jeder, der mithelfen will, die Datenbank aufzufüllen und auszubauen, ist herzlich
+willkommen! "
+hero: images/hero/planungstreffen/hero_animation.svg
+tipp-eins: Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
+tipp-zwei: Vestibulum at eros. Donec sed odio dui. Aenean eu leo quam.
+---
+
+<!-- Header bar -->
+<header class="headerBar subpage">
+  <span style="color: {{ page.color}}">{{ page.ziel-title }}</span> {{ page.title }}
+</header>
+<!-- Ziel-Nummer  -->
+<!-- <div class="page-number euclid-m" style="color: {{page.color}}">{{ page.ziel-nr }}</div> -->
+
+<!-- Hinweis -->
+
+<!-- <article class="hinweis">
+    <div class="hinweisContent">
+      <p>Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+      <ul>
+        <li>Dauer:</li>
+        <li>Material:</li>
+      </ul>
+    </div>
+    <div class="hinweisButton" style="background-color: {{page.color}}"></div>
+  </article> -->
+
+
+<!-- subNav footer -->
+
+<article class="subnavigation ">
+  <ul class=" ">
+    <li><a href="#scrollTo-eins" class="subnavTab pb3 black no-underline f-s">experimentell</a></li>
+    <li><a href="#scrollTo-zwei" class="subnavTab pb3 black no-underline f-s">melodiös-fließend</a></li>
+    <li><a href="#scrollTo-drei" class="subnavTab pb3 black no-underline f-s">aktivierend-treibend</a></li>
+    <li><a href="#scrollTo-vier" class="subnavTab pb3 black no-underline f-s">ruhiger beat</a></li>
+  </ul>
+</article>
+
+
+
+
+<!-- Introtext -->
+<div class="wrapper">
+  <article class="intro color-gray pa2  mv6 f-lg lh-md euclid-m">
+    <span class="mr3">{{page.title}}</span>{{ page.intro }}
+  </article>
+</div>
+
+<!-- content -->
+
+<section class="mv5 ">
+
+  <article class="sectionBack pa3">
+
+    <div class="wrapper" id="scrollTo-eins">
+      <h1 class="mv0 pt3 pb5 euclid-m f-xl tracked">experimentell</h1>
+
+
+
+      <table>
+        <tr>
+          <th>Interpret</th>
+          <th>Titel</th>
+          <th>Stil</th>
+          <th>Sprache</th>
+          <th>Anmerkung</th>
+        </tr>
+        <tr>
+          {% for item in site.data.musikdaten %}
+          {% if item.category == "experimentell" %}
+
+          <td>{{ item.interpret }}</td>
+          <td>{{ item.titel }}</td>
+          <td>{{ item.stil }}</td>
+          <td>{{ item.sprache }}</td>
+          <td>{{ item.anmerkung }}</td>
+
+
+        </tr>
+        {% endif %}
+        {% endfor %}
+      </table>
+
+    </div>
+
+    <div class="wrapper" id="scrollTo-zwei">
+      <h1 class="mv0 pt3 pb5 euclid-m f-xl tracked">melodiös-fließend</h1>
+
+      <table>
+        <tr>
+          <th>Interpret</th>
+          <th>Titel</th>
+          <th>Stil</th>
+          <th>Sprache</th>
+          <th>Anmerkung</th>
+        </tr>
+
+        <tr>
+          {% for item in site.data.musikdaten %}
+          {% if item.category == "melodioes" %}
+              <td>{{ item.interpret }}</td>
+              <td>{{ item.titel }}</td>
+              <td>{{ item.stil }}</td>
+              <td>{{ item.sprache }}</td>
+              <td>{{ item.anmerkung }}</td>
+        </tr>
+        {% endif %}
+        {% endfor %}
+
+      </table>
+    </div>
+
+
+
+    <div class="wrapper" id="scrollTo-drei">
+      <h1 class="mv0 pt3 pb5 euclid-m f-xl tracked">aktivierend-treibend</h1>
+
+
+      <table>
+        <tr>
+          <th>Interpret</th>
+          <th>Titel</th>
+          <th>Stil</th>
+          <th>Sprache</th>
+          <th>Anmerkung</th>
+        </tr>
+
+        <tr>
+          {% for item in site.data.musikdaten %}
+          {% if item.category == "aktivierend" %}
+            <td>{{ item.interpret }}</td>
+            <td>{{ item.titel }}</td>
+            <td>{{ item.stil }}</td>
+            <td>{{ item.sprache }}</td>
+            <td>{{ item.anmerkung }}</td>
+        </tr>
+        {% endif %}
+        {% endfor %}
+      </table>
+    </div>
+
+    <div class="wrapper" id="scrollTo-vier">
+      <h1 class="mv0 pt3 pb5 euclid-m f-xl tracked">ruhiger beat</h1>
+
+      <table>
+        <tr>
+          <th>Interpret</th>
+          <th>Titel</th>
+          <th>Stil</th>
+          <th>Sprache</th>
+          <th>Anmerkung</th>
+        </tr>
+
+        <tr>
+          {% for item in site.data.musikdaten %}
+          {% if item.category == "beat" %}
+            <td>{{ item.interpret }}</td>
+            <td>{{ item.titel }}</td>
+            <td>{{ item.stil }}</td>
+            <td>{{ item.sprache }}</td>
+            <td>{{ item.anmerkung }}</td>
+        </tr>
+        {% endif %}
+        {% endfor %}
+      </table>
+    </div>
+
+</section>
+
+
+
+
+<!--  javascript -->
+<script src="js/subnav.js"></script>
+<script src="js/subnav_taglist.js"></script>
+<script src="js/header-scroll.js"></script>
+<script src="js/tabbar.js"></script>

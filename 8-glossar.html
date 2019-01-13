@@ -1,0 +1,38 @@
+---
+layout: page_service
+ziel-title: Service
+title: Glossar
+color: "#909090"
+text-color: ""
+intro: "Ein Glossar ist eine Liste von Wörtern mit beigefügten Erklärungen oder Übersetzungen. Ist es eigenständig spricht man auch von Wörterbuch, als Anhang eines Werkes von Wörterverzeichnis. Das lateinische Wort glossarium bezeichnet
+dabei als Objekt ein „Buch“, das alte oder fremde Wörter erläutert."
+---
+
+<!-- Header bar -->
+<header class="headerBar subpage">
+  <span style="color: {{ page.color}}">{{ page.ziel-title }}</span> {{ page.title }}
+</header>
+
+
+
+<!-- hero-Material -->
+
+<!-- <div class="hero-material" >
+    <div class="hero-image" style="background-image: url({{page.hero}});"></div>
+
+      <div class="hero-material-title">
+        <h1 class="euclid-m mv0">{{ page.title }}</h1>
+      </div>
+</div> -->
+
+
+<!-- Introtext -->
+  <div class="wrapper" id="scrollTo-eins">
+    <!-- <article class="intro color-gray pa2  mv6 f-lg lh-md euclid-m">
+    <span class="mr3">{{ page.title }}</span>{{ page.intro }}
+    </article> -->
+  </div>
+
+<div class="wrapper markdown">
+    {{ site.texts | where:"title" , "glossar" }}
+</div>

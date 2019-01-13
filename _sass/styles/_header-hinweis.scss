@@ -1,0 +1,264 @@
+
+/*
+*****************************
+  INHALT:
+*****************************
+- Hero MAterial
+- Header-Bar
+- Page page-number
+- Hinweis mit Hinweis-button
+- Subnavigation
+- Avatar mit Tipp
+
+*/
+
+/* Header-Bar mit Kapitel - Seite */
+
+
+.hero-material{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+
+}
+
+.hero-image{
+  width: 90%;
+  margin: 0 auto;
+  height: calc(100vh - 168px);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+}
+
+.hero-material-title{
+  width: 100%;
+  height: 168px;
+}
+.hero-material-title h1{
+  font-size: 6em;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  margin-left: 0.75em;
+
+}
+
+header.headerBar{
+  opacity: 0;
+  font-family: euclid-m;
+  font-size: 1em;
+  background-color: rgba(255,255,255,1);
+  padding: 1.2em 5em ;
+  position: fixed;
+  top:0;
+  left:0;
+  width: 100%;
+  z-index:3;
+  box-shadow: 0 4px 6px 0 rgba(169,169,169,0.50);
+  transition: opacity 1s;
+}
+header.headerBar span{
+  margin-right: 0.5em;
+}
+header.headerBar.subpage{
+  opacity: 1;
+  font-family: euclid-m;
+  font-size: 1em;
+  background-color: rgba(255,255,255,1);
+  padding: 1.2em 5em ;
+  position: fixed;
+  top:0;
+  left:0;
+  width: 100%;
+  z-index:3;
+  box-shadow: 0 4px 6px 0 rgba(169,169,169,0.50);
+  transition: opacity 1s;
+}
+
+.scrolled{
+  opacity: 1;
+}
+
+
+/* subnavigation */
+.subnavigation.short{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.rightSubNav{
+  margin-left: auto;
+}
+.subnavigation{
+  z-index: 3;
+  width: 100%;
+  height: 54px;
+  padding: 0 48px;
+  background-color: #fff;
+  position: fixed;
+  bottom: 0;
+  left:0;
+  box-shadow: 0 -4px 6px 0 rgba(169,169,169,0.50);
+}
+
+.subnavigation ul{
+  padding: 0;
+}
+.subnavigation ul li {
+  text-decoration: none;
+  font-family: euclid-m;
+  text-transform: uppercase;
+  float: left;
+  margin-right: 16px;
+  list-style: none;
+  letter-spacing: 0.06em;
+}
+.subnavigation-ikon{
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  border: 1px solid #000;
+
+  background-image: url(images/icons/arrow_down.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 60%;
+  cursor: pointer;
+
+}
+
+.subnavigation-ikon.short{
+margin-left: 50vw;
+}
+.right{
+  float:right;
+}
+.subnavTab{
+  border-bottom: 0px solid #000;
+  transition: border 0.5s ease;
+}
+.subnavTab.activeTag{
+  color: #000;
+  border-bottom: 6px solid #000;
+}
+.scrolltoTop{
+  margin-bottom: 300px;
+  margin: 4em auto;
+  height: 36px;
+  width: 36px;
+  border-radius: 100%;
+  background-image: url(images/icons/arrow_up.svg);
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: center;
+
+}
+
+.topScroll {
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  padding: 16px;
+}
+div.page-number{
+  font-family: euclid-m;
+  line-height: 0.9;
+  font-size: 5.6em;
+  // color: red;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 5;
+}
+
+/* Hinweis */
+
+.hinweis{
+  font-family: euclid-m;
+  background-color: rgba(255,255,255,0.8);
+  width: 400px;
+  height: 100vh;
+  position: fixed;
+  top: 54px;
+  left:0;
+  padding: 2em;
+  transform: translateX(-456px);
+  transition: transform 0.3s ease;
+  z-index: 2;
+}
+
+.openOnScroll{
+  transform: translateX(-400px)
+}
+.open{
+  transform: translateX(0px);
+}
+
+.hinweisContent {
+  line-height: 1.5;
+}
+.hinweisContent p{
+  margin:0;
+
+}
+.hinweisContent ul{
+  list-style: none;
+  padding-left:0;
+
+}
+.hinweisButton{
+  width: 56px;
+  height: 56px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  top:32px;
+  right:-40px;
+}
+
+/* Avatar-Tipp */
+
+div.avatar{
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  // background-color: green;
+  position:fixed;
+  right: 0;
+  bottom: 40px;
+  z-index: 3;
+  transform: translateX(60px);
+  transition: transform 0.5s ease;
+}
+div.avatar .face{
+  position: relative;
+  // border: 1px solid green;
+  top: -24px;
+  left: -16px;
+  width: 76px;
+  // height: 200%;
+}
+div.avatar.show{
+  // background-color: blue;
+  transform: translateX(-16px);
+}
+
+div.avatar-tipp{
+  width: 320px;
+  padding: 32px;
+  position: absolute;
+  bottom: 80px;
+  right: 0;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 40px 40px 120px rgba(0,0,0,0.3);
+  // display: none;
+  transform: translateX(120%);
+  transition: transform 0.2s ease;
+}
+.avatar-tipp.open-tipp{
+  // display: block;
+  transform:translateX(0);
+}

@@ -1,0 +1,65 @@
+.info{
+  width:60vw;
+  height: 60vh;
+  background-color: rgba(255,255,255,0.85);
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  border: 3px solid #FC754B;
+  border-radius: 4px;
+}
+
+
+.info ul li{
+  border-bottom: 1px solid #FC754B;
+}
+.info ul li:last-child{
+  border-bottom: none;
+}
+
+.feedback-diagram{
+  height: 356px;
+}
+
+.feedback-title h3{
+  opacity: 0;
+  transition: opacity 1s;
+}
+.circle-diagram{
+  position: relative;
+  margin: 0 auto;
+  width: 356px;
+}
+
+.circle{
+  position: absolute;
+  width: 356px;
+  height: 356px;
+  border-radius: 100%;
+  border: 2px solid #000;
+
+}
+
+.circle.active{
+  background-color: black;
+
+}
+
+
+.circle.inner{
+  transform: scale(0.3);
+  background-color: white;
+    animation: animCircles 3s 5s infinite;
+}
+
+.circle.centered{
+  transform: scale(0.65) ;
+    background-color: white;
+    animation: animCircles 3s 3s infinite;
+}
+
+.circle.outer{
+    background-color: white;
+    animation: animCircles 3s 1s infinite;
+}

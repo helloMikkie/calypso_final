@@ -1,0 +1,69 @@
+---
+title: modal-fragen
+thema: Urban
+color: "#f89700"
+text-color: "#ECC432"
+sozialform: Einzeln/Gruppe
+intro: ""
+filter_1: übertragen
+aufgabe_1: "Erlebt die Reichweite Eurer Bewegungen indem ihr euch von eurer Zeigefingerspitze geführt nah an Eurem Körper und weit weg von Eurem Körper bewegt.
+  Steht dazu im Kreis und tanzt jeweils alleine im Kreisinneren. Übergebt den Tanzraum an jemande*n Eurer Wahl im Kreis, indem ihr seine oder ihre Fingerspitze mit eurer berührt. Setzt euchdanach wieder in den Kreis und beobachtet die folgenden Tänzer*innen.  "
+filter_2: verkörpern
+aufgabe_2: "Verändert nun die Formqualität des letzten Objektes, zum Beispiel wenn die Musik stoppt, indem ihr sinkt, steigt, schmelzt usw.   "
+---
+
+
+<div class="modal" id="urban">
+
+<!-- Abdecker -->
+  <div class="modal-background"></div>
+
+
+<!--  -->
+  <div class="modal-window" style="background-color: {{page.color}}; border: 4px solid {{page.color}};">
+
+    <div class="modal-header f-md euclid-m ">
+      <h1 class="mv0 euclid-m f-xxl black" >{{page.thema}}</h1>
+        <p class="mv0 sozialform pt3 euclid-r f-s">Sozialform: {{page.sozialform}}</p>
+    </div>
+    <div class="modal-close "></div>
+
+      <div class="modal-container f-md euclid-m lh-copy">
+
+
+          <div class="intro-container">
+
+            <p class="mv0">
+              {{page.intro}}
+            </p>
+          </div>
+
+          <div class="keyword-container">
+
+            <div class=" keyword">
+              <div class="filter">{{page.filter_1}}</div>
+            </div>
+
+            <div>
+              <p class="mv0">
+                {{ page.aufgabe_1}}
+              </p>
+            </div>
+        </div>
+
+        <div class="keyword-container">
+
+          <div class=" keyword">
+            <div class="filter">{{page.filter_2}}</div>
+          </div>
+
+          <div>
+            <p class="mv0">
+              {{ page.aufgabe_2}}
+            </p>
+          </div>
+      </div>
+
+  </div>
+  </div>
+</div>
