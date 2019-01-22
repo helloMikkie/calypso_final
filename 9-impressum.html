@@ -1,0 +1,31 @@
+---
+layout: page_service
+ziel-title: Service
+title: Impressum
+color: "#909090"
+text-color: ""
+---
+
+<!-- Header bar -->
+<header class="headerBar subpage">
+  <span style="color: {{ page.color}}">{{ page.ziel-title }}</span> {{ page.title }}
+</header>
+
+
+
+<!-- subNav footer -->
+
+<article class="subnavigation ">
+  <ul class=" ">
+    <li><a href="#scrollTo-eins" class="subnavTab pb3 black no-underline f-s"> </a></li>
+    <li><a href="#scrollTo-zwei" class="subnavTab pb3 black no-underline f-s">Credits</a></li>
+    <li><a href="#scrollTo-drei" class="subnavTab pb3 black no-underline f-s">Nutzungsbedingungen</a></li>
+  </ul>
+</article>
+
+
+
+<div class="wrapper markdown">
+    {{ site.texts | where:"title" , "impressum" }}
+</div>
+
