@@ -88,51 +88,65 @@ hero: images/hero/5-hero-feedbackkultur.png
       <h1 class="mv0 pt2 tc ttu euclid-m f-xl tracked">Feedbackkultur aktiv gestalten</h1>
     </article>
 
-  <article class="feedback-diagram mw8 mv5 center">
+
+  <!-- neu -->
+
+
+  <article class="diagram ">
     <div class="circle-diagram">
-        <button class="circle outer animCircles" onclick="openTab(event,'eins')" name="innehalten" style="background-color: {{page.color}};"></button>
-        <button class="circle centered animCircles" onclick="openTab(event,'zwei')" name="wertfrei Impulse geben"></button>
-        <button class="circle inner animCircles" onclick="openTab(event,'drei')" name="Feedback moderieren"></button>
+        <button class="circle-border inner" ></button>
+        <button class="circle-border centered"></button>
+        <button class="circle-border outer"></button> 
     </div>
 
+    <div class="circle-diagram">
+        <button class=" circle " onclick="openTab(event,'drei')" name="Feedback moderieren" id="outer"></button>
+        <button class="circle" onclick="openTab(event,'zwei')" name="wertfrei Impulse geben" id="centered"></button>
+        <button class="circle  " onclick="openTab(event,'eins')" name="innehalten" id="inner"></button> 
+    </div>
+
+
+    <div id="title" class="title ">
+      <h3 class="euclid-m ttu f-xxl tracked" id="eins" style="color: {{ page.color}}"">Innehalten  </h3>
+      <h3 class="euclid-m ttu f-xxl tracked" id="zwei" style="color: {{ page.color}}"">Wertfrei mpulse geben  </h3>
+      <h3 class="euclid-m ttu f-xxl tracked" id="drei" style="color: {{ page.color}}"">Feedback moderieren  </h3>
+  </div>
   </article>
 
-  <div id="title" class="feedback-title tc f-xxl mb5 ">
-    <h3 class="euclid-m ttu" style="color: {{page.color}}; ">wertfrei  </h3>
 
-  </div>
+
+
+
 
   <div id="eins" class=" info eins ph4"  style="display: none;  ">
     <h1 class="euclid-m ttu " style="color: {{ page.color}}">Innehalten</h1>
+    <p class="euclid-m lh-copy">Felix rennt durch den Raum, Leonie und Olga haben keine Lust auf die Partnerarbeit. Oliver weint und Ahmed und Servet streiten sich. Die Musikanlage spinnt, Mira weiß nicht, was sie jetzt machen soll und Kian und Alina wollen dir unbedingt ihr Duett zeigen. Im Unterricht läuft nicht immer alles nach Plan. Halte einen Moment inne.</p>
     <ul class="list pl0 pv4 euclid-m lh-copy">
-      <li class="pv2">Wie atme ich? Wie spreche ich?</li>
-      <li class="pv2">Welche Körperhaltung habe ich?</li>
-      <li class="pv2"> Wie bewege ich mich?</li>
-      <li class="pv2">Was nehme ich wahr?</li>
-      <li class="pv2">Wie und wann nehme ich mir Zeit? </li>
-      <li class="pv2">Wie erlaube und erlebe ich Stille?</li>
+      <li class="pv2">atme</li>
+      <li class="pv2">nimm deine eigene Körperhaltung und deine Bewegungen wahr</li>
+      <li class="pv2">Wann nimmst du dir Zeit? Wie erlebst du Stille?</li>
     </ul>
   <div class="modal-close"></div>
   </div>
   <div id="zwei" class="info zwei ph4"  style="display: none; ">
-    <h1 class="euclid-m ttu " style="color: {{ page.color}}">wertfreie Impulse geben</h1>
+    <h1 class="euclid-m ttu " style="color: {{ page.color}}">Wertfreie Impulse geben</h1>
+    <p class="euclid-m lh-copy">Duygu tanzt eigenwillig und interessant, aber ohne auf die Musik zu hören. Karl übt seine Kampfbewegungen so enthusiastisch, dass er das Gleichgewicht verliert. Adem bewegt sich immer sehr viel langsamer als alle anderen. Mit welchen Impulsen kannst du diese Kinder weiterbringen, ohne sie zu bewerten? </p>
     <ul class="list pl0 pv4 euclid-m lh-copy">
-      <li class="pv2">Du kannst durch Berührung Impulse geben um die Erfahrung/Wahrnehmung für die Schüler*innen zu vertiefen</li>
-      <li class="pv2">Du kannst durch Sprache Impulse geben, um die Erfahrung/Wahrnehmung der Schüler*in zu vertiefen <br>(z.B.: spüre Deine Füße am Boden)</li>
-      <li class="pv2">Du kannst Vormachen und Mitmachen.</li>
-      <li class="pv2">Du kannst Fragen zur Selbstwahrnehmung stellen (z.B. Wie war Dein Tanz für Dich?)</li>
-      <li class="pv2">Du kannst Aufgabenstellung und Ausführung abgleichen (z.B. Die Aufgabe war die Standbilder zu einer
-        Bewegungssequenz zu verbinden. Ich habe viele Pausen gesehen) und deine Wahrnehmung rückmelden. </li>
-        <li class="pv2">Du kannst den Schüler*innen Zeit geben um zu antworten.</li>
+      <li class="pv2">Gib durch Berührung Impulse.</li>
+      <li class="pv2">Lenke mit Aufforderungen wie „Spüre deine Füße am Boden…“ die Aufmerksamkeit auf die Wahrnehmung einzelner Körperteile.</li>
+      <li class="pv2">Führe Bewegungen vor oder mache sie mit den Schüler*innen gemeinsam.</li>
+      <li class="pv2">Stelle Fragen wie „Wie war dein Tanz für dich?“.</li>
+      <li class="pv2">Gib den Schüler*innen Rückmeldung über deine Wahrnehmung, wie sie eine Aufgabenstellung umgesetzt haben, und lass ihnen Zeit für eine Antwort. Formuliere möglichst beobachtend. </li>
     </ul>
       <div class="modal-close"></div>
       </div>
   <div id="drei" class="info drei ph4"  style="display: none; ">
     <h1 class="euclid-m ttu " style="color: {{ page.color}}">Feedback moderieren</h1>
+    <p class="euclid-m lh-copy">Um dem Feedback einen Rahmen zu geben, hast du verschiedene Möglichkeiten.</p>
       <ul class="list pl0 pv4 euclid-m lh-copy">
-        <li class="pv2">Du kannst einen klaren Rahmen vorgeben, in dem die Schüler*innen sich gegenseitig Feedback geben können <br>(z.B. im Zweiergespräch)</li>
-        <li class="pv2">Du kannst Beobachtungskriterien vorgeben oder mit den Schüler*innen gemeinsam erarbeiten <br>(z.B. Wo liegt der Fokus für das Feedback?)</li>
-        <li class="pv2">Du kannst Feedbackregeln festlegen (z.B. in Form von „Ich Botschaften“ sprechen; <br> Worte wie „gut“ und „schlecht“ vermeiden)</li>
+        <li class="pv2">Gib einen klaren Rahmen vor, in dem die Schüler*innen sich gegenseitig, beispielweise in einem Zweiergespräch, Feedback geben.</li>
+        <li class="pv2">Gib den Schüler*innen Beobachtungskriterien an die Hand oder erarbeite sie gemeinsam mit ihnen. Worauf soll beispielsweise der Fokus für das Feedback liegen.</li>
+        <li class="pv2">Lege Regeln für das Feedback fest. Beispielsweise können die Schüler*innen nur in Ich-Botschaften sprechen und wertende Begriffe wie „gut“ und „schlecht“ vermeiden.</li>
       </ul>
 
       <div class="modal-close"></div>
@@ -154,8 +168,9 @@ hero: images/hero/5-hero-feedbackkultur.png
   </section>
 
   <!--  javascript -->
+  <script src="js/anime.js"></script>
   <script src="js/subnav.js"></script>
   <script src="js/subnav_taglist.js"></script>
 <script src="js/header-scroll.js"></script>
-<script src="js/diagram.js"></script>
+<script src="js/diagram_neu.js"></script>
 <script src="js/tabbar.js"></script>

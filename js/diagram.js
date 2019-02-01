@@ -48,7 +48,7 @@ circleTags.forEach((circle, index) =>{
   circle.addEventListener('click', function(){
       // console.log(tab.name)
       titleTag.innerHTML = this.name
-      this.style.backgroundColor = "black"
+      // this.style.backgroundColor = "black"
     })
 
   circle.animate([
